@@ -1,0 +1,10 @@
+{
+  "title": "Sample Blueprint",
+  "author": "NaMo",
+  "nature": "Blueprint or Solution",
+  "domain": "Technical | Business | Process | Research",
+  "status": "Draft | Reviewed | Final",
+  "tags": ["example", "demo"],
+  "content": "Short description...",
+  "links": ["https://drive.google.com/..."]
+}
