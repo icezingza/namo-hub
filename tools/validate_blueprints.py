@@ -19,7 +19,11 @@ for f in BLUEPRINTS_DIR.iterdir():
     try:
         with open(f, encoding="utf-8") as fp:
             data = json.load(fp)
-        missing = [k for k in required_sections if not data.get("sections", {}).get(k)]
+
+        # Gracefully handle if "sections" is null or missing by treating it as an empty dict
+        sections_data = data.get("sections") or {}
+        missing = [k for k in required_sections if not sections_data.get(k)]
+
         if missing:
             print(f"⚠️ {f.name} missing sections: {missing}")
             bad += 1
