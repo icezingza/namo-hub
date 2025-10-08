@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NamoVerse Commercial Blueprint",
+  "type": "object",
+  "required": ["id", "brand", "title", "meta_definition", "sections", "status", "version", "metadata"],
+  "properties": {
+    "id": {"type": "string"},
+    "brand": {"type": "string", "const": "NamoNexus"},
+    "title": {"type": "string"},
+    "slogan": {"type": "string"},
+    "meta_definition": {"type": "string"},
+    "sections": {
+      "type": "object",
+      "required": ["executive_summary","value_proposition","system_overview","quick_start_guide","template_instructions","examples","license_and_notes","marketing_pack"],
+      "properties": {
+        "executive_summary": {"type": "string"},
+        "value_proposition": {"type": "string"},
+        "system_overview": {"type": "string"},
+        "quick_start_guide": {"type": "string"},
+        "template_instructions": {"type": "string"},
+        "examples": {"type": "string"},
+        "license_and_notes": {"type": "string"},
+        "marketing_pack": {"type": "string"}
+      }
+    },
+    "visual_identity": {"type": "object"},
+    "status": {"type": "string", "enum": ["draft","complete"]},
+    "version": {"type": "string"},
+    "metadata": {
+      "type": "object",
+      "required": ["author","language","source_file","last_updated","pipeline"],
+      "properties": {
+        "author": {"type": "string"},
+        "language": {"type": "string"},
+        "source_file": {"type": "string"},
+        "last_updated": {"type": "string"},
+        "pipeline": {"type": "string"}
+      }
+    }
+  }
+}
