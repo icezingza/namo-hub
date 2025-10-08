@@ -1,0 +1,16 @@
+body{font-family:sans-serif;background:#0b0c10;color:#e8e8ea;}
+header{background:#16181d;padding:10px;}
+button{margin:4px;padding:6px 10px;border-radius:8px;border:1px solid #333;background:#222;color:#eee;cursor:pointer;}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+input,textarea,select{background:#111;color:#eee;border:1px solid #333;border-radius:8px;padding:6px}
+textarea{min-height:60px;width:100%}
+main{padding:10px}.matrix{display:grid;grid-template-columns:160px repeat(4,1fr);gap:10px}
+.matrix .cell,.matrix .head{background:#16181d;border:1px solid #303545;border-radius:12px;padding:10px}
+.matrix .head{font-weight:700;text-align:center}
+.card{background:#11131a;border:1px solid #2a2f3c;border-radius:12px;padding:8px;margin:6px 0}
+.card h5{margin:0 0 4px 0;font-size:14px}.card .meta{color:#9aa0a6;font-size:12px}
+.kanban{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.col{background:#16181d;border:1px dashed #3a4052;border-radius:12px;padding:8px;min-height:200px}
+.col h4{margin:4px 6px 8px 6px}.drop{min-height:160px}.draggable{cursor:grab}
+.mindmap{display:flex;gap:20px;flex-wrap:wrap}.branch{background:#16181d;border:1px solid #303545;border-radius:12px;padding:10px;min-width:260px}
+.branch h4{margin:4px 0 8px 0}.sep{height:1px;background:#2b2f3c;margin:8px 0}
