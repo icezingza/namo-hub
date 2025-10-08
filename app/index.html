@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>NaMo Hub App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>NaMo Hub</h1>
+    <nav>
+      <button id="view-matrix">Matrix</button>
+      <button id="view-kanban">Kanban</button>
+      <button id="view-mindmap">Mindmap</button>
+      <span class="spacer"></span>
+      <button id="btn-export">Export JSON</button>
+      <label class="import">Import JSON <input type="file" id="file-import" accept="application/json"/></label>
+      <button id="btn-clear" title="Clear all data">Clear</button>
+    </nav>
+  </header>
+  <section id="quick-add">
+    <h2>Quick Add</h2>
+    <form id="item-form">
+      <input id="title" placeholder="Title" required/>
+      <input id="author" placeholder="Author"/>
+      <textarea id="content" placeholder="Short content or notes"></textarea>
+      <div class="row">
+        <select id="nature"><option>Blueprint</option><option>Solution</option></select>
+        <select id="domain"><option>Technical</option><option>Business</option><option>Process</option><option>Research</option></select>
+        <select id="status"><option>Draft</option><option>Reviewed</option><option>Final</option></select>
+        <input id="tags" placeholder="tags (comma separated)"/>
+        <button type="button" id="auto">Auto-classify</button>
+        <button type="submit">Add</button>
+      </div>
+    </form>
+  </section>
+  <section id="filters">
+    <h3>Filters</h3>
+    <div class="row">
+      <select id="f-nature"><option>All</option><option>Blueprint</option><option>Solution</option></select>
+      <select id="f-domain"><option>All</option><option>Technical</option><option>Business</option><option>Process</option><option>Research</option></select>
+      <select id="f-status"><option>All</option><option>Draft</option><option>Reviewed</option><option>Final</option></select>
+      <input id="f-text" placeholder="Search text"/>
+    </div>
+  </section>
+  <main id="view"></main>
+  <template id="kanban-template">
+    <div class="kanban">
+      <div class="col" data-status="Draft"><h4>Draft</h4><div class="drop"></div></div>
+      <div class="col" data-status="Reviewed"><h4>Reviewed</h4><div class="drop"></div></div>
+      <div class="col" data-status="Final"><h4>Final</h4><div class="drop"></div></div>
+    </div>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>
