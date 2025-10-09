@@ -1,0 +1,78 @@
+# jules.policy.yaml
+
+# นโยบายสำหรับ AI Agent (Jules) ในการจัดการ repository
+# เพื่อป้องกันการแก้ไขผิดจุด และคุมขอบเขตงานอัตโนมัติ
+
+permissions:
+  allow_modify:
+    - blueprints/**/*.json        # อนุญาตให้ Jules แก้ไฟล์ blueprint ได้ทุกตัว
+    - config/**/*.yaml            # อนุญาตให้แก้ config ที่เกี่ยวกับ deployment
+    - .github/workflows/*.yml     # ให้ปรับ workflow ถ้าจำเป็น (CI/CD tuning)
+
+  deny_modify:
+    - framework/**                # ห้ามแตะ core engine
+    - assets/**                   # ห้ามเปลี่ยนไฟล์ media หรือรูปภาพ
+    - docs/**                     # ห้าม rewrite documentation อัตโนมัติ
+
+review_rules:
+  - name: Require Validation Before Deploy
+    condition: "file_changed == 'config/*.yaml'"
+    action: require_review
+    reviewer: "icezingza"
+
+  - name: Auto Merge Safe Blueprint Updates
+    condition: "branch == 'main' and file_changed == 'blueprints/**/*.json'"
+    action: auto_merge
+
+notifications:
+  success: notify_slack('#namo-dev', '✅ Blueprint validation passed!')
+  failure: notify_slack('#namo-dev', '❌ Blueprint update failed — manual review required.')
+
+---
+
+# .github/workflows/auto-blueprint-generation.yml
+
+name: Jules Auto Blueprint Generation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # รันทุก 6 ชั่วโมง
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  jules-blueprint-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests pyyaml
+
+      - name: Run Jules Blueprint Automation
+        env:
+          JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
+        run: |
+          python tools/jules_client.py run_task \
+            "icezingza/namo-hub" \
+            "main" \
+            "Generate, validate, and deploy updated AI blueprints"
+
+      - name: Commit and push updates (if any)
+        run: |
+          git config user.name "google-labs-jules[bot]"
+          git config user.email "bot@googlelabs.dev"
+          git add blueprints/* || true
+          git commit -m "chore(auto): update blueprints [ci skip]" || echo "No changes"
+          git push origin main || echo "No changes to push"
