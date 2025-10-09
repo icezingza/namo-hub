@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251008-a2474c",
+  "id": "BP-20251009-a2474c",
   "brand": "NamoNexus",
   "title": "NaMo Framework",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -21,7 +21,7 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/NaMo Framework.docx",
-    "last_updated": "2025-10-08",
+    "last_updated": "2025-10-09",
     "pipeline": "auto-blueprint-full"
   }
 }

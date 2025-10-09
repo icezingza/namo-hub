@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251008-e6b8ac",
+  "id": "BP-20251009-e6b8ac",
   "brand": "NamoNexus",
   "title": "Self-Identity Module--โปรดกำหนดข้อมูลพื้นฐานของตัวละคร Seraphina--",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -21,7 +21,7 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/Self-Identity Module--โปรดกำหนดข้อมูลพื้นฐานของตัวละคร Seraphina--.pdf",
-    "last_updated": "2025-10-08",
+    "last_updated": "2025-10-09",
     "pipeline": "auto-blueprint-full"
   }
 }

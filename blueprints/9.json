@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251008-01fb7c",
+  "id": "BP-20251009-01fb7c",
   "brand": "NamoNexus",
   "title": "9 โมดู",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -21,7 +21,7 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/9 โมดู.docx",
-    "last_updated": "2025-10-08",
+    "last_updated": "2025-10-09",
     "pipeline": "auto-blueprint-full"
   }
 }

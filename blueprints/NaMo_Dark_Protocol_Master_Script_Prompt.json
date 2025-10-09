@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251008-d1cde0",
+  "id": "BP-20251009-d1cde0",
   "brand": "NamoNexus",
   "title": "NaMo Dark Protocol — Master Script & Prompt",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -21,7 +21,7 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/NaMo Dark Protocol — Master Script & Prompt.docx",
-    "last_updated": "2025-10-08",
+    "last_updated": "2025-10-09",
     "pipeline": "auto-blueprint-full"
   }
 }
