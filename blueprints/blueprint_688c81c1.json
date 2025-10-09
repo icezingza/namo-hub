@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251008-c24374",
+  "id": "BP-20251009-c24374",
   "brand": "NamoNexus",
   "title": "เอกสารไม่มีชื่อ",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -21,7 +21,7 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/เอกสารไม่มีชื่อ.txt",
-    "last_updated": "2025-10-08",
+    "last_updated": "2025-10-09",
     "pipeline": "auto-blueprint-full"
   }
 }

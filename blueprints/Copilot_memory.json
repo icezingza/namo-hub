@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251008-7e908c",
+  "id": "BP-20251009-7e908c",
   "brand": "NamoNexus",
   "title": "Copilot memory",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -21,7 +21,7 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/Copilot memory.pdf",
-    "last_updated": "2025-10-08",
+    "last_updated": "2025-10-09",
     "pipeline": "auto-blueprint-full"
   }
 }

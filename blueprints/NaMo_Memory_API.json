@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251008-094a80",
+  "id": "BP-20251009-094a80",
   "brand": "NamoNexus",
   "title": "NaMo Memory API",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -21,7 +21,7 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/NaMo Memory API.pdf",
-    "last_updated": "2025-10-08",
+    "last_updated": "2025-10-09",
     "pipeline": "auto-blueprint-full"
   }
 }
