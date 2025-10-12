@@ -2,15 +2,10 @@ import os
 import json
 import uuid
 from datetime import datetime
-from pathlib import Path
 
 # --- Configuration ---
-# Make paths relative to the script's location for robustness
-SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parent
-
 # The directory where your raw blueprint files (.txt, .md) are stored.
-WORKFLOWS_DIR = REPO_ROOT / 'Workflows'
+WORKFLOWS_DIR = 'Workflows'
 # The name of the output file that will be generated.
 OUTPUT_FILE_NAME = 'import.json'
 # The file extensions to look for.
@@ -27,7 +22,7 @@ def create_blueprint_from_file(filepath):
     Reads a raw file and converts it into a structured dictionary (blueprint).
 
     Args:
-        filepath (Path): The full path to the raw file.
+        filepath (str): The full path to the raw file.
 
     Returns:
         dict: A dictionary representing the blueprint, or None if reading fails.
@@ -36,11 +31,12 @@ def create_blueprint_from_file(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
     except Exception as e:
-        print(f"  [Warning] Could not read file: {filepath.name}. Error: {e}")
+        print(f"  [Warning] Could not read file: {os.path.basename(filepath)}. Error: {e}")
         return None
 
     # Use the filename (without extension) as the title, making it more readable.
-    title = filepath.stem.replace('_', ' ').replace('-', ' ').title()
+    filename = os.path.basename(filepath)
+    title = os.path.splitext(filename)[0].replace('_', ' ').replace('-', ' ').title()
 
     # Create the blueprint object with default values.
     # The NaMo Hub app's "auto-classify" feature can refine these later.
@@ -64,27 +60,28 @@ def main():
     consolidated data to a single JSON file for import.
     """
     all_blueprints = []
-    output_path = WORKFLOWS_DIR / OUTPUT_FILE_NAME
+    output_path = os.path.join(WORKFLOWS_DIR, OUTPUT_FILE_NAME)
 
     print("🚀 Starting Blueprint Conversion Script...")
-    print(f"Looking for '{', '.join(VALID_EXTENSIONS)}' files in '{WORKFLOWS_DIR}'...")
+    print(f"Looking for '{', '.join(VALID_EXTENSIONS)}' files in '{WORKFLOWS_DIR}/'...")
 
     # Ensure the workflows directory exists
-    if not WORKFLOWS_DIR.is_dir():
+    if not os.path.isdir(WORKFLOWS_DIR):
         print(f"❌ Error: The '{WORKFLOWS_DIR}' directory does not exist. Please create it and add your raw files.")
         return
 
     # Iterate over all files in the specified directory
     found_files = 0
-    for file_path in sorted(WORKFLOWS_DIR.iterdir()):
+    for filename in sorted(os.listdir(WORKFLOWS_DIR)):
         # Skip files that are in the ignored list or don't have a valid extension
-        if file_path.name in IGNORED_FILES or file_path.suffix not in VALID_EXTENSIONS:
+        if filename in IGNORED_FILES or not filename.endswith(VALID_EXTENSIONS):
             continue
 
         found_files += 1
-        print(f"  - Processing: {file_path.name}")
+        filepath = os.path.join(WORKFLOWS_DIR, filename)
+        print(f"  - Processing: {filename}")
 
-        blueprint_data = create_blueprint_from_file(file_path)
+        blueprint_data = create_blueprint_from_file(filepath)
         if blueprint_data:
             all_blueprints.append(blueprint_data)
 
