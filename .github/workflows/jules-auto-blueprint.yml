@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,19 +30,14 @@ jobs:
         run: |
           python tools/auto_blueprint_full.py
 
-      - name: Set up Git user
+      - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit changes
-        run: |
           git add blueprints/
-          git commit -m "Auto-update blueprints via pipeline" || echo "No changes to commit"
-
-      - name: Push changes
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-update blueprints via pipeline"
+            git push
+          fi
