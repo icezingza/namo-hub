@@ -4,7 +4,7 @@ GENERIC_PERSON = "Contributor"
 GENERIC_ORG = "Organization"
 
 NAME_PATTERNS = [
-    r"พี่ไอซ์", r"\bNamo\b", r"\bนะโม\b",
+    r"พี่ไอซ์", r"\bNamo\b", r"นะโม",
     r"\bIce\b", r"\bIced\b", r"\bJules team\b"
 ]
 ORG_PATTERNS = [
