@@ -36,5 +36,8 @@ class TestSanitize(unittest.TestCase):
     def test_trimming_spaces(self):
         self.assertEqual(sanitize_text("  hello   world  "), "hello world")
 
+    def test_thai_name_replacement(self):
+        self.assertEqual(sanitize_text("คุณนะโม"), f"คุณ{GENERIC_PERSON}")
+
 if __name__ == '__main__':
     unittest.main()
