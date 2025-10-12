@@ -1,0 +1,48 @@
+name: NaMo Auto-Dev Orbit
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "blueprints/**"
+      - "config/**"
+  workflow_dispatch:
+
+jobs:
+  orbit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests PyYAML python-docx PyPDF2
+
+      - name: Run Blueprint Validation
+        env:
+          JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
+        run: |
+          python tools/blueprint_intelligence.py validate --mode strict
+
+      - name: Trigger Jules Intelligence Sync
+        run: |
+          curl -X POST "https://api.jules.dev/v1/jobs"             -H "Authorization: Bearer ${{ secrets.JULES_API_KEY }}"             -H "Content-Type: application/json"             -d '{
+              "repository": "icezingza/namo-hub",
+              "branch": "main",
+              "task": "Analyze all blueprints and update diagnostics"
+            }'
+
+      - name: Deploy NaMo AI Training
+        run: |
+          gcloud ai custom-jobs create             --region=us-central1             --display-name=namo-training             --config=config.yaml
+
+      - name: Post Results to Jules
+        run: |
+          curl -X POST "https://api.jules.dev/v1/logs"             -H "Authorization: Bearer ${{ secrets.JULES_API_KEY }}"             -H "Content-Type: application/json"             -d '{"status": "completed", "message": "✅ Auto-Dev Orbit run finished successfully."}'
