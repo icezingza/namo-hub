@@ -38,6 +38,13 @@ jobs:
         run: |
           git config user.name "google-labs-jules[bot]"
           git config user.email "bot@googlelabs.dev"
-          git add blueprints/ || true
-          git commit -m "chore(auto): update blueprints [ci skip]" || echo "No changes"
-          git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+          git add blueprints/
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(auto): update blueprints [ci skip]"
+            echo "Pushing changes..."
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          fi
