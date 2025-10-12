@@ -36,15 +36,17 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config user.name "google-labs-jules[bot]"
-          git config user.email "bot@googlelabs.dev"
+          git config --global user.name "google-labs-jules[bot]"
+          git config --global user.email "bot@googlelabs.dev"
           git add blueprints/
-          # Check if there are changes to commit
-          if git diff --staged --quiet; then
+          # เช็คว่ามีไฟล์เปลี่ยนแปลงหรือไม่
+          if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore(auto): update blueprints [ci skip]"
             echo "Pushing changes..."
             git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+            # ดึง branch ล่าสุดก่อน push ลดความเสี่ยง merge conflict
+            git pull --rebase origin "${GITHUB_REF#refs/heads/}" || true
             git push origin HEAD:${GITHUB_REF#refs/heads/}
           fi
