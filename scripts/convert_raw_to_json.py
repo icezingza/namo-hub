@@ -4,8 +4,10 @@ import uuid
 from datetime import datetime
 
 # --- Configuration ---
-# The directory where your raw blueprint files (.txt, .md) are stored.
-WORKFLOWS_DIR = 'Workflows'
+# The absolute path to the directory where raw blueprint files are stored.
+# This is calculated relative to the script's location to ensure it works from anywhere.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+WORKFLOWS_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, '..', 'Workflows'))
 # The name of the output file that will be generated.
 OUTPUT_FILE_NAME = 'import.json'
 # The file extensions to look for.
