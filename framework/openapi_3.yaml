@@ -1,0 +1,129 @@
+openapi: 3.1.0
+info:
+title: NaMo Train — Emotion API
+version: "1.0.0"
+description: >
+Emotion analysis & logging service for NaMo.
+Classifies emotion via Gemini, stores events in Firestore, and links memory rows in
+BigQuery.
+servers:
+- url: https://{host}
+variables:
+host:
+default: localhost:8080
+paths:
+/emotion/analyze:
+post:
+summary: Analyze emotion from text
+operationId: analyzeEmotion
+requestBody:
+required: true
+content:
+application/json:
+schema:
+$ref: '#/components/schemas/EmotionInput'
+responses:
+'200':
+description: OK
+content:
+application/json:
+schema:
+$ref: '#/components/schemas/EmotionResponse'
+/emotion/models:
+get:
+summary: List configured Vertex AI models
+operationId: listEmotionModels
+responses:
+'200':
+description: OK
+content:
+application/json:
+schema:
+type: object
+properties:
+embedding_model:
+type: string
+generative_model:
+type: string
+location:
+
+type: string
+components:
+schemas:
+EmotionInput:
+type: object
+required: [text]
+properties:
+text:
+type: string
+description: Raw text to analyze
+user_id:
+type: string
+nullable: true
+context:
+type: string
+nullable: true
+persist_memory:
+type: boolean
+description: If true, also persist this text into BigQuery long_term_memories
+default: false
+EmotionResponse:
+type: object
+properties:
+label:
+type: string
+description: Primary emotion label (e.g., joy, sadness, anger, fear, surprise, neutral)
+score:
+type: number
+format: float
+description: Confidence score in [0,1]
+distribution:
+type: object
+additionalProperties:
+type: number
+actions:
+type: array
+items:
+type: string
+memory_row_id:
+type: string
+nullable: true
+firestore_doc_id:
+type: string
+nullable: true
+model:
+type: object
+properties:
+
+embedding_model: { type: string }
+generative_model: { type: string }
+location: { type: string }
+# Firestore structure (non-standard extension)
+x-firestore:
+collection: emotion_events
+document_fields:
+- name: user_id
+type: string
+- name: text
+type: string
+- name: label
+type: string
+- name: score
+type: number
+- name: distribution
+type: object
+- name: actions
+type: array
+- name: created_at
+type: timestamp
+- name: memory_row_id
+type: string
+- name: metadata
+type: object
+# Vertex AI integration (non-standard extension)
+x-vertex-ai:
+location: global
+embedding_model: gemini-embedding-001
+generative_model: gemini-2.0-flash
+
+
