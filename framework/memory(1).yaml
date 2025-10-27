@@ -1,0 +1,49 @@
+# NaMo Train — Memory Module
+# BigQuery dataset/table schema for long-term memories
+version: 1
+bigquery:
+  project_var: GOOGLE_CLOUD_PROJECT            # set via env
+  location: asia-southeast1                    # dataset location (SG)
+  dataset_id: namo_memory
+  table_id: long_term_memories
+  description: "NaMo long-term memory store (Vertex embeddings + metadata)"
+  partitioning:
+    type: TIMESTAMP
+    field: created_at
+  clustering:
+    fields: [user_id, source]
+  schema:
+    # REQUIRED
+    - name: id
+      type: STRING
+      mode: REQUIRED
+      description: "UUID for this memory row"
+    - name: created_at
+      type: TIMESTAMP
+      mode: REQUIRED
+      description: "Creation timestamp (UTC)"
+    - name: text
+      type: STRING
+      mode: REQUIRED
+      description: "Original text content"
+    - name: embedding
+      type: FLOAT64
+      mode: REPEATED
+      description: "Dense vector embedding (Gemini, dimensionality set by model)"
+    # OPTIONAL
+    - name: user_id
+      type: STRING
+      mode: NULLABLE
+      description: "User identifier (if any)"
+    - name: source
+      type: STRING
+      mode: NULLABLE
+      description: "Source tag, e.g., 'chat', 'doc', 'api'"
+    - name: metadata
+      type: JSON
+      mode: NULLABLE
+      description: "Arbitrary JSON metadata per memory"
+
+notes:
+  - "Embedding is stored as ARRAY<FLOAT64> to be model-agnostic."
+  - "You can later add a BigQuery VECTOR INDEX on `embedding` for faster search."
