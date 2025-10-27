@@ -37,6 +37,9 @@ jobs:
               "task": "Analyze all blueprints and update diagnostics (mocked run)"
             }'
 
+      - name: Set gcloud Project
+        run: gcloud config set project ${{ secrets.GCP_PROJECT }}
+
       - name: Deploy NaMo AI Training
         run: |
           gcloud ai custom-jobs create             --region=us-central1             --display-name=namo-training             --config=config.yaml
