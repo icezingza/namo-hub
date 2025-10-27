@@ -126,7 +126,7 @@ def build_blueprint(src: Path, raw_text: str) -> dict:
         "metadata": {
             "author": "NamoVerse Engine",
             "language": "en",
-            "source_file": str(src),
+            "source_file": src.as_posix(),
             "last_updated": str(datetime.date.today()),
             "pipeline": "auto-blueprint-full"
         }
