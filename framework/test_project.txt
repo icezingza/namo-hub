@@ -1,0 +1,9 @@
+# Project Alpha
+
+A new initiative to launch a decentralized coffee shop network. 
+Key features involved:
+- Mobile app for ordering.
+- Smart contracts for payment.
+- DAO for governance.
+
+We need to launch by Q4.

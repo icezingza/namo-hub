@@ -1,5 +1,6 @@
 import os, json, datetime, time, logging, hashlib, re
-import requests
+import os, json, datetime, time, logging, hashlib, re
+import google.generativeai as genai
 from pathlib import Path
 from typing import Tuple
 from PyPDF2 import PdfReader
@@ -20,8 +21,11 @@ FRAMEWORK_DIR = REPO_ROOT / "framework"
 OUTPUT_DIR    = REPO_ROOT / "blueprints"
 SCHEMA_PATH   = SCRIPT_DIR / "schema_blueprint.json" # schema is in the same `tools` dir
 
-JULES_API_SESSIONS = "https://jules.googleapis.com/v1/sessions"
-API_KEY = os.getenv("JULES_API_KEY")           # ต้องตั้งใน GitHub Secrets / .env
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+else:
+    logging.warning("GEMINI_API_KEY not found in environment variables.")
 BRAND   = "NamoNexus"
 SLOGAN  = "Elevate your existence with NamoNexus."
 META_DEF = ("This Blueprint is designed as an entity beyond AI — "
@@ -134,30 +138,67 @@ def build_blueprint(src: Path, raw_text: str) -> dict:
     return bp
 
 # -------- Jules Integration --------
-def jules_enrich(blueprint: dict) -> dict:
-    if not API_KEY:
-        logging.warning("No JULES_API_KEY provided; skipping Jules enrichment.")
+# -------- Gemini Integration --------
+def gemini_enrich(blueprint: dict) -> dict:
+    if not GEMINI_API_KEY:
+        logging.warning("No GEMINI_API_KEY provided; skipping Gemini enrichment.")
         return blueprint
-    payload = {"input": {"text": json.dumps(blueprint, ensure_ascii=False)}}
+
+    # Prepare specific data to guide the LLM
+    raw_content = blueprint['sections']['executive_summary'] # Currently holds raw text
+    title = blueprint['title']
+    
+    prompt = f"""
+    You are an expert Knowledge Architect. Your task is to transform raw unstructured text into a structured "Blueprint" JSON format.
+    
+    Here is the raw content from a document titled "{title}":
+    ---
+    {raw_content[:4000]} 
+    ---
+    (Note: Content truncated to first 4 characters if too long)
+
+    Please analyze the content and generate a JSON object that strictly follows this structure (do not include markdown fencing, just the JSON):
+    {{
+        "sections": {{
+            "executive_summary": "A concise summary of the core idea (max 3 sentences).",
+            "value_proposition": "What is the unique value or benefit? (max 2 sentences).",
+            "system_overview": "Technical or logical architecture description.",
+            "quick_start_guide": "Step-by-step guide to get started.",
+            "examples": "Practical use cases.",
+            "marketing_pack": "Target audience, pain points, and selling points."
+        }},
+        "tags": ["tag1", "tag2", "tag3"]
+    }}
+
+    If the raw content is empty or meaningless, just return reasonable generic placeholders related to "{title}".
+    """
+
+    model = genai.GenerativeModel('gemini-1.5-flash')
+
     for attempt in range(1, RETRIES+1):
         try:
-            r = requests.post(
-                JULES_API_SESSIONS,
-                headers={"X-Goog-Api-Key": API_KEY},
-                json=payload,
-                timeout=TIMEOUT,
-            )
-            if r.status_code == 200:
-                data = r.json()
-                enriched = data.get("output") or data  # fallback
-                logging.info("Jules enrichment success.")
-                return enriched
-            else:
-                logging.warning(f"Jules error {r.status_code}: {r.text}")
-        except requests.RequestException as e:
-            logging.warning(f"Jules network error: {e}")
-        time.sleep(2 * attempt)
-    logging.warning("Jules enrichment failed after retries; use base blueprint.")
+            response = model.generate_content(prompt)
+            # Simple cleanup to ensure valid JSON
+            text = response.text.strip()
+            if text.startswith("```json"):
+                text = text[7:-3]
+            if text.startswith("```"):
+                text = text[3:-3]
+                
+            data = json.loads(text)
+            
+            # Merge enriched data back into blueprint
+            blueprint['sections'].update(data.get('sections', {}))
+            blueprint['tags'] = data.get('tags', [])
+            
+            logging.info("Gemini enrichment success.")
+            return blueprint
+
+        except Exception as e:
+            logging.warning(f"Gemini error attempt {attempt}: {e}")
+            time.sleep(2 * attempt)
+
+    logging.warning("Gemini enrichment failed after retries; using base blueprint.")
     return blueprint
 
 # -------- Runner --------
@@ -167,7 +208,7 @@ def process_one(p: Path) -> Tuple[str, bool]:
         logging.warning(f"Empty/unreadable: {p.name}")
         return p.name, False
     bp = build_blueprint(p, text)
-    bp = jules_enrich(bp)
+    bp = gemini_enrich(bp)
     bp["status"] = "complete"
 
     safe_stem = sanitize_filename(p.name)
