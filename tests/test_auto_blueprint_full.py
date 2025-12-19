@@ -7,7 +7,7 @@ from pathlib import Path
 tools_dir = Path(__file__).resolve().parent.parent / 'tools'
 sys.path.insert(0, str(tools_dir))
 
-from auto_blueprint_full import build_blueprint
+from auto_blueprint_full import build_blueprint, build_source_info
 
 class TestAutoBlueprintFull(unittest.TestCase):
 
@@ -18,8 +18,8 @@ class TestAutoBlueprintFull(unittest.TestCase):
         # Dummy content for the file
         raw_text = "This is a test document."
 
-        # Generate the blueprint
-        blueprint = build_blueprint(dummy_file, raw_text)
+        source_info = build_source_info(dummy_file, raw_text, False)
+        blueprint = build_blueprint(dummy_file, raw_text, source_info, run_id="", pii_redacted=False)
 
         # Get the source file path from the blueprint
         source_file_path = blueprint.get("metadata", {}).get("source_file")

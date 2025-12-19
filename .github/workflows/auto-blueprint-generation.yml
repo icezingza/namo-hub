@@ -22,17 +22,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install PyPDF2 python-docx requests pyyaml
+          pip install -r requirements.txt
 
       - name: Run Jules Auto Blueprint
         env:
           JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
         run: |
-          python tools/auto_blueprint_full.py
+          python tools/auto_blueprint_full.py --skip-unchanged
 
       - name: Validate Blueprints
         run: |
-          python tools/validate_blueprints.py
+          python tools/validate_blueprints.py --strict
 
       - name: Commit and Push
         run: |

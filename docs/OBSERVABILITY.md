@@ -6,6 +6,7 @@ This document defines minimum operational visibility for the pipeline.
 - Manifest summary JSON for each run.
 - Per-file status, hash, and duration.
 - Warning and error counts.
+- Optional audit log in JSONL format.
 
 ## Suggested metrics
 - Total files processed

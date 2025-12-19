@@ -1,53 +1,157 @@
-import os, json, datetime, argparse
+import argparse
+import datetime
+import json
 from pathlib import Path
 
-def main(blueprints_dir_path):
-    # Make paths relative to the script's location for robustness
-    SCRIPT_DIR = Path(__file__).resolve().parent
-    REPO_ROOT = SCRIPT_DIR.parent
+try:
+    import jsonschema
+    JSONSCHEMA_OK = True
+except Exception:
+    jsonschema = None
+    JSONSCHEMA_OK = False
 
-    # Use the provided path, or default to the one in the repo
-    BLUEPRINTS_DIR = Path(blueprints_dir_path) if blueprints_dir_path else REPO_ROOT / "blueprints"
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+DEFAULT_SCHEMA = SCRIPT_DIR / "schema_blueprint.json"
 
-    required_sections = ["executive_summary","value_proposition","system_overview","quick_start_guide","template_instructions","examples","license_and_notes","marketing_pack"]
+REQUIRED_SECTIONS = [
+    "executive_summary",
+    "value_proposition",
+    "system_overview",
+    "quick_start_guide",
+    "template_instructions",
+    "examples",
+    "license_and_notes",
+    "marketing_pack"
+]
 
-    ok, bad = 0, 0
-    # Check if blueprint directory exists
-    if not BLUEPRINTS_DIR.exists():
-        print(f"Directory '{BLUEPRINTS_DIR}' not found. Skipping validation.")
-        return 0 # Exit with success if the directory doesn't exist
+TOP_LEVEL_REQUIRED = [
+    "schema_version",
+    "id",
+    "brand",
+    "title",
+    "meta_definition",
+    "sections",
+    "status",
+    "version",
+    "metadata"
+]
 
-    for f in BLUEPRINTS_DIR.iterdir():
-        if not f.name.endswith(".json"): continue
+METADATA_REQUIRED = [
+    "author",
+    "language",
+    "source_file",
+    "source_name",
+    "source_hash",
+    "source_bytes",
+    "last_updated",
+    "pipeline",
+    "pipeline_version"
+]
+
+def load_schema(schema_path: Path) -> dict:
+    return json.loads(schema_path.read_text(encoding="utf-8"))
+
+def validate_file(path: Path, schema: dict, strict: bool) -> dict:
+    result = {
+        "file": path.name,
+        "status": "ok",
+        "missing_sections": [],
+        "missing_fields": [],
+        "errors": []
+    }
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        result["status"] = "error"
+        result["errors"].append("invalid-json")
+        return result
+    except Exception as e:
+        result["status"] = "error"
+        result["errors"].append(f"read-error:{e}")
+        return result
+
+    if strict:
+        if not JSONSCHEMA_OK:
+            result["status"] = "error"
+            result["errors"].append("jsonschema-not-installed")
+            return result
         try:
-            with open(f, encoding="utf-8") as fp:
-                data = json.load(fp)
-
-            # Gracefully handle if "sections" is null or missing by treating it as an empty dict
-            sections_data = data.get("sections") or {}
-            missing = [k for k in required_sections if not sections_data.get(k)]
-
-            if missing:
-                print(f"Warning: {f.name} missing sections: {missing}")
-                bad += 1
-            else:
-                print(f"OK: {f.name} complete")
-                ok += 1
-        except json.JSONDecodeError:
-            print(f"Error: {f.name} is not valid JSON.")
-            bad += 1
+            jsonschema.validate(instance=data, schema=schema)
         except Exception as e:
-            print(f"Error processing {f.name}: {e}")
-            bad += 1
+            result["status"] = "error"
+            result["errors"].append(f"schema-error:{e}")
+            return result
 
-    print(f"\nSummary {datetime.date.today()}: OK={ok}, Missing={bad}")
-    return 1 if bad > 0 else 0
+    for key in TOP_LEVEL_REQUIRED:
+        if key not in data:
+            result["missing_fields"].append(key)
+
+    sections = data.get("sections") or {}
+    missing_sections = [k for k in REQUIRED_SECTIONS if not sections.get(k)]
+    if missing_sections:
+        result["missing_sections"] = missing_sections
+        result["status"] = "error"
+
+    metadata = data.get("metadata") or {}
+    missing_metadata = [k for k in METADATA_REQUIRED if not metadata.get(k)]
+    if missing_metadata:
+        result["missing_fields"].extend([f"metadata.{k}" for k in missing_metadata])
+        if result["status"] != "error":
+            result["status"] = "warn" if not strict else "error"
+
+    return result
+
+def summarize(results: list) -> dict:
+    counts = {"ok": 0, "warn": 0, "error": 0}
+    for r in results:
+        counts[r["status"]] += 1
+    return {
+        "date": str(datetime.date.today()),
+        "counts": counts,
+        "total": len(results)
+    }
+
+def main(blueprints_dir_path: str, schema_path: str, strict: bool, summary_json: str, fail_fast: bool) -> int:
+    blueprints_dir = Path(blueprints_dir_path) if blueprints_dir_path else REPO_ROOT / "blueprints"
+
+    if not blueprints_dir.exists():
+        print(f"Directory '{blueprints_dir}' not found. Skipping validation.")
+        return 0
+
+    schema = load_schema(Path(schema_path))
+    results = []
+
+    for f in blueprints_dir.iterdir():
+        if not f.name.endswith(".json"):
+            continue
+        result = validate_file(f, schema, strict)
+        results.append(result)
+        if result["status"] == "ok":
+            print(f"OK: {f.name} complete")
+        elif result["status"] == "warn":
+            print(f"Warning: {f.name} missing fields or sections")
+        else:
+            print(f"Error: {f.name} failed validation")
+        if fail_fast and result["status"] == "error":
+            break
+
+    summary = summarize(results)
+    print(f"Summary {summary['date']}: OK={summary['counts']['ok']}, Warning={summary['counts']['warn']}, Error={summary['counts']['error']}")
+
+    if summary_json:
+        Path(summary_json).write_text(json.dumps(summary, ensure_ascii=True, indent=2), encoding="utf-8")
+
+    return 1 if summary["counts"]["error"] > 0 else 0
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Validate blueprint JSON files.")
-    parser.add_argument("blueprints_dir", nargs="?", default=None,
-                        help="Path to the blueprints directory (optional).")
+    parser.add_argument("blueprints_dir", nargs="?", default=None, help="Path to the blueprints directory (optional).")
+    parser.add_argument("--schema", default=str(DEFAULT_SCHEMA), help="Path to schema JSON.")
+    parser.add_argument("--strict", action="store_true", help="Enable JSON schema validation.")
+    parser.add_argument("--summary-json", default="", help="Write a summary JSON file.")
+    parser.add_argument("--fail-fast", action="store_true", help="Stop on first error.")
     args = parser.parse_args()
 
-    exit_code = main(args.blueprints_dir)
-    exit(exit_code)
+    exit_code = main(args.blueprints_dir, args.schema, args.strict, args.summary_json, args.fail_fast)
+    raise SystemExit(exit_code)

@@ -17,6 +17,10 @@ source text and logs.
 - `framework/`: source documents
 - `blueprints/`: generated JSON outputs
 - `tests/`: unit tests
+- `docs/ARCHITECTURE.md`: system overview and data flow
+- `docs/SECURITY.md`: security and PII policy
+- `docs/OBSERVABILITY.md`: runtime visibility and runbook
+- `docs/SCORECARD.md`: quality rubric and DoD
 
 ## General rules
 

@@ -1,23 +1,14 @@
-import os
+import argparse
 import json
+import os
 import uuid
 from datetime import datetime
 
 # --- Configuration ---
-# The absolute path to the directory where raw blueprint files are stored.
-# This is calculated relative to the script's location to ensure it works from anywhere.
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-WORKFLOWS_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, '..', 'Workflows'))
-# The name of the output file that will be generated.
+DEFAULT_WORKFLOWS_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, '..', 'Workflows'))
 OUTPUT_FILE_NAME = 'import.json'
-# The file extensions to look for.
 VALID_EXTENSIONS = ('.txt', '.md')
-# List of files to ignore during conversion.
-IGNORED_FILES = {
-    'GUIDE.md',
-    'sample_blueprint.json',
-    OUTPUT_FILE_NAME
-}
 
 def create_blueprint_from_file(filepath):
     """
@@ -56,31 +47,48 @@ def create_blueprint_from_file(filepath):
     }
     return blueprint
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Convert raw .txt/.md files to import.json.")
+    parser.add_argument("--input-dir", default=DEFAULT_WORKFLOWS_DIR, help="Directory with raw files.")
+    parser.add_argument("--output-file", default=OUTPUT_FILE_NAME, help="Output JSON filename.")
+    parser.add_argument("--dry-run", action="store_true", help="Process files without writing output.")
+    return parser.parse_args()
+
 def main():
     """
     Main function to discover raw files, process them, and write the
     consolidated data to a single JSON file for import.
     """
+    args = parse_args()
     all_blueprints = []
-    output_path = os.path.join(WORKFLOWS_DIR, OUTPUT_FILE_NAME)
+    workflows_dir = os.path.abspath(args.input_dir)
+    if os.path.isabs(args.output_file) or os.path.dirname(args.output_file):
+        output_path = os.path.abspath(args.output_file)
+    else:
+        output_path = os.path.join(workflows_dir, args.output_file)
+    ignored_files = {
+        'GUIDE.md',
+        'sample_blueprint.json',
+        os.path.basename(output_path)
+    }
 
     print("Starting Blueprint Conversion Script...")
-    print(f"Looking for '{', '.join(VALID_EXTENSIONS)}' files in '{WORKFLOWS_DIR}/'...")
+    print(f"Looking for '{', '.join(VALID_EXTENSIONS)}' files in '{workflows_dir}/'...")
 
     # Ensure the workflows directory exists
-    if not os.path.isdir(WORKFLOWS_DIR):
-        print(f"Error: The '{WORKFLOWS_DIR}' directory does not exist. Please create it and add your raw files.")
+    if not os.path.isdir(workflows_dir):
+        print(f"Error: The '{workflows_dir}' directory does not exist. Please create it and add your raw files.")
         return
 
     # Iterate over all files in the specified directory
     found_files = 0
-    for filename in sorted(os.listdir(WORKFLOWS_DIR)):
+    for filename in sorted(os.listdir(workflows_dir)):
         # Skip files that are in the ignored list or don't have a valid extension
-        if filename in IGNORED_FILES or not filename.endswith(VALID_EXTENSIONS):
+        if filename in ignored_files or not filename.endswith(VALID_EXTENSIONS):
             continue
 
         found_files += 1
-        filepath = os.path.join(WORKFLOWS_DIR, filename)
+        filepath = os.path.join(workflows_dir, filename)
         print(f"  - Processing: {filename}")
 
         blueprint_data = create_blueprint_from_file(filepath)
@@ -92,6 +100,10 @@ def main():
         return
 
     # Write the collected blueprints to the output JSON file
+    if args.dry_run:
+        print(f"\nDry run complete. Files processed: {len(all_blueprints)}")
+        return
+
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(all_blueprints, f, indent=2, ensure_ascii=False)

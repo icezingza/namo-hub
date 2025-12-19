@@ -8,6 +8,13 @@ let items = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
 const qs = (selector, element = document) => element.querySelector(selector);
 const qsa = (selector, element = document) => [...element.querySelectorAll(selector)];
 
+function setStatus(message, level) {
+    const statusEl = qs("#status");
+    if (!statusEl) return;
+    statusEl.textContent = message || "";
+    statusEl.className = level || "";
+}
+
 // --- Core Data Functions ---
 
 /**
@@ -54,6 +61,54 @@ function autoClassify(text) {
         status: isSolution ? "Reviewed" : "Draft",
         completeness: Math.min(100, completeness)
     };
+}
+
+function normalizeImportedItems(rawItems) {
+    const errors = [];
+    const warnings = [];
+    const normalized = [];
+
+    rawItems.forEach((item, index) => {
+        if (!item || typeof item !== "object") {
+            errors.push(`Item ${index + 1} is not an object.`);
+            return;
+        }
+
+        const normalizedItem = {};
+        const title = typeof item.title === "string" ? item.title.trim() : "";
+        const content = typeof item.content === "string" ? item.content : "";
+
+        if (!title) {
+            errors.push(`Item ${index + 1} is missing title.`);
+        }
+        if (!content) {
+            warnings.push(`Item ${index + 1} is missing content.`);
+        }
+
+        normalizedItem.id = item.id || generateUID();
+        normalizedItem.title = title || "Untitled";
+        normalizedItem.author = item.author || "Unknown";
+        normalizedItem.content = content || "";
+
+        const auto = autoClassify(normalizedItem.content);
+        normalizedItem.nature = item.nature || auto.nature;
+        normalizedItem.domain = item.domain || auto.domain;
+        normalizedItem.status = item.status || auto.status;
+        normalizedItem.completeness = item.completeness || auto.completeness;
+
+        if (Array.isArray(item.tags)) {
+            normalizedItem.tags = item.tags.map(tag => String(tag).trim()).filter(Boolean);
+        } else if (typeof item.tags === "string") {
+            normalizedItem.tags = item.tags.split(",").map(tag => tag.trim()).filter(Boolean);
+        } else {
+            normalizedItem.tags = [];
+        }
+
+        normalizedItem.createdAt = item.createdAt || new Date().toISOString();
+        normalized.push(normalizedItem);
+    });
+
+    return { normalized, errors, warnings };
 }
 
 // --- Rendering Functions ---
@@ -231,6 +286,7 @@ function setupEventListeners() {
         saveItems();
         e.target.reset();
         render();
+        setStatus("Item added.", "ok");
     };
 
     // Auto-classify button
@@ -244,7 +300,7 @@ function setupEventListeners() {
     // Export to JSON
     qs("#btn-export").onclick = () => {
         if (items.length === 0) {
-            alert("There is no data to export.");
+            setStatus("Export aborted: no data to export.", "warn");
             return;
         }
         const dataStr = JSON.stringify(items, null, 2);
@@ -257,6 +313,7 @@ function setupEventListeners() {
         link.click();
         document.body.removeChild(link);
         URL.revokeObjectURL(url);
+        setStatus(`Export complete: ${items.length} items`, "ok");
     };
 
     // Import from JSON
@@ -268,15 +325,24 @@ function setupEventListeners() {
         reader.onload = () => {
             try {
                 const importedItems = JSON.parse(reader.result);
-                if (Array.isArray(importedItems)) {
-                    items = importedItems;
-                    saveItems();
-                    render();
-                } else {
-                    alert("Invalid JSON format. The file must contain an array of items.");
+                if (!Array.isArray(importedItems)) {
+                    setStatus("Import failed: expected an array of items.", "error");
+                    return;
                 }
+
+                const result = normalizeImportedItems(importedItems);
+                if (result.errors.length) {
+                    setStatus(`Import failed: ${result.errors[0]}`, "error");
+                    return;
+                }
+
+                items = result.normalized;
+                saveItems();
+                render();
+                const warnText = result.warnings.length ? ` (${result.warnings.length} warnings)` : "";
+                setStatus(`Import complete: ${items.length} items${warnText}`, result.warnings.length ? "warn" : "ok");
             } catch (error) {
-                alert("Invalid JSON file. Could not parse content.");
+                setStatus("Import failed: invalid JSON.", "error");
                 console.error("JSON Parse Error:", error);
             } finally {
                 // Reset file input to allow re-uploading the same file
@@ -292,6 +358,7 @@ function setupEventListeners() {
             items = [];
             saveItems();
             render();
+            setStatus("All items cleared.", "warn");
         }
     };
 
@@ -308,4 +375,5 @@ function setupEventListeners() {
 document.addEventListener("DOMContentLoaded", () => {
     setupEventListeners();
     render(); // Initial render of the application state
+    setStatus("Ready", "ok");
 });

@@ -23,7 +23,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests PyYAML python-docx PyPDF2
+          pip install -r requirements.txt
 
       - name: Run Blueprint Validation
         run: |
@@ -43,4 +43,4 @@ jobs:
 
       - name: Post Results (Mock)
         run: |
-          curl -X POST "https://postman-echo.com/post"             -H "Content-Type: application/json"             -d '{"status": "completed", "message": "✅ Auto-Dev Orbit mock run finished successfully."}'
+          curl -X POST "https://postman-echo.com/post"             -H "Content-Type: application/json"             -d '{"status": "completed", "message": "Auto-Dev Orbit mock run finished successfully."}'

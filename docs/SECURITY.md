@@ -9,6 +9,7 @@ This document defines baseline security and privacy practices for this repositor
 
 ## PII handling
 - Redact obvious PII when the pipeline is run with redaction enabled.
+- Use `--redact-pii` to enable redaction and `--anonymize-source` to hash source paths.
 - Store only the minimum metadata required for processing.
 - Do not commit secrets or API keys into the repository.
 
