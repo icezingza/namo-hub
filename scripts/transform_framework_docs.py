@@ -1,6 +1,17 @@
 import os
-import docx
-import PyPDF2
+try:
+    import docx
+    DOCX_OK = True
+except Exception:
+    docx = None
+    DOCX_OK = False
+
+try:
+    import PyPDF2
+    PDF_OK = True
+except Exception:
+    PyPDF2 = None
+    PDF_OK = False
 import re
 
 # Define constants for directories
@@ -20,6 +31,9 @@ def sanitize_filename(filename):
 
 def read_docx(file_path):
     """Reads and returns the text content from a .docx file."""
+    if not DOCX_OK:
+        print(f"python-docx is not installed. Skipping DOCX file: {file_path}")
+        return ""
     try:
         doc = docx.Document(file_path)
         full_text = [para.text for para in doc.paragraphs]
@@ -30,6 +44,9 @@ def read_docx(file_path):
 
 def read_pdf(file_path):
     """Reads and returns the text content from a .pdf file."""
+    if not PDF_OK:
+        print(f"PyPDF2 is not installed. Skipping PDF file: {file_path}")
+        return ""
     try:
         with open(file_path, 'rb') as f:
             reader = PyPDF2.PdfReader(f)

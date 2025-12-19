@@ -64,12 +64,12 @@ def main():
     all_blueprints = []
     output_path = os.path.join(WORKFLOWS_DIR, OUTPUT_FILE_NAME)
 
-    print("🚀 Starting Blueprint Conversion Script...")
+    print("Starting Blueprint Conversion Script...")
     print(f"Looking for '{', '.join(VALID_EXTENSIONS)}' files in '{WORKFLOWS_DIR}/'...")
 
     # Ensure the workflows directory exists
     if not os.path.isdir(WORKFLOWS_DIR):
-        print(f"❌ Error: The '{WORKFLOWS_DIR}' directory does not exist. Please create it and add your raw files.")
+        print(f"Error: The '{WORKFLOWS_DIR}' directory does not exist. Please create it and add your raw files.")
         return
 
     # Iterate over all files in the specified directory
@@ -88,7 +88,7 @@ def main():
             all_blueprints.append(blueprint_data)
 
     if found_files == 0:
-        print("\n🟡 No raw blueprint files found to convert.")
+        print("\nNo raw blueprint files found to convert.")
         return
 
     # Write the collected blueprints to the output JSON file
@@ -96,12 +96,12 @@ def main():
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(all_blueprints, f, indent=2, ensure_ascii=False)
 
-        print(f"\n✅ Success! Converted {len(all_blueprints)} files.")
+        print(f"\nSuccess! Converted {len(all_blueprints)} files.")
         print(f"   Output file created at: {output_path}")
-        print("\n👉 Next Step: Open 'app/index.html' in your browser and use the 'Import JSON' button to load this file.")
+        print("\nNext Step: Open 'app/index.html' in your browser and use the 'Import JSON' button to load this file.")
 
     except Exception as e:
-        print(f"\n❌ Error: Could not write to the output file '{output_path}'.")
+        print(f"\nError: Could not write to the output file '{output_path}'.")
         print(f"   Reason: {e}")
 
 if __name__ == "__main__":
