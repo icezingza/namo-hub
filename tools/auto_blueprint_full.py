@@ -1,13 +1,32 @@
-import os, json, datetime, time, logging, hashlib, re
-import os, json, datetime, time, logging, hashlib, re
-import google.generativeai as genai
+import os
+import json
+import datetime
+import time
+import logging
+import hashlib
+import re
 from pathlib import Path
 from typing import Tuple
-from PyPDF2 import PdfReader
+
+try:
+    import google.generativeai as genai
+    GENAI_OK = True
+except Exception:
+    genai = None
+    GENAI_OK = False
+
+try:
+    from PyPDF2 import PdfReader
+    PDF_OK = True
+except Exception:
+    PdfReader = None
+    PDF_OK = False
+
 try:
     from docx import Document  # python-docx
     DOCX_OK = True
 except Exception:
+    Document = None
     DOCX_OK = False
 
 from sanitize import sanitize_text
@@ -22,10 +41,14 @@ OUTPUT_DIR    = REPO_ROOT / "blueprints"
 SCHEMA_PATH   = SCRIPT_DIR / "schema_blueprint.json" # schema is in the same `tools` dir
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if GEMINI_API_KEY:
+if GEMINI_API_KEY and GENAI_OK:
     genai.configure(api_key=GEMINI_API_KEY)
+elif GEMINI_API_KEY and not GENAI_OK:
+    logging.warning(
+        "GEMINI_API_KEY set but google-generativeai is not installed; skipping Gemini enrichment."
+    )
 else:
-    logging.warning("GEMINI_API_KEY not found in environment variables.")
+    logging.info("GEMINI_API_KEY not found; skipping Gemini enrichment.")
 BRAND   = "NamoNexus"
 SLOGAN  = "Elevate your existence with NamoNexus."
 META_DEF = ("This Blueprint is designed as an entity beyond AI — "
@@ -45,6 +68,9 @@ def read_txt_md(p: Path) -> str:
     return p.read_text(encoding="utf-8", errors="ignore").strip()
 
 def read_pdf(p: Path) -> str:
+    if not PDF_OK:
+        logging.warning("PyPDF2 not installed; skip .pdf")
+        return ""
     try:
         reader = PdfReader(str(p))
         text = "\n".join((page.extract_text() or "") for page in reader.pages)
@@ -140,8 +166,11 @@ def build_blueprint(src: Path, raw_text: str) -> dict:
 # -------- Jules Integration --------
 # -------- Gemini Integration --------
 def gemini_enrich(blueprint: dict) -> dict:
-    if not GEMINI_API_KEY:
-        logging.warning("No GEMINI_API_KEY provided; skipping Gemini enrichment.")
+    if not GEMINI_API_KEY or not GENAI_OK:
+        if GEMINI_API_KEY and not GENAI_OK:
+            logging.warning("google-generativeai not installed; skipping Gemini enrichment.")
+        else:
+            logging.info("No GEMINI_API_KEY provided; skipping Gemini enrichment.")
         return blueprint
 
     # Prepare specific data to guide the LLM
@@ -155,7 +184,7 @@ def gemini_enrich(blueprint: dict) -> dict:
     ---
     {raw_content[:4000]} 
     ---
-    (Note: Content truncated to first 4 characters if too long)
+    (Note: Content truncated to first 4000 characters if too long)
 
     Please analyze the content and generate a JSON object that strictly follows this structure (do not include markdown fencing, just the JSON):
     {{

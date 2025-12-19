@@ -7,11 +7,11 @@ def validate_blueprints():
     base = Path(__file__).resolve().parent.parent
     blueprint_dir = base / "blueprints"
 
-    print("🔍 Validating blueprints in:", blueprint_dir)
+    print("Validating blueprints in:", blueprint_dir)
     errors = []
 
     if not blueprint_dir.exists():
-        print("⚠️ No 'blueprints/' directory found.")
+        print("Warning: No 'blueprints/' directory found.")
         sys.exit(1)
 
     for file in blueprint_dir.glob("**/*.json"):
@@ -24,17 +24,17 @@ def validate_blueprints():
             elif "sections" not in data:
                 errors.append(f"{file.name} missing 'sections' key.")
             else:
-                print(f"✅ {file.name} passed validation.")
+                print(f"OK: {file.name} passed validation.")
         except Exception as e:
             errors.append(f"{file.name} failed: {e}")
 
     if errors:
-        print("\n❌ Validation failed for the following blueprints:")
+        print("\nValidation failed for the following blueprints:")
         for err in errors:
             print(" -", err)
         sys.exit(1)
     else:
-        print("\n🎉 All blueprints passed validation.")
+        print("\nAll blueprints passed validation.")
         sys.exit(0)
 
 

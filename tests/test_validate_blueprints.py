@@ -46,7 +46,7 @@ class TestValidateBlueprints(unittest.TestCase):
 
         result = self.run_script(self.blueprints_dir)
 
-        self.assertIn("✅ valid.json complete", result.stdout)
+        self.assertIn("OK: valid.json complete", result.stdout)
         self.assertIn("Summary", result.stdout)
         self.assertEqual(result.returncode, 0)
 
@@ -61,7 +61,7 @@ class TestValidateBlueprints(unittest.TestCase):
 
         result = self.run_script(self.blueprints_dir)
 
-        self.assertIn("⚠️ missing.json missing sections", result.stdout)
+        self.assertIn("Warning: missing.json missing sections", result.stdout)
         self.assertEqual(result.returncode, 1)
 
     def test_invalid_json(self):
@@ -70,7 +70,7 @@ class TestValidateBlueprints(unittest.TestCase):
 
         result = self.run_script(self.blueprints_dir)
 
-        self.assertIn("❌ invalid.json is not valid JSON.", result.stdout)
+        self.assertIn("Error: invalid.json is not valid JSON.", result.stdout)
         self.assertEqual(result.returncode, 1)
 
     def test_non_existent_directory(self):

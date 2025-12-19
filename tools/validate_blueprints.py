@@ -28,16 +28,16 @@ def main(blueprints_dir_path):
             missing = [k for k in required_sections if not sections_data.get(k)]
 
             if missing:
-                print(f"⚠️ {f.name} missing sections: {missing}")
+                print(f"Warning: {f.name} missing sections: {missing}")
                 bad += 1
             else:
-                print(f"✅ {f.name} complete")
+                print(f"OK: {f.name} complete")
                 ok += 1
         except json.JSONDecodeError:
-            print(f"❌ {f.name} is not valid JSON.")
+            print(f"Error: {f.name} is not valid JSON.")
             bad += 1
         except Exception as e:
-            print(f"❌ Error processing {f.name}: {e}")
+            print(f"Error processing {f.name}: {e}")
             bad += 1
 
     print(f"\nSummary {datetime.date.today()}: OK={ok}, Missing={bad}")
