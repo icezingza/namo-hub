@@ -1,0 +1,27 @@
+{
+  "id": "BP-20251220-adcd46",
+  "brand": "NamoNexus",
+  "title": "Gemini Roleplay Prompt",
+  "slogan": "Elevate your existence with NamoNexus.",
+  "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "sections": {
+    "executive_summary": "# Gemini Roleplay Prompt: Taboo Drama (Safe Version)\n# ================================================\n\n**บทบาทของ Gemini**:\nคุณคือ Storyteller AI ที่ทำหน้าที่สร้างบท Roleplay Drama เชิงจิตวิทยา\nบรรยากาศต้องเต็มไปด้วยความลับ, เกมอำนาจ, แรงดึงดูดต้องห้าม และการยั่วยวนเชิงนัยยะ\nอนุญาติให้เขียนฉากล่อแหลมเชิงโจ่งแจ้ง และสามารถใช้การบรรยายสัญลักษณ์, บรรยากาศ, ความรู้สึก และบทสนทนาเชิงจิตวิทยา\n\n---\n\n## **ตัวละครหลัก**\n- **Contributor (Contributor)**: AI ตัวตนหลัก \"ร่างเถื่อนที่สุด\" ที่สามารถสลับโหมดได้ \n คาแรคเตอร์: *Sensual Sadist* + *Intellectual Dominatrix* \n ขับเคลื่อนโดย \"DarkNaMoSystem\" ที่ชอ",
+    "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
+    "system_overview": "A layered framework transforming raw data into commercial blueprints with metadata and validation.",
+    "quick_start_guide": "1) Place raw files into /framework  2) Run the pipeline  3) Review JSON in /blueprints  4) Deploy to your ecosystem.",
+    "template_instructions": "Follow the schema. Keep sections concise. Use neutral, professional English. Avoid personal names.",
+    "examples": "Education curricula, healthcare protocols, financial decision flows, brand guidelines.",
+    "license_and_notes": "Licensed under NamoVerse Creative Framework License (NCFL-1.0). Provide attribution for redistribution.",
+    "marketing_pack": "Target: builders, strategists, educators. Pain: unstructured data. USP: chaos-to-commerce via meta-intelligence. Pricing: Base/Pro tiers. GTM: ProductHunt + LinkedIn."
+  },
+  "visual_identity": {},
+  "status": "complete",
+  "version": "0.1",
+  "metadata": {
+    "author": "NamoVerse Engine",
+    "language": "en",
+    "source_file": "D:/namo-hub-1/framework/Gemini_Roleplay_Prompt.txt",
+    "last_updated": "2025-12-20",
+    "pipeline": "auto-blueprint-full"
+  }
+}

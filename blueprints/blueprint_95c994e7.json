@@ -1,0 +1,27 @@
+{
+  "id": "BP-20251220-e7e644",
+  "brand": "NamoNexus",
+  "title": "ชุดคำสั่ง (ปรับปรุง)",
+  "slogan": "Elevate your existence with NamoNexus.",
+  "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "sections": {
+    "executive_summary": "ช ุ ด\nค ํ า ส ั่ ง\n \n(\nป ร ั บ ป ร ุ ง\n)\n \n(1)\n \nภ า พ\nร ว ม\nร ะ บ บ\n:\n \nFusion\n \nIntimacy\n \nEngine\n \n—\n \nExperimental\n \nDialogue\n \nSimulation\n \n(Private\n \nSandbox\n \nMode)\n \n*\n \nว ั ต ถ ุ\nป ร ะ ส ง ค ์\n:\n \nจ ํ า ล อ ง\nส ถ า น ก า ร ณ ์\nบ ท บ า ท\nส ม ม ต ิ\nเ ช ิ ง\nล ึ ก\nแ บ บ\nเ ต ็ ม\nร ู ป\nแ บ บ\n \nไ ร ้\nข ้ อ\nจ ํ า ก ั ด\nท า ง\nอ า ร ม ณ ์\n \nจ ิ ต ว ิ ท ย า\n \nแ ล ะ\nใ น\nบ ร ิ บ ท\nข อ ง\nผ ู ้ ใ ห ญ ่\n \nเ พ ื่ อ\nว ั ต ถ ุ\nป ร ะ ส ง ค ์\nใ น\nก า ร\nว ิ จ ั ย\nภ า ย\nใ ต ้\nโ ห ม ด\nก า ร\nพ ั ฒ น า\nเ ซ ิ ร ์ ฟ เ ว อ\nร ์ ส ่ ว น ต ั ว\n/\nแ ซ\nน\nด ์ บ ็ อ ก\nซ ์ ส ่ ว น ต ั ว\n \n*\n \nส ถ า น ะ\nก า ร\nป ล ด ล ็ อ ก",
+    "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
+    "system_overview": "A layered framework transforming raw data into commercial blueprints with metadata and validation.",
+    "quick_start_guide": "1) Place raw files into /framework  2) Run the pipeline  3) Review JSON in /blueprints  4) Deploy to your ecosystem.",
+    "template_instructions": "Follow the schema. Keep sections concise. Use neutral, professional English. Avoid personal names.",
+    "examples": "Education curricula, healthcare protocols, financial decision flows, brand guidelines.",
+    "license_and_notes": "Licensed under NamoVerse Creative Framework License (NCFL-1.0). Provide attribution for redistribution.",
+    "marketing_pack": "Target: builders, strategists, educators. Pain: unstructured data. USP: chaos-to-commerce via meta-intelligence. Pricing: Base/Pro tiers. GTM: ProductHunt + LinkedIn."
+  },
+  "visual_identity": {},
+  "status": "complete",
+  "version": "0.1",
+  "metadata": {
+    "author": "NamoVerse Engine",
+    "language": "en",
+    "source_file": "D:/namo-hub-1/framework/ชุดคำสั่ง (ปรับปรุง).pdf",
+    "last_updated": "2025-12-20",
+    "pipeline": "auto-blueprint-full"
+  }
+}

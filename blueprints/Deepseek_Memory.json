@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-b40d48",
+  "id": "BP-20251220-b40d48",
   "brand": "NamoNexus",
   "title": "Deepseek Memory ",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/Deepseek Memory .pdf",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/Deepseek Memory .pdf",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

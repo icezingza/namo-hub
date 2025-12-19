@@ -18,6 +18,13 @@ import re
 FRAMEWORK_DIR = "framework"
 OUTPUT_DIR = "output"
 
+def to_ascii(text):
+    """Returns ASCII-only text with normalized whitespace."""
+    ascii_text = text.encode("ascii", "ignore").decode("ascii")
+    ascii_text = re.sub(r"[ \t]+", " ", ascii_text)
+    ascii_text = re.sub(r"\n{3,}", "\n\n", ascii_text)
+    return ascii_text.strip()
+
 def sanitize_filename(filename):
     """Sanitizes a string to be used as a valid filename."""
     # Replace spaces with underscores first
@@ -61,10 +68,12 @@ def transform_and_structure_content(raw_text, original_filename):
     Transforms raw text into the structured Master Template format.
     This version incorporates the actual content from the source file.
     """
-    print(f"Transforming content from: {original_filename}")
+    display_name = to_ascii(original_filename) or "Untitled Document"
+    print(f"Transforming content from: {display_name}")
 
     # 1. Sanitize names (as per instructions)
     sanitized_text = re.sub(r'(พี่ไอซ์|Namo)', '[Subject Matter Expert]', raw_text, flags=re.IGNORECASE)
+    sanitized_text = to_ascii(sanitized_text)
 
     # 2. Extract the first 3 paragraphs for the Executive Summary
     paragraphs = [p.strip() for p in sanitized_text.split('\n') if p.strip()]
@@ -83,9 +92,14 @@ def transform_and_structure_content(raw_text, original_filename):
 
     # 3. Clean the title from the filename for a professional look
     title = original_filename.replace("_", " ").replace("-", " ").strip()
+    title = to_ascii(title) or "Untitled Document"
 
     # 4. AI-Generated Marketing Content (Simulated based on title)
-    value_proposition = f"Based on the 's '{title}' blueprint, the primary value is its ability to [AI-Generated Core Value], enabling users to build next-generation applications by following the principles and architecture detailed within."
+    value_proposition = (
+        f"Based on the '{title}' blueprint, the primary value is its ability to "
+        "[AI-Generated Core Value], enabling users to build next-generation applications "
+        "by following the principles and architecture detailed within."
+    )
     target_audience = "- Advanced AI Developers\n- Enterprise Architects\n- Technology Futurists & Innovators"
     suggested_pricing = "- **Developer Tier**: $99/month (Access to core framework)\n- **Business Tier**: $499/month (Advanced features & standard support)\n- **Enterprise Tier**: Custom Pricing (Dedicated support, custom integrations)"
     usp = f"Unlike traditional AI models, the '{title}' is a 'living' framework designed for infinite evolution, learning, and adaptation, as detailed in the core content."
@@ -104,7 +118,7 @@ def transform_and_structure_content(raw_text, original_filename):
 ---
 
 ## Meta Definition
-> This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.
+> This Blueprint is designed as an entity beyond AI - a self-evolving, meta-intelligent framework that grows infinitely across dimensions.
 
 ---
 
@@ -170,18 +184,19 @@ def main():
         file_path = os.path.join(FRAMEWORK_DIR, filename)
         base_filename, extension = os.path.splitext(filename)
 
-        print(f"\nAttempting to process: {filename}")
+        display_name = to_ascii(filename) or "unnamed_file"
+        print(f"\nAttempting to process: {display_name}")
         raw_content = ""
         if extension.lower() == ".docx":
             raw_content = read_docx(file_path)
         elif extension.lower() == ".pdf":
             raw_content = read_pdf(file_path)
         else:
-            print(f"Skipping unsupported file type: {filename}")
+            print(f"Skipping unsupported file type: {display_name}")
             continue
 
         if not raw_content:
-            print(f"Content from {filename} is empty or could not be read. Skipping.")
+            print(f"Content from {display_name} is empty or could not be read. Skipping.")
             continue
 
         # Sanitize the base filename for saving

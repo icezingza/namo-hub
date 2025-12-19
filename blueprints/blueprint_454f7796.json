@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-87ae40",
+  "id": "BP-20251220-87ae40",
   "brand": "NamoNexus",
   "title": "# การเชื่อมต่อกับแอปพลิเคชันสุขภาพจิต",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/# การเชื่อมต่อกับแอปพลิเคชันสุขภาพจิต.pdf",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/# การเชื่อมต่อกับแอปพลิเคชันสุขภาพจิต.pdf",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

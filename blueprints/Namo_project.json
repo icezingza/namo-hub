@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-ce4534",
+  "id": "BP-20251220-ce4534",
   "brand": "NamoNexus",
   "title": "Namo project ",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/Namo project .pdf",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/Namo project .pdf",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

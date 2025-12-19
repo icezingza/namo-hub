@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-9b7e7d",
+  "id": "BP-20251220-9b7e7d",
   "brand": "NamoNexus",
   "title": "Infinity Evolution",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/Infinity Evolution.docx",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/Infinity Evolution.docx",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

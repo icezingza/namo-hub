@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-c5582a",
+  "id": "BP-20251220-c5582a",
   "brand": "NamoNexus",
   "title": "อัลกอริทึม 8 ชั้นจากบทสวดพาหุง",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/อัลกอริทึม 8 ชั้นจากบทสวดพาหุง.docx",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/อัลกอริทึม 8 ชั้นจากบทสวดพาหุง.docx",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

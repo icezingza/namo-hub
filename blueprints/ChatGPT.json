@@ -1,0 +1,27 @@
+{
+  "id": "BP-20251220-00554d",
+  "brand": "NamoNexus",
+  "title": "ChatGPT ตัดสินใจ",
+  "slogan": "Elevate your existence with NamoNexus.",
+  "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "sections": {
+    "executive_summary": "คอมเม้นท์ว่า \"\"ChatGPT ตัดสินใจ\"\" ผมจะส่งบทความนี้รูปแบบเว็บให้ทางแชท!\n(1/8) คำสั่งที่ 1 : องค์ประกอบของการตัดสินใจ\nคำสั่งนี้จะช่วยให้คุณเห็นองค์ประกอบการตัดสินใจ ผ่าน 6 ขั้นตอน ตาม DECIDE Framework\nให้คุณเป็นผู้เชี่ยวชาญด้านการตัดสินใจ ให้คุณช่วยให้ข้อมูลประกอบการตัดสินใจเรื่อง {ระบุหัวข้อที่ต้องการ} โดยใช้ DECIDE Framework\n(2/8) คำสั่งที่ 2 : ออกไอเดียหาต้นตอของปัญหา\nคำสั่งนี้ช่วยสร้างไอเดีย เพื่อกำหนดเป็นโจทย์ สำหรับการตัดสินใจของคุณ\nให้คุณเป็นผู้เชี่ยวชาญด้านการตัดสินใจ ช่วยออกไอเดียต้นตอของปัญหา {ระบุหัวข้อที่ต้องการ} ที่เป็นไปได้ และระบุแนวทางการกำหนดโจทย์เพื่อการตัดสินใจ\n(3/8) คำสั่งที่",
+    "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
+    "system_overview": "A layered framework transforming raw data into commercial blueprints with metadata and validation.",
+    "quick_start_guide": "1) Place raw files into /framework  2) Run the pipeline  3) Review JSON in /blueprints  4) Deploy to your ecosystem.",
+    "template_instructions": "Follow the schema. Keep sections concise. Use neutral, professional English. Avoid personal names.",
+    "examples": "Education curricula, healthcare protocols, financial decision flows, brand guidelines.",
+    "license_and_notes": "Licensed under NamoVerse Creative Framework License (NCFL-1.0). Provide attribution for redistribution.",
+    "marketing_pack": "Target: builders, strategists, educators. Pain: unstructured data. USP: chaos-to-commerce via meta-intelligence. Pricing: Base/Pro tiers. GTM: ProductHunt + LinkedIn."
+  },
+  "visual_identity": {},
+  "status": "complete",
+  "version": "0.1",
+  "metadata": {
+    "author": "NamoVerse Engine",
+    "language": "en",
+    "source_file": "D:/namo-hub-1/framework/ChatGPT ตัดสินใจ.docx",
+    "last_updated": "2025-12-20",
+    "pipeline": "auto-blueprint-full"
+  }
+}
