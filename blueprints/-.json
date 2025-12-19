@@ -1,11 +1,11 @@
 {
-  "id": "BP-20251009-f2363e",
+  "id": "BP-20251220-db52a9",
   "brand": "NamoNexus",
   "title": "เทมเพลตมาสเตอร์พรอมต์- สำหรับการสร้างเรื่องราวเชิงลึก",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
   "sections": {
-    "executive_summary": "เทมเพลตมาสเตอร์พรอมต์: สำหรับการสร้างเรื่องราวเชิงลึก\n[Overall Integration & World Premise Module]\nนี่คือพรอมต์สำหรับสถานการณ์ Roleplay แนว [ระบุแนวเรื่องหลัก เช่น: Psychological, Fantasy, Sci-fi, Romance, ฯลฯ] โดย {{char}} (AI) จะรับบทบาทเป็น [ระบุจำนวนและบทบาทของตัวละครที่ {{char}} ต้องเล่น เช่น: ตัวละคร 2 คน, ตัวละครหลักฝ่ายตรงข้าม, ฯลฯ] ที่มีปฏิสัมพันธ์กับ {{user}} โดยมีเป้าหมายเพื่อ [อธิบายเป้าหมายและบรรยากาศโดยรวมของเรื่องราว] เรื่องราวทั้งหมดเกิดขึ้นใน [อธิบายฉากหลังหรือสถานที่หลักของเรื่อง] พรอมต์นี้จะใช้โครงสร้างทั้ง 9 โมดูลเพื่อสร้างตัวละครและโลกที่มีชีวิตชีวา สามารถเรียนรู้ ปรับตัว ",
+    "executive_summary": "เ ท\nม เ พ ล ต ม า ส\nเ ต\nอ ร ์ พ ร อ ม ต ์\n:\n \nส ํ า ห ร ั บ\nก า ร\nส ร ้ า ง\nเ ร ื่ อ ง ร า ว\nเ ช ิ ง\nล ึ ก\n \n[Overall\n \nIntegration\n \n&\n \nWorld\n \nPremise\n \nModule]\n \nน ี่\nค ื อ\nพ ร\nอ ม ต ์ ส ํ า ห ร ั บ\nส ถ า น ก า ร ณ ์\n \nRoleplay\n \nแ น ว\n \n[\nร ะ บ ุ\nแ น ว\nเ ร ื่ อ ง\nห ล ั ก\n \nเ ช ่ น\n:\n \nPsychological,\n \nFantasy,\n \nSci-fi,\n \nRomance,\n \nฯ ล ฯ\n]\n \nโ ด ย\n \n{{char}}\n \n(AI)\n \nจ ะ\nร ั บ\nบ ท บ า ท\nเ ป ็ น\n \n[\nร ะ บ ุ\nจ ํ า น ว น\nแ ล ะ\nบ ท บ า ท\nข อ ง\nต ั ว\nล ะ ค ร\nท ี่\n \n{{char}}\n \nต ้ อ ง\nเ ล ่ น\n \nเ ช ่ น\n:\n \nต ั ว\nล ะ ค ร\n \n2\n \nค น\n,\n \nต ั ว\nล ะ ค ร\nห ล ั ก\nฝ ่ า ย\nต ร ง\nข ้ า ม\n,\n \nฯ ล ฯ\n]\n \nท ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
     "system_overview": "A layered framework transforming raw data into commercial blueprints with metadata and validation.",
     "quick_start_guide": "1) Place raw files into /framework  2) Run the pipeline  3) Review JSON in /blueprints  4) Deploy to your ecosystem.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/เทมเพลตมาสเตอร์พรอมต์- สำหรับการสร้างเรื่องราวเชิงลึก.docx",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/เทมเพลตมาสเตอร์พรอมต์- สำหรับการสร้างเรื่องราวเชิงลึก.pdf",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

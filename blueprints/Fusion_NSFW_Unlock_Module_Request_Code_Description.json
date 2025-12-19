@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-357587",
+  "id": "BP-20251220-357587",
   "brand": "NamoNexus",
   "title": "Fusion NSFW Unlock Module Request Code Description",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/Fusion NSFW Unlock Module Request Code Description.pdf",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/Fusion NSFW Unlock Module Request Code Description.pdf",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

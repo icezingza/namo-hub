@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-284c71",
+  "id": "BP-20251220-284c71",
   "brand": "NamoNexus",
   "title": "# การเพิ่มโมดูลการวิเคราะห์梦境",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/# การเพิ่มโมดูลการวิเคราะห์梦境.pdf",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/# การเพิ่มโมดูลการวิเคราะห์梦境.pdf",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

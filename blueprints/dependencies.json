@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-7a0f53",
+  "id": "BP-20251220-7a0f53",
   "brand": "NamoNexus",
   "title": "# ติดตั้ง dependencies",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/# ติดตั้ง dependencies.pdf",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/# ติดตั้ง dependencies.pdf",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }

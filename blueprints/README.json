@@ -1,5 +1,5 @@
 {
-  "id": "BP-20251009-8ec9a0",
+  "id": "BP-20251220-8ec9a0",
   "brand": "NamoNexus",
   "title": "README",
   "slogan": "Elevate your existence with NamoNexus.",
@@ -20,8 +20,8 @@
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "/app/framework/README.md",
-    "last_updated": "2025-10-09",
+    "source_file": "D:/namo-hub-1/framework/README.md",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full"
   }
 }
