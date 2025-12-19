@@ -30,6 +30,11 @@ class TestValidateBlueprints(unittest.TestCase):
 
     def test_valid_blueprint(self):
         blueprint_content = {
+            "schema_version": "1.1",
+            "id": "BP-20250101-abc123",
+            "brand": "NamoNexus",
+            "title": "Valid",
+            "meta_definition": "Definition",
             "sections": {
                 "executive_summary": "summary",
                 "value_proposition": "value",
@@ -39,6 +44,19 @@ class TestValidateBlueprints(unittest.TestCase):
                 "examples": "examples",
                 "license_and_notes": "license",
                 "marketing_pack": "pack"
+            },
+            "status": "complete",
+            "version": "0.2",
+            "metadata": {
+                "author": "Test",
+                "language": "en",
+                "source_file": "framework/test.txt",
+                "source_name": "test.txt",
+                "source_hash": "abc",
+                "source_bytes": 10,
+                "last_updated": "2025-01-01",
+                "pipeline": "auto-blueprint-full",
+                "pipeline_version": "1.1"
             }
         }
         with open(self.blueprints_dir / "valid.json", "w") as f:
@@ -52,8 +70,26 @@ class TestValidateBlueprints(unittest.TestCase):
 
     def test_missing_sections(self):
         blueprint_content = {
+            "schema_version": "1.1",
+            "id": "BP-20250101-abc123",
+            "brand": "NamoNexus",
+            "title": "Missing Sections",
+            "meta_definition": "Definition",
             "sections": {
                 "executive_summary": "summary"
+            },
+            "status": "complete",
+            "version": "0.2",
+            "metadata": {
+                "author": "Test",
+                "language": "en",
+                "source_file": "framework/test.txt",
+                "source_name": "test.txt",
+                "source_hash": "abc",
+                "source_bytes": 10,
+                "last_updated": "2025-01-01",
+                "pipeline": "auto-blueprint-full",
+                "pipeline_version": "1.1"
             }
         }
         with open(self.blueprints_dir / "missing.json", "w") as f:
@@ -61,7 +97,7 @@ class TestValidateBlueprints(unittest.TestCase):
 
         result = self.run_script(self.blueprints_dir)
 
-        self.assertIn("Warning: missing.json missing sections", result.stdout)
+        self.assertIn("Error: missing.json failed validation", result.stdout)
         self.assertEqual(result.returncode, 1)
 
     def test_invalid_json(self):
@@ -70,7 +106,7 @@ class TestValidateBlueprints(unittest.TestCase):
 
         result = self.run_script(self.blueprints_dir)
 
-        self.assertIn("Error: invalid.json is not valid JSON.", result.stdout)
+        self.assertIn("Error: invalid.json failed validation", result.stdout)
         self.assertEqual(result.returncode, 1)
 
     def test_non_existent_directory(self):

@@ -163,6 +163,11 @@ def transform_and_structure_content(raw_text, original_filename):
 def save_as_markdown(content, filename):
     """Saves the given content as a Markdown file in the output directory."""
     output_path = os.path.join(OUTPUT_DIR, f"{filename}.md")
+    base, ext = os.path.splitext(output_path)
+    counter = 2
+    while os.path.exists(output_path):
+        output_path = f"{base}_{counter}{ext}"
+        counter += 1
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Saved Master Template to: {output_path}")

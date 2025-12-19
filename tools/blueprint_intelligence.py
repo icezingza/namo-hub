@@ -1,45 +1,23 @@
-# tools/blueprint_intelligence.py
+import argparse
 from pathlib import Path
-import json
-import sys
 
-def validate_blueprints():
-    base = Path(__file__).resolve().parent.parent
-    blueprint_dir = base / "blueprints"
+from validate_blueprints import main as validate_blueprints_main
 
-    print("Validating blueprints in:", blueprint_dir)
-    errors = []
+def parse_args():
+    parser = argparse.ArgumentParser(description="Blueprint intelligence helper.")
+    parser.add_argument("command", choices=["validate"], help="Command to run.")
+    parser.add_argument("--mode", choices=["lenient", "strict"], default="lenient", help="Validation mode.")
+    parser.add_argument("--blueprints-dir", default="", help="Blueprints directory (optional).")
+    parser.add_argument("--schema", default="", help="Schema path (optional).")
+    return parser.parse_args()
 
-    if not blueprint_dir.exists():
-        print("Warning: No 'blueprints/' directory found.")
-        sys.exit(1)
-
-    for file in blueprint_dir.glob("**/*.json"):
-        try:
-            with open(file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-
-            if not isinstance(data, dict):
-                errors.append(f"{file.name} is not a valid JSON object.")
-            elif "sections" not in data:
-                errors.append(f"{file.name} missing 'sections' key.")
-            else:
-                print(f"OK: {file.name} passed validation.")
-        except Exception as e:
-            errors.append(f"{file.name} failed: {e}")
-
-    if errors:
-        print("\nValidation failed for the following blueprints:")
-        for err in errors:
-            print(" -", err)
-        sys.exit(1)
-    else:
-        print("\nAll blueprints passed validation.")
-        sys.exit(0)
-
+def main() -> int:
+    args = parse_args()
+    if args.command == "validate":
+        schema_path = args.schema or str(Path(__file__).resolve().parent / "schema_blueprint.json")
+        strict = args.mode == "strict"
+        return validate_blueprints_main(args.blueprints_dir, schema_path, strict, "", False)
+    return 1
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1 and sys.argv[1] == "validate":
-        validate_blueprints()
-    else:
-        print("Usage: python tools/blueprint_intelligence.py validate")
+    raise SystemExit(main())

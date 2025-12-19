@@ -24,11 +24,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install PyPDF2 python-docx requests
+          pip install -r requirements.txt
 
       - name: Run blueprint process
         run: |
-          python tools/auto_blueprint_full.py
+          python tools/auto_blueprint_full.py --skip-unchanged
 
       - name: Commit and Push changes
         run: |

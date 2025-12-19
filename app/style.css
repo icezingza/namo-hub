@@ -14,3 +14,7 @@ main{padding:10px}.matrix{display:grid;grid-template-columns:160px repeat(4,1fr)
 .col h4{margin:4px 6px 8px 6px}.drop{min-height:160px}.draggable{cursor:grab}
 .mindmap{display:flex;gap:20px;flex-wrap:wrap}.branch{background:#16181d;border:1px solid #303545;border-radius:12px;padding:10px;min-width:260px}
 .branch h4{margin:4px 0 8px 0}.sep{height:1px;background:#2b2f3c;margin:8px 0}
+#status{margin-top:6px;font-size:12px;color:#9aa0a6}
+#status.ok{color:#7bd88f}
+#status.warn{color:#f5c26b}
+#status.error{color:#f08c8c}
