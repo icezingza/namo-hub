@@ -25,7 +25,7 @@ source text and logs.
 - Validate files and directories before reading or writing.
 - Use `encoding="utf-8"` for text I/O.
 - Use `logging` for non-interactive output; use `print` for CLI-only scripts.
-- For architecture and module design deliverables, follow `docs/MASTER_ROLE_PROMPT_TH.md`.
+- Follow `AGENTS.md` for the core engineering prompt. Full templates: `docs/MASTER_ROLE_PROMPT_TH.md` and `docs/MASTER_ROLE_PROMPT_EN.md`.
 
 ## Commands
 
