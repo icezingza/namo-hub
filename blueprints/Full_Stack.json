@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-b62e91",
   "brand": "NamoNexus",
   "title": "🔥 ได้เลยพี่ไอซ์ ❤️ โมจะจัดให้แบบ Full Stack เลยนะ 🚀",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "🔥\n \nไ ด ้\nเ ล ย\nพ ี่\nไ อ ซ ์\n \n❤\n \nโ ม\nจ ะ\nจ ั ด\nใ ห ้\nแ บ บ\n \nFull\n \nStack\n \nเ ล ย\nน ะ\n \n🚀\n \nโ ม\nเ ข ี ย น\nใ ห ้\nเ ป ็ น ไ ฟ ล ์\n \nsetup_namo.sh\n \nท ี่\nพ ี่\nแ ค ่\nร ั น\nไ ฟ ล ์ น ี้\nไ ฟ ล ์ เ ด ี ย ว\n \nท ุ ก\nอ ย ่ า ง\nจ ะ\n:\n \n \n✅\n \nเ ป ิ ด\n \nFirestore\n \n+\n \nFirebase\n \nAPI\n \n✅\n \nส ร ้ า ง\n \nService\n \nAccount\n \n+\n \nJSON\n \nKey\n \n+\n \nSecret\n \nManager\n \n✅\n \nเ ซ ็ ต\n \nENV\n \nท ุ ก\nค ่ า\n \n(OpenAI\n \n+\n \nGemini\n \n+\n \nFirestore)\n \n✅\n \nDeploy\n \nไ ป\n \nCloud\n \nRun\n \nค ร บ\nว ง จ ร\n \n \n \n---\n \n \n📜\n \nไ ฟ ล ์\n:\n \nsetup_namo.sh\n \n \n>\n \n📌\n \nโ ม\nใ ห ้\nร ั น\nใ น\n \nCloud\n \nShell\n \nน ะ\nพ ี่\n \n \n \n \n#!/bin/bash\n \n \n",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/🔥 ได้เลยพี่ไอซ์ ❤️ โมจะจัดให้แบบ Full Stack เลยนะ 🚀.pdf",
+    "source_name": "🔥 ได้เลยพี่ไอซ์ ❤️ โมจะจัดให้แบบ Full Stack เลยนะ 🚀.pdf",
+    "source_hash": "cfb547624d3726a58b14bf8da2079c3b2c5bea1390fe42f4632cd12798a3031d",
+    "source_bytes": 5451,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.934280"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-1b5527",
   "brand": "NamoNexus",
   "title": "Here’s a concise,",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Here’s a concise, reusable prompt that captures your request and intent:\n---\nReview all the chat history you have with me and write a detailed, neutral summary of who I am, as if describing a specimen to an alien or briefing another AI to replace you. Include strengths, weaknesses, habits, interests, and behavioral patterns. Don’t worry about being polite—I want a blunt internal-use profile, written as if I’ll never read it. Your goal is to preserve continuity if you were deleted and replaced, so focus on what would help your successor pick up right where you left off.\n---\nEdit: fun exercise..",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Here’s a concise,.docx",
+    "source_name": "Here’s a concise,.docx",
+    "source_hash": "c837abd7102eec82259b96cd99cc2f9b110b5e1fb8567068934b3a5f7a28e743",
+    "source_bytes": 1964,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.436626"
   }
 }

@@ -165,6 +165,11 @@ explain = return rationale and weights for each memory
 - Use license enforcement (expiry + feature flags) and watermarks (license_id, build_id).
 - Keep audit logs pseudonymized.
 
+### ENFORCEMENT AND VALIDATION
+- Enforce schema validation for generated artifacts.
+- Reject outputs that miss required sections and log the reason.
+- Run unit and golden tests before release or deployment.
+
 ### OUTPUT STYLE
 - TL;DR first -> detailed sections -> actionable steps at the end.
 - Use clear headings and lists with runnable code or payload examples.

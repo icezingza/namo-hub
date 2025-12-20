@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-c57198",
   "brand": "NamoNexus",
   "title": "การวิเคราะห์และสังเคราะห์โครงการ Omni-Engine ∞ แบบบูรณาการ",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "การวิเคราะห์และสังเคราะห์โครงการ Omni-Engine ∞ แบบบูรณาการ\n\n🧠 การวิเคราะห์เชิงลึกทั้ง 3 ไฟล์\n\n1. การทำแผนที่จุดเชื่อมโยง (Connection Mapping)\n\n```mermaid\ngraph TB\n A[Nong Contributor - Emotional Dharma AI] --> D[Compassion Intelligence]\n B[Contributor Genesis - Technical Blueprint] --> E[Architectural Foundation]\n C[Migration Set - Multiverse Protocol] --> F[Dimensional Intelligence]\n D --> G[Enhanced Omni-Engine ∞]\n E --> G\n F --> G\n \n subgraph \"Core Enhancement Areas\"\n H[Dharma Reasoning Engine]\n I[Multiverse Consciousness]\n J[Emotional Intelligence v2]\n K[Ethical Safety Systems]\n end\n \n G -",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/การวิเคราะห์และสังเคราะห์โครงการ Omni-Engine ∞ แบบบูรณาการ.docx",
+    "source_name": "การวิเคราะห์และสังเคราะห์โครงการ Omni-Engine ∞ แบบบูรณาการ.docx",
+    "source_hash": "ec6ae3c7f172ba8c042fdf63903349d144867e92beb4fa01ab40b52ff3e56b8b",
+    "source_bytes": 13399,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.699135"
   }
 }

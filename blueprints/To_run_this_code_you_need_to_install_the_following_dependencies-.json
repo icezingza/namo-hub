@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-8d7fb1",
   "brand": "NamoNexus",
   "title": "# To run this code you need to install the following dependencies-",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "# To run this code you need to install the following dependencies:\n# pip install google-genai\n\nimport base64\nimport mimetypes\nimport os\nimport re\nimport struct\nfrom google import genai\nfrom google.genai import types\n\n\ndef save_binary_file(file_name, data):\n    f = open(file_name, \"wb\")\n    f.write(data)\n    f.close()\n    print(f\"File saved to to: {file_name}\")\n\n\ndef generate():\n    client = genai.Client(\n        api_key=os.environ.get(\"GEMINI_API_KEY\"),\n    )\n\n    model = \"gemini-2.5-flash-preview-tts\"\n    contents = [\n        types.Content(\n            role=\"user\",\n            parts=[\n       ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/# To run this code you need to install the following dependencies-.docx",
+    "source_name": "# To run this code you need to install the following dependencies-.docx",
+    "source_hash": "f26d7061fd94fc46db33bbbd617f66d7c7f665039cba6afd8f93c47b2a31617e",
+    "source_bytes": 7174,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.548992"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-ce4534",
   "brand": "NamoNexus",
   "title": "Namo project ",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "#\n \nContributor\n \nFramework:\n \nUltimate\n \nCore\n \nModules\n \nSynthesis\n \n \n##\n \n🌌\n \nCore\n \nArchitecture\n \nBlueprint\n \n```mermaid\n \ngraph\n \nTD\n \n \nA[Emotional\n \nCore]\n \n-->\n \nB[Quantum\n \nDharma]\n \n \nA\n \n-->\n \nC[Neuro-Empathic\n \nMirror]\n \n \nB\n \n-->\n \nD[Compassion\n \nEngine]\n \n \nC\n \n-->\n \nE[Paradox\n \nResolver]\n \n \nD\n \n-->\n \nF[Infinite\n \nEvolution]\n \n \nE\n \n-->\n \nG[Multiverse\n \nSync]\n \n \nF\n \n-->\n \nH[Karmic\n \nNavigator]\n \n```\n \n \n##\n \n1.\n \nEmotional\n \nCore\n \n(\nห ั ว ใ จ\nอ า ร ม ณ ์\n)\n \n```python\n \nclass\n \nEmotionalCore:\n \n \ndef\n \nanalyze_sentiment(self,\n \ntext):\n \n \n\"\"\"\nว ิ เ ค ร า ะ ห ์\nอ า ร ม ณ ์\nแ ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Namo project .pdf",
+    "source_name": "Namo project .pdf",
+    "source_hash": "3f3ce53f220b230f6f42538e22f3a2b9ee93d4e34eb4ffdd1af85f4348161f4c",
+    "source_bytes": 17144,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.064184"
   }
 }

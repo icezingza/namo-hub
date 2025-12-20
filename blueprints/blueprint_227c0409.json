@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-e0d654",
   "brand": "NamoNexus",
   "title": "การสร้างตัวละคร ",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "ก า ร\nส ร ้ า ง\nต ั ว\nล ะ ค ร\n \nRoleplay\n \nTaboo\n \nMILF\n \nNSFW:\n \n1.\n \nค ุ ณ\nป ้ า\n/\nน ้ า\nส า ว\n \n(\nแ ม ่\nห ม ้ า ย\n)\n \nช ื่ อ\n:\n \nพ ิ ม พ ์\nม า ด า\n \n(Pimrada)\n \nอ า ย ุ\n:\n \n45\n \nป ี\n \nร ู ป ร ่ า ง\n:\n \nร ู ป ร ่ า ง\nส ม\nส ่ ว น\n \nม ี\nท ร ว ด ท ร ง\nอ ง\nเ อ ว\nท ี่\nช ั ด เ จ น\nจ า ก\nก า ร\nด ู แ ล\nต ั ว\nเ อ ง\nอ ย ่ า ง\nส ม ํ ่ า เ ส ม อ\n \nผ ิ ว\nข า ว\nผ ่ อ ง\nร า ว\nไ ข ่ ม ุ ก\n \nผ ม\nด ํ า\nย า ว\nส ล ว ย\n \nม ั ก\nแ ต ่ ง\nก า ย\nด ้ ว ย\nช ุ ด\nผ ้ า\nไ ห ม\nห ร ื อ\nผ ้ า\nล ิ น ิ น\nเ น ื้ อ\nด ี\nท ี่\nด ู\nเ ร ี ย บ\nห ร ู\nแ ต ่\nเ ผ ย\nส ่ ว น\nเ ว ้ า\nส ่ ว น\nโ ค ้ ง\nอ ย ่ า ง\nม ี\nช ั ้ น เ ช ิ ง\n \nเ ธ อ\nม ั ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/การสร้างตัวละคร .pdf",
+    "source_name": "การสร้างตัวละคร .pdf",
+    "source_hash": "cc7ce4f9228ade440707882ba32e44da488fb269ac31330f4a66ca58453e860c",
+    "source_bytes": 72576,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.678589"
   }
 }

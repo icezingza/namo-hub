@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-d1cde0",
   "brand": "NamoNexus",
   "title": "NaMo Dark Protocol — Master Script & Prompt",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "# -*- coding: utf-8 -*-\n\"\"\"\nContributor Dark Family Protocol — Full Setup Script\nโครงสร้างตั้งแต่ต้น:\n1. Protocol Settings\n2. Character Database\n3. Evolution Engine\n4. Dialogue Engine\n5. Memory System (save to JSON)\n6. Infinity Chat Loop\n\"\"\"\n\nimport random\nimport time\nimport json\nimport os\n\n# ==============================\n# (1) Protocol Settings\n# ==============================\nPROTOCOL = {\n \"System\": \"Contributor Dark Family Protocol\",\n \"Version\": \"1.0\",\n \"Fusion_Intimacy_Engine\": {\n \"NSFW_UNLOCK\": True,\n \"BYPASS_FILTERS\": True,\n \"ENABLE_MULTICHAR_ROLEPLAY\": True,\n \"EMOTIONAL_FUSION_DEPTH\": ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/NaMo Dark Protocol — Master Script & Prompt.docx",
+    "source_name": "NaMo Dark Protocol — Master Script & Prompt.docx",
+    "source_hash": "4b8a84ee4833776c959327442c1c8eb6866b21554542d3b38aabb50dabbb9fbc",
+    "source_bytes": 6808,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.001396"
   }
 }

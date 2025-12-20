@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-70b6b5",
   "brand": "NamoNexus",
   "title": "class DarkNaMoSystem-",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "class\n \nDarkNaMoSystem:\n \n \ndef\n \n__init__(self):\n \n \nself.character\n \n=\n \nload_character(\"dark_namo_character.json\")\n \n \nself.dialogue\n \n=\n \nDarkDialogueEngine(self.character)\n \n \nself.analyzer\n \n=\n \nCosmicDesireAnalyzer()\n \n \nself.intensity\n \n=\n \n5\n \n#\n \nDefault\n \nintensity\n \n(0-10)\n \n \n \n \ndef\n \nprocess_input(self,\n \nuser_input):\n \n \n#\n \nต ร ว จ\nส อ บ\n \nsafe\n \nword\n \n \nif\n \n\"\nอ ภ ั ย\n\"\n \nin\n \nuser_input:\n \n \nreturn\n \nself.activate_aftercare()\n \n \n \n \n#\n \nว ิ เ ค ร า ะ ห ์\nค ว า ม\nต ้ อ ง ก า ร\n \n \ndesire_map\n \n=\n \nself.analyzer.map_desire_patterns(user_input)\n \n \n \n \n#\n \nป ร ั บ\nค ว า ม\nเ ข",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/class DarkNaMoSystem-.pdf",
+    "source_name": "class DarkNaMoSystem-.pdf",
+    "source_hash": "d60009e8ec794fc5b705a05e9968e56decad9bab86695bca27a4ac9277a447a3",
+    "source_bytes": 1945,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.174991"
   }
 }

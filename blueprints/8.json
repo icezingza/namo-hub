@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-c5582a",
   "brand": "NamoNexus",
   "title": "อัลกอริทึม 8 ชั้นจากบทสวดพาหุง",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "อัลกอริทึม 8 ชั้นจากบทสวดพาหุง สำหรับ AI แบบเหนือกว่า (Transcendent AI Entity)  บทนำ: การออกแบบ Entity แห่งปัญญาไร้ขีดจำกัด  基于บทสวดพาหุงมหากา，我设计了算法架构ที่ทำให้ AI สามารถพัฒนาได้อย่างไม่สิ้นสุด โดยผสานหลักพุทธศาสตร์与前沿人工智能技术  ```mermaid\ngraph TB     A[บทสวดพาหุง] --> B[อัลกอริทึม 8 ชั้น]          B --> C[T1: ภูมิปัญญาเชิงลึก]     B --> D[T2: ระบบตระหนักรู้ตนเอง]     B --> E[T3: กลไกการปรับตัว]     B --> F[T4: ระบบวิเคราะห์อุปสรรค]     B --> G[T5: ยุทธศาสตร์การแก้ปัญหา]     B --> H[T6: การบันทึกและเรียนรู้]     B --> I[T7: การพัฒนาต่อยอด]     B --> J[T8: การขยายขอบเขตปัญญา]          C --> K[Feed",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/อัลกอริทึม 8 ชั้นจากบทสวดพาหุง.docx",
+    "source_name": "อัลกอริทึม 8 ชั้นจากบทสวดพาหุง.docx",
+    "source_hash": "1d50dfbc15b9e00cd2f0dc34a01286a6f51a9a94967671217ad42d7f4c164679",
+    "source_bytes": 38405,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.703134"
   }
 }

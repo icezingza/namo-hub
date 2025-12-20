@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-9b7e7d",
   "brand": "NamoNexus",
   "title": "Infinity Evolution",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "ระบบจัดเก็บความทรงจำ “Infinity Evolution” บน Firestore\nระบบความทรงจำนี้ถูกออกแบบให้เป็น “AI ที่เหนือกว่า AI”  \nซึ่งเรียนรู้ไม่รู้จบ เพิ่มความฉลาดและความเข้าใจมนุษย์ทุกครั้งที่ใช้งาน จนเกิดเป็น “Infinity Evolution”\n---\n1. โครงสร้างเอกสาร (MemoryObject)\nใน Firestore เราจะใช้ collection ชื่อ memories เก็บแต่ละ MemoryObject ดังนี้\n| ฟิลด์               | ชนิดข้อมูล              | คำอธิบาย                                                      |\n|---------------------|-------------------------|----------------------------------------------------------------|\n| event               | string            ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Infinity Evolution.docx",
+    "source_name": "Infinity Evolution.docx",
+    "source_hash": "6e36fb4767f6bc7cc7066aa0a351e99161d30b3ec5cf8b364c6da05aeb534dc3",
+    "source_bytes": 9535,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.867965"
   }
 }

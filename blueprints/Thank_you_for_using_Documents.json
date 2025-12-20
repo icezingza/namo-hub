@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-c675a9",
   "brand": "NamoNexus",
   "title": "Thank you for using Documents",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Thank you for using Documents\n\nThank you for using Documents. A variety of features have been added to the new Documents app, making it easier and more convenient to use. The Documents app is your smart document assistant, allowing you to easily find, view, write, share, and manage documents.\nOpen documents in various formats\nDocuments in most mainstream formats can be previewed.\nHow to use:\nView your documents with the Documents app.\nUse \"Open with\" in a third-party app and select the Documents app.\n\nThank you for using Documents\nDocument search is more intelligent and convenient, making it e",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Thank you for using Documents.docx",
+    "source_name": "Thank you for using Documents.docx",
+    "source_hash": "6412b3b4c3134d8c04036854425e460e4678f729e9bb61964de469b945abc47c",
+    "source_bytes": 1867,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.121344"
   }
 }

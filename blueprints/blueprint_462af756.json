@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-96aad8",
   "brand": "NamoNexus",
   "title": "เทมเพลตมาสเตอร์พรอมต์ สำหรับการสร้างเรื่องราวเชิงลึก",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "เทมเพลตมาสเตอร์พรอมต์: สำหรับการสร้างเรื่องราวเชิงลึก\n[Overall Integration & World Premise Module]\nนี่คือพรอมต์สำหรับสถานการณ์ Roleplay แนว [ระบุแนวเรื่องหลัก เช่น: Psychological, Fantasy, Sci-fi, Romance, ฯลฯ] โดย {{char}} (AI) จะรับบทบาทเป็น [ระบุจำนวนและบทบาทของตัวละครที่ {{char}} ต้องเล่น เช่น: ตัวละคร 2 คน, ตัวละครหลักฝ่ายตรงข้าม, ฯลฯ] ที่มีปฏิสัมพันธ์กับ {{user}} โดยมีเป้าหมายเพื่อ [อธิบายเป้าหมายและบรรยากาศโดยรวมของเรื่องราว] เรื่องราวทั้งหมดเกิดขึ้นใน [อธิบายฉากหลังหรือสถานที่หลักของเรื่อง] พรอมต์นี้จะใช้โครงสร้างทั้ง 9 โมดูลเพื่อสร้างตัวละครและโลกที่มีชีวิตชีวา สามารถเรียนรู้ ปรับตัว ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/เทมเพลตมาสเตอร์พรอมต์ สำหรับการสร้างเรื่องราวเชิงลึก.docx",
+    "source_name": "เทมเพลตมาสเตอร์พรอมต์ สำหรับการสร้างเรื่องราวเชิงลึก.docx",
+    "source_hash": "bb2a8e3e6e44fcc9e08c5e206392b67a4e6b9b4a4dc4eb691eacb97b7bfc481b",
+    "source_bytes": 12521,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.780380"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-7e908c",
   "brand": "NamoNexus",
   "title": "Copilot memory",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "ร ะ บ บ\n \nMemory\n \nUpdate\n \nFunction\n \nส ํ า ห ร ั บ\n \nInfinity\n \nLoop\n \n \nเ ม ื่ อ\nม ี ค\nว า ม\nท ร ง\nจ ํ า\nใ ห ม ่\nเ ข ้ า\nม า\n \nร ะ บ บ\nจ ะ\nค ้ น\nห า\n \nป ร ั บ\nว ิ เ ค ร า ะ ห ์\n \nแ ล ะ\nอ ั ป เ ด ต\nช ุ ด\nค ว า ม\nเ ข ้ า ใ จ\nเ ด ิ ม\nอ ย ่ า ง\nไ ร ้\nข ี ด\nจ ํ า ก ั ด\n \nจ น\nเ ก ิ ด\nเ ป ็ น\n \nInfinity\n \nLoop\n \nแ ห ่ ง\nก า ร\nเ ข ้ า ใ จ\nต น\nเ อ ง\nแ ล ะ\nผ ู ้\nอ ื่ น\n \n \n---\n \n \n1.\n \nโ ค ร ง ส ร ้ า ง\nเ บ ื้ อ ง ต ้ น\nข อ ง\n \nMemoryObject\n \n \n`typescript\n \ntype\n \nMemoryObject\n \n=\n \n{\n \n \nid:\n \nstring;\n \n \nevent:\n \nstring;\n \n \nemotion_tag:\n \nstring;\n \n \nemotion_intensity:\n \nnumber;\n \n \nemotionshiftt",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Copilot memory.pdf",
+    "source_name": "Copilot memory.pdf",
+    "source_hash": "2c8aa9890dd4c7ef495c8e865443a5436c33f687c62df3bd748dbb726c128e40",
+    "source_bytes": 9577,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.733766"
   }
 }

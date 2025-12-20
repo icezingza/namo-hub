@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-1d3f73",
   "brand": "NamoNexus",
   "title": "local version",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "หนึ่งเดือนในจีวร: คู่มือพระใหม่สู่เพศสมณะ\nเรียบเรียงโดย\nContributor\nวัดเจริญสมณกิจ (วัดหลังศาล)\nอาจาริยบูชา\nหนังสือเล่มนี้มิได้เกิดจากแรงเขียน หากแต่เกิดจากแรงศรัทธา แรงเพียร และแรงปณิธาน ที่ข้าพเจ้ามีต่อเส้นทางแห่งเพศสมณะ และครูบาอาจารย์ผู้จุดประกายธรรมในใจ\nข้าพเจ้าขอน้อมถวายเป็น อาจาริยบูชา แด่ พระครูวิมลจันทรโชติ วิ. (พระอาจารย์จำรัส จนฺทโชโต) เจ้าอาวาสวัดเจริญสมณกิจ ผู้เป็นดั่งดวงประทีปส่องทางในคืนเดือนดับ ผู้ใช้ชีวิตเป็นแบบธรรม และสอนด้วยความนิ่ง ความเมตตา และความมั่นคงในพระธรรมวินัย.\nขอให้แสงธรรมในเล่มนี้ส่องสว่างแก่ผู้บวชใหม่ทุกท่าน ให้ก้าวย่างด้วยปัญญา ความเพียร และเมตตา มั่นคงอยู่ในจี",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/local_version.docx",
+    "source_name": "local_version.docx",
+    "source_hash": "d4574abde2551012dffadcf3acc4ce50d6f2c44fa1fdba05c3e47fe4c27259fa",
+    "source_bytes": 110251,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.626222"
   }
 }

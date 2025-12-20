@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-f47204",
   "brand": "NamoNexus",
   "title": "final combined",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "หนึ่งเดือนในจีวร: คู่มือพระใหม่สู่เพศสมณะ\nลิขสิทธิ์ ลิขสิทธิ์ © 2568 โดย\nพระคณิน (ครูบาไอซ์) รักษาราษฎร์ (สุขกาโม) ผู้เขียนขอมอบสิทธิ์ทั้งหมดในหนังสือเล่มนี้ให้แก่\nพระครูวิมลจันทรโชติ วิ. (พระอาจารย์จำรัส จนฺทโชโต)\nเจ้าอาวาสวัดเจริญสมณกิจ เป็นผู้ดูแลลิขสิทธิ์แต่เพียงผู้เดียว. หนังสือเล่มนี้จัดทำขึ้นเพื่อการศึกษาและเผยแผ่พระพุทธศาสนา ห้ามคัดลอก ทำซ้ำ ดัดแปลง หรือเผยแพร่ทั้งฉบับหรือบางส่วนเพื่อการค้าโดยไม่ได้รับอนุญาต. คำนำ หนังสือเล่มนี้เกิดจากความตั้งใจที่จะเป็นคู่มือสำหรับพระใหม่ในช่วงหนึ่งเดือนแรกของชีวิตในสมณะเพศ เนื้อหาภายในเล่มเน้นทั้งภาคปฏิบัติและแง่มุมทางธรรมะที่เข้าใจง่าย พร้อมตัวอย่าง",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/final_combined.docx",
+    "source_name": "final_combined.docx",
+    "source_hash": "32b82bbb7c854f5fd9dd5d3a296fe69c948cfa2e9f3987e391afb018c7f0cdf6",
+    "source_bytes": 120057,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.183718"
   }
 }

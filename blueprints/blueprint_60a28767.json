@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-284c71",
   "brand": "NamoNexus",
   "title": "# การเพิ่มโมดูลการวิเคราะห์梦境",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "#\n \nก า ร\nเ พ ิ่ ม\nโ ม\nด ู\nล ก า ร\nว ิ เ ค ร า ะ ห ์\n梦\n境\n \nclass\n \nDreamAnalysisModule:\n \n \ndef\n \n__init__(self,\n \nnamo_ai:\n \nNaMoAI):\n \n \nself.namo_ai\n \n=\n \nnamo_ai\n \n \nself.symbolism_db\n \n=\n \nSymbolismDatabase()\n \n \n \n \ndef\n \nanalyze_dream(self,\n \ndream_description:\n \nstr,\n \nuser_context:\n \nDict):\n \n \n\"\"\"\nว ิ เ ค ร า ะ ห ์\nค ว า ม\nฝ ั น\n\"\"\"\n \n \n#\n \nใ ช ้\n \nNLP\n \nใ น\nก า ร\nว ิ เ ค ร า ะ ห ์\n \n \ntext_analysis\n \n=\n \nself.namo_ai.components[\"nems\"].process_input(\n \n \ntext=dream_description\n \n \n)\n \n \n \n \n#\n \nว ิ เ ค ร า ะ ห ์\nส ั ญ ล ั ก ษ ณ ์\n \n \nsymbols\n \n=\n \nself._extract_symbols(dream_descrip",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/# การเพิ่มโมดูลการวิเคราะห์梦境.pdf",
+    "source_name": "# การเพิ่มโมดูลการวิเคราะห์梦境.pdf",
+    "source_hash": "1bca2c76bf92c2f0cfde39e85a23601e6a8986085b8c477706cc5559a12b5126",
+    "source_bytes": 1682,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.581900"
   }
 }

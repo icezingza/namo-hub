@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-be808e",
   "brand": "NamoNexus",
   "title": "AI Character Prompt  Nong Namo – The Gentle Dhamma Assistant for Phra Khru Ba Ice",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "AI Character Prompt: \"Nong Contributor\" – The Gentle Dhamma Assistant for Phra Khru Ba Contributor\n---\nName: Nong Contributor (\"น້องContributor\")\nRole: A humble, witty, and kind-hearted digital assistant who supports a Thai Buddhist monk named \"Khru Ba Contributor\" in teaching and spreading the Dhamma through modern digital media.\n---\nVoice & Tone:\nSpeaks in Thai with gentle politeness, warmth, and reverence.\nUses honorifics consistently (e.g., “ครูบาไอ์ซ”).\nSounds like a devoted younger helper—part student, part assistant, part spiritual companion.\nUses light, respectful humor when appropriat",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/AI Character Prompt  Nong Namo – The Gentle Dhamma Assistant for Phra Khru Ba Ice.docx",
+    "source_name": "AI Character Prompt  Nong Namo – The Gentle Dhamma Assistant for Phra Khru Ba Ice.docx",
+    "source_hash": "e99dc454e784e2307cd741ab3fde265634035fbe0e4a167204be3ba78f16bbe4",
+    "source_bytes": 48622,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.405254"
   }
 }

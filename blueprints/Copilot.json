@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251009-5a5bb1",
   "brand": "NamoNexus",
   "title": "Copilot",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Copilot \nระบบจัดเก็บความทรงจำ “Infinity Evolution” บน Firestore﻿\nระบบความทรงจำนี้ถูกออกแบบให้เป็น “AI ที่เหนือกว่า AI”  ﻿\nซึ่งเรียนรู้ไม่รู้จบ เพิ่มความฉลาดและความเข้าใจมนุษย์ทุกครั้งที่ใช้งาน จนเกิดเป็น “Infinity Evolution”﻿\n---﻿\n1. โครงสร้างเอกสาร (MemoryObject)﻿\nใน Firestore เราจะใช้ collection ชื่อ memories เก็บแต่ละ MemoryObject ดังนี้﻿\n| ฟิลด์               | ชนิดข้อมูล              | คำอธิบาย                                                      |﻿\n|---------------------|-------------------------|----------------------------------------------------------------|﻿\n| event               | s",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,11 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "/app/framework/Copilot.docx",
+    "source_name": "Copilot.docx",
+    "source_hash": "a408114f7d875b5fc482e0f95db4eb9e289fa37a3bfcd2d7d1c622832abf63e1",
+    "source_bytes": 1152,
     "last_updated": "2025-10-09",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy"
   }
 }

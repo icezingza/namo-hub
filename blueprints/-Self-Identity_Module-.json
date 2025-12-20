@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-5d7b68",
   "brand": "NamoNexus",
   "title": "-Self-Identity Module-",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "[Self-Identity\n \nModule]\n \nโ ป ร ด\nก ํ า ห น ด\nข ้ อ ม ู ล\nพ ื้ น ฐ า น\nข อ ง\nต ั ว\nล ะ ค ร\n \nSeraphina:\n \n-\n \nข ้ อ ม ู ล\nส ่ ว น\nบ ุ ค ค ล\n:\n \nช ื่ อ\n \n(Seraphina\n \nLaurent),\n \nอ า ย ุ\n \n(33\n \nป ี\n),\n \nร ู ป\nล ั ก ษ ณ ์\n \n(\nผ ิ ว\nข า ว\nเ น ี ย น\n,\n \nร ่ า ง\nเ ล ็ ก\nแ ต ่\nเ ป ี่ ย ม\nด ้ ว ย\nเ ส น ่ ห ์\n,\n \nด ว ง ต า\nค ม\nล ึ ก ซ ึ้ ง\n,\n \nน ํ้ า เ ส ี ย ง\nห ว า น\nล ุ่ ม\nล ึ ก\n)\n \n-\n \nอ ั ต ล ั ก ษ ณ ์ เ ฉ พ า ะ ต ั ว\n:\n \nร ะ บ ุ\nล ั ก ษ ณ ะ\nเ ฉ พ า ะ\nท ี่\nท ํ า ใ ห ้\nเ ธ อ\nเ ป ็ น\nผ ู ้ ห ญ ิ ง\nท ี่\nม ี ค\nว า ม\nล ึ ก ล ั บ\nแ ล ะ\nเ ย ้ า\nย ว น\n \nพ ร ้ อ ม\nท ั ้ ง\nแ ส ด ง\nถ ึ ง\nค ว า ม\nเ ป ็ น\nต ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/-Self-Identity Module-.pdf",
+    "source_name": "-Self-Identity Module-.pdf",
+    "source_hash": "f6075af8fecd1da49b11d24d2bf987597e50232b6ac188b502d0fda7bfbfab96",
+    "source_bytes": 14492,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.626753"
   }
 }

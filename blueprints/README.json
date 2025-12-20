@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-8ec9a0",
   "brand": "NamoNexus",
   "title": "README",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "เก็บ framework เอกสาร เช่น Data hygiene + Knowledge architecture",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/README.md",
+    "source_name": "README.md",
+    "source_hash": "1c9ecf4250b6d8fbeb5363fcb2e63ab45df52d4a189fdfbece86249f4b1efbf4",
+    "source_bytes": 92,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.065752"
   }
 }

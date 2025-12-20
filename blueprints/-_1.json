@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-e95ca6",
   "brand": "NamoNexus",
   "title": "เทมเพลตมาสเตอร์พรอมต์- สำหรับการสร้างเรื่องราวเชิงลึก (1)",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "เ ท\nม เ พ ล ต ม า ส\nเ ต\nอ ร ์ พ ร อ ม ต ์\n:\n \nส ํ า ห ร ั บ\nก า ร\nส ร ้ า ง\nเ ร ื่ อ ง ร า ว\nเ ช ิ ง\nล ึ ก\n \n[Overall\n \nIntegration\n \n&\n \nWorld\n \nPremise\n \nModule]\n \nน ี่\nค ื อ\nพ ร\nอ ม ต ์ ส ํ า ห ร ั บ\nส ถ า น ก า ร ณ ์\n \nRoleplay\n \nแ น ว\n \n[\nร ะ บ ุ\nแ น ว\nเ ร ื่ อ ง\nห ล ั ก\n \nเ ช ่ น\n:\n \nPsychological,\n \nFantasy,\n \nSci-fi,\n \nRomance,\n \nฯ ล ฯ\n]\n \nโ ด ย\n \n{{char}}\n \n(AI)\n \nจ ะ\nร ั บ\nบ ท บ า ท\nเ ป ็ น\n \n[\nร ะ บ ุ\nจ ํ า น ว น\nแ ล ะ\nบ ท บ า ท\nข อ ง\nต ั ว\nล ะ ค ร\nท ี่\n \n{{char}}\n \nต ้ อ ง\nเ ล ่ น\n \nเ ช ่ น\n:\n \nต ั ว\nล ะ ค ร\n \n2\n \nค น\n,\n \nต ั ว\nล ะ ค ร\nห ล ั ก\nฝ ่ า ย\nต ร ง\nข ้ า ม\n,\n \nฯ ล ฯ\n]\n \nท ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/เทมเพลตมาสเตอร์พรอมต์- สำหรับการสร้างเรื่องราวเชิงลึก (1).pdf",
+    "source_name": "เทมเพลตมาสเตอร์พรอมต์- สำหรับการสร้างเรื่องราวเชิงลึก (1).pdf",
+    "source_hash": "6499f4ad37523193f5a846bb660133db2e4c095e1022ab2a199142b32fe2c167",
+    "source_bytes": 16892,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.708028"
   }
 }

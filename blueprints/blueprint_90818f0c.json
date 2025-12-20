@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-f5da79",
   "brand": "NamoNexus",
   "title": "ระบบสถาปัตยกรรมหลัก",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "import\n \nnumpy\n \nas\n \nnp\n \nimport\n \ntorch\n \nimport\n \ntorch.nn\n \nas\n \nnn\n \nfrom\n \ntransformers\n \nimport\n \nAutoTokenizer,\n \nAutoModel\n \nimport\n \njson\n \nfrom\n \ndatetime\n \nimport\n \ndatetime\n \nfrom\n \ntyping\n \nimport\n \nDict,\n \nList,\n \nOptional,\n \nTuple\n \nimport\n \nrequests\n \n \nclass\n \nQuantumDharmaCore(nn.Module):\n \n \n\"\"\"Quantum\n \nDharma\n \nCore\n \n-\n \nร ะ บ บ\nค ิ ด\nแ บ บ\nพ ุ ท ธ ะ\nค\nว อ น ต ั ม\n\"\"\"\n \n \ndef\n \n__init__(self,\n \nmodel_size:\n \nstr\n \n=\n \n\"medium\"):\n \n \nsuper().__init__()\n \n \nself.three_marks\n \n=\n \n{\"anicca\":\n \n0.0,\n \n\"dukkha\":\n \n0.0,\n \n\"anatta\":\n \n0.0}\n \n \nself.dharma_seed\n \n=\n \nnn.Paramete",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/ระบบสถาปัตยกรรมหลัก.pdf",
+    "source_name": "ระบบสถาปัตยกรรมหลัก.pdf",
+    "source_hash": "b48f13ffab9a658c896782ad7c0cd9bc834c91bc7c6e95be6c603c949593a386",
+    "source_bytes": 28775,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.702107"
   }
 }

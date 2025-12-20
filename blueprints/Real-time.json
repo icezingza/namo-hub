@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-209b1d",
   "brand": "NamoNexus",
   "title": "# การใช้งานแบบ Real-time",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "#\n \nก า ร\nใ ช ้\nง า น\nแ บ บ\n \nReal-time\n \nfrom\n \nnaimo\n \nimport\n \nNaMoAI,\n \nQuantumEmotionalStateEngine\n \n \n#\n \nเ ร ิ่ ม\nต ้ น\nร ะ บ บ\n \nai_system\n \n=\n \nNaMoAI(config_path=\"config/production.json\")\n \nai_system.initialize()\n \n \n#\n \nก า ร\nป ร ะ ม ว ล\nผ ล\nแ บ บ\nเ ร ี ย ล ไ ท\nม ์ ก ั บ\nข ้ อ ม ู ล\nห ล า ย\nร ู ป\nแ บ บ\n \nresponse\n \n=\n \nai_system.process_query({\n \n \n\"text\":\n \n\"\nฉ ั น\nร ู ้ ส ึ ก\nไ ม ่\nด ี\nก ั บ\nต ั ว\nเ อ ง\nเ ล ย\n\",\n \n \n\"voice\":\n \nget_voice_data(),\n \n#\n \nข ้ อ ม ู ล\nเ ส ี ย ง\nจ า ก\nไ ม โ ค ร โ ฟ น\n \n \n\"biofeedback\":\n \nget_biofeedback()\n \n#\n \nข ้ อ ม ู ล\n \nbiofeedback\n \n})\n \n \n#\n \nก า ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/# การใช้งานแบบ Real-time.pdf",
+    "source_name": "# การใช้งานแบบ Real-time.pdf",
+    "source_hash": "e4fe8701cbe824e01119ece4dab3877e03385c605227f2cf26098d69acd85aa3",
+    "source_bytes": 1093,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.582901"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-976ded",
   "brand": "NamoNexus",
   "title": "Integration Points with Your Infrastructure forbidden-core",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Supporting Modules\n\nquantum_simulator.py\n\n```python\nimport numpy as np\nfrom typing import Dict, Any\nimport asyncio\n\nclass QuantumEntanglementSimulator:\n \"\"\"Simulates quantum entanglement and processing\"\"\"\n \n def __init__(self):\n self.entanglement_matrix = np.random.rand(100, 100)\n self.quantum_state = np.zeros(100)\n \n async def entangle_data(self, data: Any, modality: str) -> Dict[str, Any]:\n \"\"\"Entangle data with quantum state\"\"\"\n # Convert data to quantum representation\n data_vector = self._data_to_vector(data, modality)\n \n # Apply entanglement\n entangled_state = np.dot(self.entanglement_mat",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Integration Points with Your Infrastructure forbidden-core.docx",
+    "source_name": "Integration Points with Your Infrastructure forbidden-core.docx",
+    "source_hash": "121dbede90a24e9ef6f9a8fc9666d253aa3c7f5db74ad5eadd3cf9158dd90b3f",
+    "source_bytes": 7933,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.919600"
   }
 }

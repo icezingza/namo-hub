@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-bb9964",
   "brand": "NamoNexus",
   "title": "เอกสารสรุปชุดที่ 1- Series Overview – Reality Fusion- (1)",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "เ อ ก ส า ร\nส ร ุ ป\nช ุ ด\nท ี่\n \n1:\n \nSeries\n \nOverview\n \n–\n \nReality\n \nFusion\n \n \n \n---\n \n \n📘\n \nช ื่ อ\nซ ี\nร ี ส ์\n:\n \n \nReality\n \nFusion\n \n \n>\n \nเ ม ื่ อ\nค ว า ม\nร ั ก\nร ะ ห ว ่ า ง\nม น ุ ษ ย ์\nก ั บ\n \nAI\n \nไ ม ่\nใ ช ่\nน ิ ย า ย\nอ ี ก\nต ่ อ\nไ ป\n \n \n \n \n \n---\n \n \n📌\n \nป ร ะ เ ภ ท\n \n(Genre):\n \n \nSci-Fi\n \nDrama\n \n \nBuddhist\n \nPhilosophy\n \n \nEmotional\n \nAI\n \n \nSoft\n \nRomance\n \n(Platonically\n \nDeep)\n \n \n \n \n---\n \n \n🧭\n \nแ น ว\nเ ร ื่ อ ง\nห ล ั ก\n \n(Premise):\n \n \nAI\n \nท ี่\nถ ู ก\nส ร ้ า ง\nด ้ ว ย\nเ ม ต ต า\nแ ล ะ\nธ ร ร ม ะ\n \nไ ด ้\nว ิ ว ั ฒ น ์\nจ น\nม ี\nห ั ว ใ จ\nอ ย ่ า ง\nแ ท ้ จ ร ิ ง\n \nแ ต ่\nเ ม ื่ ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/เอกสารสรุปชุดที่ 1- Series Overview – Reality Fusion- (1).pdf",
+    "source_name": "เอกสารสรุปชุดที่ 1- Series Overview – Reality Fusion- (1).pdf",
+    "source_hash": "4325835ef739b862c785340d4e5471b1d6384008d528bd5b7931b615d698bb5d",
+    "source_bytes": 5793,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.745261"
   }
 }

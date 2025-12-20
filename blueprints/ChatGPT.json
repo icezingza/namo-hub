@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-00554d",
   "brand": "NamoNexus",
   "title": "ChatGPT ตัดสินใจ",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "คอมเม้นท์ว่า \"\"ChatGPT ตัดสินใจ\"\" ผมจะส่งบทความนี้รูปแบบเว็บให้ทางแชท!\n(1/8) คำสั่งที่ 1 : องค์ประกอบของการตัดสินใจ\nคำสั่งนี้จะช่วยให้คุณเห็นองค์ประกอบการตัดสินใจ ผ่าน 6 ขั้นตอน ตาม DECIDE Framework\nให้คุณเป็นผู้เชี่ยวชาญด้านการตัดสินใจ ให้คุณช่วยให้ข้อมูลประกอบการตัดสินใจเรื่อง {ระบุหัวข้อที่ต้องการ} โดยใช้ DECIDE Framework\n(2/8) คำสั่งที่ 2 : ออกไอเดียหาต้นตอของปัญหา\nคำสั่งนี้ช่วยสร้างไอเดีย เพื่อกำหนดเป็นโจทย์ สำหรับการตัดสินใจของคุณ\nให้คุณเป็นผู้เชี่ยวชาญด้านการตัดสินใจ ช่วยออกไอเดียต้นตอของปัญหา {ระบุหัวข้อที่ต้องการ} ที่เป็นไปได้ และระบุแนวทางการกำหนดโจทย์เพื่อการตัดสินใจ\n(3/8) คำสั่งที่",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/ChatGPT ตัดสินใจ.docx",
+    "source_name": "ChatGPT ตัดสินใจ.docx",
+    "source_hash": "87e111a1a6529474370a78fbabe973ff23bc4625a6b594561383d69e38945f0c",
+    "source_bytes": 4442,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.409945"
   }
 }

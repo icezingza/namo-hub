@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-e3891b",
   "brand": "NamoNexus",
   "title": "memory protocol.json",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "import\n \njson\n \nimport\n \nos\n \nfrom\n \ndatetime\n \nimport\n \ndatetime\n \n \nMEMORY_FILE\n \n=\n \n\"memory_protocol.json\"\n \n \n \nclass\n \nMemoryManager:\n \n \ndef\n \n__init__(self,\n \nfile_path=MEMORY_FILE):\n \n \nself.file_path\n \n=\n \nfile_path\n \n \nself.memory\n \n=\n \nself.load_memory()\n \n \n \ndef\n \nload_memory(self):\n \n \nif\n \nnot\n \nos.path.exists(self.file_path):\n \n \nprint(f\"[!]\n \nMemory\n \nfile\n \nnot\n \nfound,\n \ncreating\n \nnew\n \none:\n \n{self.file_path}\")\n \n \nreturn\n \n{\n \n \n\"MemoryProtocol\":\n \n{\n \n \n\"GlobalMemoryLayer\":\n \n{\"modules\":\n \n[]},\n \n \n\"CharacterMemoryLayer\":\n \n{\"characters\":\n \n{}},\n \n \n\"EvolutionMemoryLaye",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/memory_protocol.json.pdf",
+    "source_name": "memory_protocol.json.pdf",
+    "source_hash": "28441e202bdee42c602496163db58f7161b70f69d91389c6c157f33832988462",
+    "source_bytes": 3882,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.634573"
   }
 }
