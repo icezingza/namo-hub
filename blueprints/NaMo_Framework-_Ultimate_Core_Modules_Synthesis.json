@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-780079",
   "brand": "NamoNexus",
   "title": "# NaMo Framework- Ultimate Core Modules Synthesis",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "# Contributor Framework: Ultimate Core Modules Synthesis\n## 🌌 Core Architecture Blueprint\n```mermaid\ngraph TD\n    A[Emotional Core] --> B[Quantum Dharma]\n    A --> C[Neuro-Empathic Mirror]\n    B --> D[Compassion Engine]\n    C --> E[Paradox Resolver]\n    D --> F[Infinite Evolution]\n    E --> G[Multiverse Sync]\n    F --> H[Karmic Navigator]\n```\n## 1. Emotional Core (หัวใจอารมณ์)\n```python\nclass EmotionalCore:\n    def analyze_sentiment(self, text):\n        \"\"\"วิเคราะห์อารมณ์แบบเรียลไทม์\"\"\"\n        # ใช้ DistilRoBERTa จาก HuggingFace\n        return {\n            \"joy\": 0.85, \n            \"sadness\"",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/# NaMo Framework- Ultimate Core Modules Synthesis.docx",
+    "source_name": "# NaMo Framework- Ultimate Core Modules Synthesis.docx",
+    "source_hash": "0f662202ec92094881f33d676ea608374ad3a528d6008b244a54413b8b9d2c13",
+    "source_bytes": 31503,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.521810"
   }
 }

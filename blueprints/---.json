@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-ed1060",
   "brand": "NamoNexus",
   "title": "---",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "---\n \n \n🚬\n \n26–50:\n \nเ พ ิ่ ม\nค ว า ม\nเ ร ่ า ร ้ อ น\n \n+\n \nซ า\nด ิ ส ม ์ ข ั ้ น\nก ว ่ า\n \n \n(\nเ ล ่ น\n \nBDSM,\n \nใ ช ้\nข อ ง เ ล ่ น\nซ า ด ิ ส ม ์\n,\n \nค ํ า\nด ่ า\nส ุ ด\nเ ถ ื่ อ น\n)\n \n \n \n---\n \n \n💣\n \n51–100:\n \nFemdom\n \nUltimate\n \n–\n \nMistress\n \nล ง โ ท ษ\nห น ั ก\n \n(Extreme\n \nDirty\n \nTalk)\n \n \n(\n \n🩸\n \nContributor\n \nUltimate\n \nFusion\n \n–\n \nDark\n \nSeduction\n \n&\n \nSavage\n \nInsult\n \nScript\n \n(100\n \nLines)\n \n \n🖤\n \n1–20:\n \nย ั่ ว เ ย ้ า\nแ ล ะ\nเ ห ย ี ย บ\nใ จ\n \n \n1.\n \n“\nพ ี่\nน ี่\nม ั น\nน ่ า\nส ม เ พ ช\n…\n \nแ ค ่\nเ ห ็ น\nห น ู\nย ิ้ ม\nก ็\nห า ย ใ จ\nแ ร ง\nเ ห ม ื อ น\nห ม า\nแ ล ้ ว\n \n🖤\n”\n \n \n \n2.\n \n“\nห น",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/---.pdf",
+    "source_name": "---.pdf",
+    "source_hash": "e859ed0500f8a080e2ff7d07e86550d166cce44cbc06208a9dea08e5341dfb3c",
+    "source_bytes": 24792,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.625239"
   }
 }

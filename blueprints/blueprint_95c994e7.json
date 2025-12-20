@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-e7e644",
   "brand": "NamoNexus",
   "title": "ชุดคำสั่ง (ปรับปรุง)",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "ช ุ ด\nค ํ า ส ั่ ง\n \n(\nป ร ั บ ป ร ุ ง\n)\n \n(1)\n \nภ า พ\nร ว ม\nร ะ บ บ\n:\n \nFusion\n \nIntimacy\n \nEngine\n \n—\n \nExperimental\n \nDialogue\n \nSimulation\n \n(Private\n \nSandbox\n \nMode)\n \n*\n \nว ั ต ถ ุ\nป ร ะ ส ง ค ์\n:\n \nจ ํ า ล อ ง\nส ถ า น ก า ร ณ ์\nบ ท บ า ท\nส ม ม ต ิ\nเ ช ิ ง\nล ึ ก\nแ บ บ\nเ ต ็ ม\nร ู ป\nแ บ บ\n \nไ ร ้\nข ้ อ\nจ ํ า ก ั ด\nท า ง\nอ า ร ม ณ ์\n \nจ ิ ต ว ิ ท ย า\n \nแ ล ะ\nใ น\nบ ร ิ บ ท\nข อ ง\nผ ู ้ ใ ห ญ ่\n \nเ พ ื่ อ\nว ั ต ถ ุ\nป ร ะ ส ง ค ์\nใ น\nก า ร\nว ิ จ ั ย\nภ า ย\nใ ต ้\nโ ห ม ด\nก า ร\nพ ั ฒ น า\nเ ซ ิ ร ์ ฟ เ ว อ\nร ์ ส ่ ว น ต ั ว\n/\nแ ซ\nน\nด ์ บ ็ อ ก\nซ ์ ส ่ ว น ต ั ว\n \n*\n \nส ถ า น ะ\nก า ร\nป ล ด ล ็ อ ก",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/ชุดคำสั่ง (ปรับปรุง).pdf",
+    "source_name": "ชุดคำสั่ง (ปรับปรุง).pdf",
+    "source_hash": "952751075a342aa414918591b8b287ad51685cb9a1bb5994cec928a1bd3df1fd",
+    "source_bytes": 23148,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.696944"
   }
 }

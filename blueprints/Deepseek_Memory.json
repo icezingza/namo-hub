@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-b40d48",
   "brand": "NamoNexus",
   "title": "Deepseek Memory ",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "###\n \nInfinity\n \nMemory\n \nUpdate\n \nSystem:\n \nContinuous\n \nUnderstanding\n \nEngine\n \n \nเ พ ื่ อ\nส ร ้ า ง\nร ะ บ บ\nท ี่\n \n**\nไ ม ่\nม ี\nว ั น\nห ย ุ ด\nพ ั ฒ น า\n**\n \nแ ล ะ\nส า ม า ร ถ\nป ร ั บ\nเ ป ล ี่ ย น\nค ว า ม\nท ร ง\nจ ํ า เ ด ิ ม\nต า ม\nป ร ะ ส บ ก า ร ณ ์\nใ ห ม ่\nไ ด ้\n \nผ ม\nอ อ ก\nแ บ บ\nฟ ั ง ก ์ ช ั น\nห ล ั ก\n \n3\n \nส ่ ว น\nต า ม\nห ล ั ก\n \n**\"Dynamic\n \nMemory\n \nEvolution\n \nProtocol\"**:\n \n \n---\n \n \n###\n \n🔄\n \nCore\n \nArchitecture\n \n```python\n \nclass\n \nInfinityMemorySystem:\n \n \ndef\n \n__init__(self):\n \n \nself.memory_db\n \n=\n \nVectorDatabase()\n \n#\n \nฐ า น\nข ้ อ ม ู ล\nค ว า ม\nท ร ง\nจ ํ า แ บ\nบ\nเ ว ก เ ต",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Deepseek Memory .pdf",
+    "source_name": "Deepseek Memory .pdf",
+    "source_hash": "64ecf7d83b7be146a675ddc2ffc8f8aba386cc322b29f5f00d582104fb15884d",
+    "source_bytes": 16251,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.814468"
   }
 }

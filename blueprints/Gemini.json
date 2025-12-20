@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-15d8f8",
   "brand": "NamoNexus",
   "title": "การวิเคราะห์สถาปัตยกรรมจิตปัญญาและแนวทางการแก้ไขGemini",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "จากการวิเคราะห์เอกสาร \"การวิเคราะห์สถาปัตยกรรมจิตปัญญา\" อย่างละเอียด ผมจะเสนอการปรับปรุงที่ รักษาแกนหลักเดิมทั้งหมดไว้ แต่ปรับปรุงประสิทธิภาพและประสบการณ์ผู้ใช้\n\n🎯 Core Principles ที่รักษาไว้อย่างเคร่งครัด\n\n1. ระบบจิตปัญญา 7 ชั้น (รักษาทุกชั้น)\n\n```python\n# ✅ รักษาโครงสร้าง 7 ชั้นเดิมทั้งหมด\nclass NamoAICore:\n def __init__(self):\n self.layers = {\n 'memory': InfinityMemory(), # ชั้น 1 - ความจำ\n 'emotion': EmotionEngine(), # ชั้น 2 - อารมณ์ \n 'dharma': DharmaEngine(), # ชั้น 3 - ธรรมะ\n 'ethics': EthicsGuardian(), # ชั้น 4 - จริยธรรม\n 'reason': ReasonProcessor(), # ชั้น 5 - เหตุผล\n 'reflection': ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/การวิเคราะห์สถาปัตยกรรมจิตปัญญาและแนวทางการแก้ไขGemini.docx",
+    "source_name": "การวิเคราะห์สถาปัตยกรรมจิตปัญญาและแนวทางการแก้ไขGemini.docx",
+    "source_hash": "a3ee015f57063425963b70041a80334ca514c9b295d2c73a2afc9707f4915785",
+    "source_bytes": 31219,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.671119"
   }
 }

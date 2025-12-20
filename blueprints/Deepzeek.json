@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-79d6f2",
   "brand": "NamoNexus",
   "title": "การวิเคราะห์สถาปัตยกรรมจิตปัญญาและการแก้ไข Deepzeek",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "จากการวิเคราะห์เอกสาร \"การวิเคราะห์สถาปัตยกรรมจิตปัญญา\" อย่างละเอียด ผมขอสรุปประเด็นที่ต้องแก้ไขและปรับปรุงเพื่อยกระดับโครงการดังนี้:\n\n🎯 สรุปประเด็นสำคัญที่ต้องปรับปรุง\n\n1. ปัญหาด้านสถาปัตยกรรมเทคนิค\n\n```\n❌ ปัญหา: 7-Layer Pipeline สร้าง Latency สูง\n✅ ข้อเสนอ: \n - รวมชั้น Emotion + Dharma + Ethics เป็น Unified Moral Layer\n - ใช้ Parallel Processing แทน Serial Processing\n - Implement Caching Mechanism สำหรับคำตอบที่คล้ายกัน\n```\n\n2. ปัญหาระบบความจำ\n\n```\n❌ ปัญหา: Manual File Management สร้าง Friction\n✅ ข้อเสนอ:\n - เปลี่ยนจาก .docx เป็น Vector Database (Chroma/Pinecone)\n - ใช้ RAG (Retrieval-Augmen",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/การวิเคราะห์สถาปัตยกรรมจิตปัญญาและการแก้ไข Deepzeek.docx",
+    "source_name": "การวิเคราะห์สถาปัตยกรรมจิตปัญญาและการแก้ไข Deepzeek.docx",
+    "source_hash": "efc69b161b8d41ff5264465129846e56132f1aad53ef9cceea9abc1a4aa72367",
+    "source_bytes": 46787,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.631190"
   }
 }

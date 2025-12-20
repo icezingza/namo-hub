@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-87ae40",
   "brand": "NamoNexus",
   "title": "# การเชื่อมต่อกับแอปพลิเคชันสุขภาพจิต",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "#\n \nก า ร\nเ ช ื่ อ ม\nต ่ อ\nก ั บ\nแ อ\nป\nพ ล ิ\nเ ค ช ั น\nส ุ ข ภ า พ\nจ ิ ต\n \nclass\n \nMentalHealthIntegration:\n \n \ndef\n \n__init__(self,\n \nnamo_ai:\n \nNaMoAI):\n \n \nself.namo_ai\n \n=\n \nnamo_ai\n \n \nself.therapists_api\n \n=\n \nTherapistsAPI()\n \n \n \n \ndef\n \nhandle_crisis_situation(self,\n \nuser_data:\n \nDict):\n \n \n\"\"\"\nจ ั ด ก า ร\nส ถ า น ก า ร ณ ์\nว ิ ก ฤ ต\n\"\"\"\n \n \n#\n \nใ ช ้\n \nContributor\n \nใ น\nก า ร\nป ร ะ เ ม ิ น\nเ บ ื้ อ ง ต ้ น\n \n \nassessment\n \n=\n \nself.namo_ai.assess_mental_state(user_data)\n \n \n \n \nif\n \nassessment[\"risk_level\"]\n \n>\n \n0.8:\n \n \n#\n \nเ ช ื่ อ ม\nต ่ อ\nก ั บ\nผ ู ้ เ ช ี่ ย ว ช า ญ\nจ ร ิ ง\n \n ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/# การเชื่อมต่อกับแอปพลิเคชันสุขภาพจิต.pdf",
+    "source_name": "# การเชื่อมต่อกับแอปพลิเคชันสุขภาพจิต.pdf",
+    "source_hash": "aa6ab6699aca0428b519464f0660b1629a77ee45fa21c8cf30f689731e96997c",
+    "source_bytes": 1218,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.579382"
   }
 }

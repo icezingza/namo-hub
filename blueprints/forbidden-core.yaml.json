@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-a69c8f",
   "brand": "NamoNexus",
   "title": "forbidden-core.yaml",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "import\n \nnumpy\n \nas\n \nnp\n \nimport\n \njson\n \nimport\n \ntime\n \nimport\n \nlogging\n \nfrom\n \ndatetime\n \nimport\n \ndatetime\n \nfrom\n \ntyping\n \nimport\n \nDict,\n \nList,\n \nAny,\n \nOptional\n \nfrom\n \nenum\n \nimport\n \nEnum\n \nimport\n \nasyncio\n \nfrom\n \ndataclasses\n \nimport\n \ndataclass\n \nfrom\n \nquantum_simulator\n \nimport\n \nQuantumEntanglementSimulator\n \n#\n \nCustom\n \nquantum\n \nsimulation\n \nfrom\n \ndharma_processor\n \nimport\n \nDharmaProcessor\n \n#\n \nCustom\n \ndharma\n \nprocessing\n \n \n#\n \nConfigure\n \nlogging\n \nlogging.basicConfig(level=logging.INFO)\n \nlogger\n \n=\n \nlogging.getLogger(\"Contributor-infinity-core\")\n \n \nclass\n \nM",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/forbidden-core.yaml.pdf",
+    "source_name": "forbidden-core.yaml.pdf",
+    "source_hash": "8730b24569f8076ce4b269fcc2bc2def374835788e227d4724cad666089da171",
+    "source_bytes": 23353,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.190719"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-df2c50",
   "brand": "NamoNexus",
   "title": "10",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "sexstories.\ncom\n \nA\n \nMassage\n \nFor\n \nMom!\n \nby\n \nG.\n \nSnave\n \nTrue\n \nStory ,\n \nIncest\n \nAuthor's\n \ninfos\n \nGender:\n \nN/A\n \nAge:\n \nN/A\n \nLocation:\n \nN/A\n \nPosted\n \nMon\n \n6th\n \nof\n \nDecember\n \n2004\n \nReport\n \nFont\n \nsize\n \n:\n \n-\n \n+\n \n \nA\n \nMASSAGE\n \nFOR\n \nMOM.\n \n \n \nI\n \nremember\n \nmy\n \nmom's\n \nfriend\n \nBeth\n \nused\n \nto\n \ncome\n \nover\n \ntwice\n \na\n \nweek\n \nand\n \ngive\n \nmom\n \na\n \nmassage.\n \nAfter\n \nthat\n \nmom\n \nwould\n \ngive\n \nher\n \na\n \nmassage.\n \nThey\n \nboth\n \nundressed\n \nfor\n \nthe\n \nmassage,\n \nbut\n \ncovered\n \ntheir\n \nbuttocks\n \nwith\n \na\n \ntowel.\n \nI\n \nused\n \nto\n \ncome\n \nand\n \ngo\n \nas\n \nI\n \nplease",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/10.pdf",
+    "source_name": "10.pdf",
+    "source_hash": "dbe752dee11a0dde40e4f94d9fc898487343ca1bc6dd31278d04ccf7be5af76e",
+    "source_bytes": 24151,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.646514"
   }
 }

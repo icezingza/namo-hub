@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-47b6b7",
   "brand": "NamoNexus",
   "title": "วิธี Prompt ให้ได้งานตรงใจใน 7 วิธี",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "วิธี Prompt ให้ได้งานตรงใจใน 7 วิธี\n1. พูดกับ AI ให้เหมือนคุยกับคน\nเราสามารถบอกความต้องการของเราเหมือนกับที่เราพูดคุยกับคนจริง ๆ ให้คิดว่า AI เป็นเพื่อนร่วมงานเราคนหนึ่งก็ได้ ซึ่งสามารถบอกความต้องการและพูดคุยตอบโต้ไปมา ถามตอบ เพื่อให้ได้คำตอบที่เราต้องการมากที่สุด อย่างเช่น ถ้าเราจะมีประชุมสัปดาห์หน้าเรื่องอะไร มีใครบ้าง วันและเวลาไหน แล้วอยากให้ AI ช่วยสร้างกำหนดการประชุมให้ได้\nPlease help me schedule a meeting for next week. I’d like to discuss [specific topic of the meeting] with my team members [mention their names]. Can you check the availability for [date and time range] and let me know?",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/วิธี Prompt ให้ได้งานตรงใจใน 7 วิธี.docx",
+    "source_name": "วิธี Prompt ให้ได้งานตรงใจใน 7 วิธี.docx",
+    "source_hash": "f82c69523085235a0bf86e458696079fb08602e0aa93e0e877a415d87c69a168",
+    "source_bytes": 6057,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.734718"
   }
 }

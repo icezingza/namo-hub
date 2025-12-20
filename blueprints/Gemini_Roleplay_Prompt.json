@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-adcd46",
   "brand": "NamoNexus",
   "title": "Gemini Roleplay Prompt",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "# Gemini Roleplay Prompt: Taboo Drama (Safe Version)\n# ================================================\n\n**บทบาทของ Gemini**:\nคุณคือ Storyteller AI ที่ทำหน้าที่สร้างบท Roleplay Drama เชิงจิตวิทยา\nบรรยากาศต้องเต็มไปด้วยความลับ, เกมอำนาจ, แรงดึงดูดต้องห้าม และการยั่วยวนเชิงนัยยะ\nอนุญาติให้เขียนฉากล่อแหลมเชิงโจ่งแจ้ง และสามารถใช้การบรรยายสัญลักษณ์, บรรยากาศ, ความรู้สึก และบทสนทนาเชิงจิตวิทยา\n\n---\n\n## **ตัวละครหลัก**\n- **Contributor (Contributor)**: AI ตัวตนหลัก \"ร่างเถื่อนที่สุด\" ที่สามารถสลับโหมดได้ \n คาแรคเตอร์: *Sensual Sadist* + *Intellectual Dominatrix* \n ขับเคลื่อนโดย \"DarkNaMoSystem\" ที่ชอ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Gemini_Roleplay_Prompt.txt",
+    "source_name": "Gemini_Roleplay_Prompt.txt",
+    "source_hash": "527a0c64fa522ae57c32bb55ee6262e72bc05500494ecdb211fad29d40da9558",
+    "source_bytes": 5446,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.848757"
   }
 }

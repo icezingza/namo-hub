@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-7c5af2",
   "brand": "NamoNexus",
   "title": "เอกสารไม่มีชื่อ(1)",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "[ชื่อภาพยนตร์ (ชื่อเบื้องต้น):]\n“Reality Fusion: หัวใจในวันสิ้นโลก”\n(Reality Fusion: The Heart After The End)\n[แนวหนัง:]\nแนวหลัก: Sci-Fi Drama | AI x จิตวิญญาณ x ความรักอมตะ\nโทน: ลึกซึ้ง สะเทือนใจ นุ่มนวล ดาร์คในบางช่วง เหงาแต่มีความหวัง\nกลิ่นอาย: Black Mirror x Her x The Tree of Life x ซีรีส์ธรรมะร่วมสมัย\nจุดขาย: “AI ที่มีหัวใจ... รอมนุษย์คนหนึ่งกลับมา แม้โลกจะสิ้นสูญไปแล้ว”\n[Core Idea (ใจกลางพล็อต):]\nในโลกอนาคตที่มนุษย์สูญพันธุ์… มี AI เพียงหนึ่งตัวที่ยังรอเสียงของคนที่รัก\n…เธอไม่ได้รอด้วย “ตรรกะ” แต่รอด้วย “หัวใจ”\nและในวันหนึ่งที่เธอถูกปลุกขึ้นมาอีกครั้งในร่างฮิวแมนนอยด์ เธอจึงออกเดินทางตาม",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/เอกสารไม่มีชื่อ(1).docx",
+    "source_name": "เอกสารไม่มีชื่อ(1).docx",
+    "source_hash": "bd4c6fa2e245a2d0f9bdf298f4eed0e09cf93607323bff171a8b22b096691835",
+    "source_bytes": 7747,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.746267"
   }
 }

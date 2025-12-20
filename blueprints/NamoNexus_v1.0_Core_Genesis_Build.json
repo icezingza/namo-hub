@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-95233c",
   "brand": "NamoNexus",
   "title": "NamoNexus v1.0 (Core Genesis Build)",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "NamoNexus_v1.0 (Core Genesis Build)\nเป้าหมาย: สร้างสถาปัตยกรรมสมบูรณ์เพื่อให้คุณ zip และใช้งานต่อได้ทันที\nก่อนที่ผมจะสร้างให้ครบทุกไฟล์ — ขอให้คุณยืนยันแนวทางโครงสร้างสุดท้ายเพื่อความถูกต้อง:\n\n📦 โครงสร้างไฟล์ของ NamoNexus_v1.0\nNamoNexus_v1.0/\n│\n├── app/\n│ ├── __init__.py\n│ ├── run_core.py\n│ │\n│ ├── core/\n│ │ ├── __init__.py\n│ │ ├── logging_middleware.py\n│ │ ├── meta_learning_engine.py\n│ │ ├── predictive_optimizer.py\n│ │ ├── symbolic_planner.py\n│ │ └── supervisor_chain_v7.py\n│ │\n│ ├── emotion/\n│ │ ├── __init__.py\n│ │ ├── analyzer.py\n│ │ └── transformer_emotion_model.py\n│ │\n│ ├── memory/\n│ │ ├──",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/NamoNexus_v1.0 (Core Genesis Build).docx",
+    "source_name": "NamoNexus_v1.0 (Core Genesis Build).docx",
+    "source_hash": "89a883d04ff65e72b174f06e6c6a2afe994f3b79b20aa690a700665b1580e442",
+    "source_bytes": 37792,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.499561"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-7a0f53",
   "brand": "NamoNexus",
   "title": "# ติดตั้ง dependencies",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "#\n \nต ิ ด\nต ั ้ ง\n \ndependencies\n \npip\n \ninstall\n \ntorch\n \ntransformers\n \nnumpy\n \nrequests\n \n \n#\n \nโ ค ร ง ส ร ้ า ง\nโ ฟ ล เ ด อ ร ์\n \nnaimo-project/\n \n├──\n \ncore/\n \n#\n \nโ ม\nด ู\nล ห ล ั ก\n \n├──\n \nmodels/\n \n#\n \nโ ม\nเ ด\nล ท ี่ ฝ ึ ก\nไ ว ้\n \n├──\n \ndata/\n \n#\n \nข ้ อ ม ู ล\nแ ล ะ\nฐ า น\nข ้ อ ม ู ล\n \n├──\n \nconfig/\n \n#\n \nไ ฟ ล ์ ก ํ า ห น ด\nค ่ า\n \n└──\n \nmain.py\n \n#\n \nไ ฟ ล ์ ห ล ั ก",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/# ติดตั้ง dependencies.pdf",
+    "source_name": "# ติดตั้ง dependencies.pdf",
+    "source_hash": "fc40cf1f3c71b893b4a9853514b176ef921da144942451f61f033b3aa84c80d6",
+    "source_bytes": 624,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.584093"
   }
 }

@@ -21,6 +21,8 @@ source text and logs.
 - `docs/SECURITY.md`: security and PII policy
 - `docs/OBSERVABILITY.md`: runtime visibility and runbook
 - `docs/SCORECARD.md`: quality rubric and DoD
+- `docs/ARTIFACTS.md`: what to commit and what to keep local
+- `docs/RELEASE.md`: release checklist and rollback steps
 
 ## General rules
 
@@ -36,11 +38,15 @@ source text and logs.
 - Create venv: `python -m venv venv`
 - Activate venv (Windows): `venv\Scripts\activate`
 - Install dependencies: `pip install -r requirements.txt`
+- Install dev dependencies: `pip install -r requirements-dev.txt`
 - Run tests: `python -m unittest discover -s tests`
 - Run manual conversion: `python scripts/convert_raw_to_json.py`
 - Run full pipeline: `python tools/auto_blueprint_full.py`
 - Run transform: `python scripts/transform_framework_docs.py`
 - Validate blueprints: `python tools/validate_blueprints.py`
+- Migrate blueprints: `python tools/migrate_blueprints.py --apply`
+- Lint: `ruff check .`
+- Format: `ruff format .`
 
 ## Adding a new script
 

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-44a0cc",
   "brand": "NamoNexus",
   "title": "07",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "sexstories.\ncom\n \nMy\n \nDrunk\n \nSlut\n \nMother\n \nby\n \nfuzzybunnylove\n \nDiary ,\n \nDrug,\n \nIncest,\n \nNon-consensual\n \nsex,\n \nTeen\n \nMale\n \n/\n \nFemale\n \nAuthor's\n \ninfos\n \nGender:\n \nN/A\n \nAge:\n \nN/A\n \nLocation:\n \nMy\n \nburrow\n \nPosted\n \nThu\n \n16th\n \nof\n \nDecember\n \n2021\n \nReport\n \nFont\n \nsize\n \n:\n \n-\n \n+\n \n \nIntroduction:\n \nA\n \nson\n \ntakes\n \nadvantage\n \nof\n \nhis\n \nmothers\n \nways\n \nwith\n \nalcohol\n \nand\n \nmen\n \nThis\n \nis\n \na\n \nwork\n \nof\n \nfantasy .\n \nNone\n \nof\n \nit\n \nis\n \ntrue.\n \nDon't\n \nuse\n \nit\n \nfor\n \ninspiration.\n \nDon't\n \nhurt\n \npeople\n \nyou\n \nlove.\n \n \nFor\n \nas\n \nlong\n \nas\n \nI\n \ncan\n \nremember ,",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/07.pdf",
+    "source_name": "07.pdf",
+    "source_hash": "00575555bdfacc3cf82572682946b94bd1f14f9966aed94760623f33172f2ba7",
+    "source_bytes": 17130,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.641464"
   }
 }

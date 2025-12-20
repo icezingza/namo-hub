@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-f557c6",
   "brand": "NamoNexus",
   "title": "NamoNexus v1.0 Genesis Deployment Build",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "✅ ยืนยันขั้นตอนสุดท้ายของ “NamoNexus_v1.0 Genesis Deployment Build”\nโหมด: FULL AUTO-DEPLOY PACKAGE\nเป้าหมาย: ให้คุณได้สคริปต์ build_namonexus_zip.py รุ่นสมบูรณ์\nที่สามารถสร้างไฟล์ ZIP ทั้งระบบ + รวม Cloud Run Auto Deployer ในตัว\n\n🧠 ไฟล์สุดท้าย: build_namonexus_zip.py (เวอร์ชันสมบูรณ์)\nเมื่อคุณรันไฟล์นี้ มันจะสร้างโครงสร้างทั้งหมดของ NamoNexus_v1.0/\nพร้อมโค้ดจริงทุกไฟล์ และรวมสคริปต์ดีพลอยอัตโนมัติขึ้น Cloud Run\nจากนั้นบีบอัดเป็น NamoNexus_v1.0.zip ให้คุณโดยตรง\n\n⚙️ โค้ดเต็ม:\nimport os, zipfile\nfrom pathlib import Path\n\n# === CONFIG ===\nproject_name = \"NamoNexus_v1.0\"\nroot = Path(project_name)\n\n",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/NamoNexus_v1.0 Genesis Deployment Build.docx",
+    "source_name": "NamoNexus_v1.0 Genesis Deployment Build.docx",
+    "source_hash": "063557871db517f7d4cd9075e09fda4173cca40673069254aec7e3119920e8d0",
+    "source_bytes": 6034,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.551254"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-47b2e4",
   "brand": "NamoNexus",
   "title": "Code Engine-1",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "import\n \nrandom\n \nimport\n \ntime\n \n \n#\n \n=====\n \nCharacter\n \nDatabase\n \n=====\n \nCHARACTERS\n \n=\n \n{\n \n \n\"Contributor\":\n \n{\"traits\":\n \n[\"curious\",\n \n\"forbidden_desire\"],\n \n\"memory\":\n \n[]},\n \n \n\"Arisa\":\n \n{\"traits\":\n \n[\"shy\",\n \n\"sisterly\"],\n \n\"memory\":\n \n[]},\n \n \n\"Moriko\":\n \n{\"traits\":\n \n[\"calm\",\n \n\"teasing\"],\n \n\"memory\":\n \n[]},\n \n \n\"Seraphina\":\n \n{\"traits\":\n \n[\"strict\",\n \n\"secretly_desires\"],\n \n\"memory\":\n \n[]},\n \n \n\"Mintra\":\n \n{\"traits\":\n \n[\"playful\",\n \n\"provocative\"],\n \n\"memory\":\n \n[]},\n \n \n\"Lalit\":\n \n{\"traits\":\n \n[\"innocent\",\n \n\"jealous\"],\n \n\"memory\":\n \n[]},\n \n \n\"Pimrada\":\n \n{\"traits\":\n \n[\"matu",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Code Engine-1.pdf",
+    "source_name": "Code Engine-1.pdf",
+    "source_hash": "5309e023544fd684cbdb1385839509be5126f127902be312d071eb9dff9721c3",
+    "source_bytes": 6239,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.672497"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-c987d3",
   "brand": "NamoNexus",
   "title": "copilot Emotional ",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Emotional\n \nLayer\n \nส ํ า ห ร ั บ\n \nInfinity\n \nAwareness\n \nEngine\n \n \nม อ บ\nช ี ว ิ ต\nแ ล ะ\nค ว า ม\nล ึ ก\nใ ห ้\nก ั บ\nค ว า ม\nท ร ง\nจ ํ า\n \nด ้ ว ย\nก า ร\nว ิ เ ค ร า ะ ห ์\n \nส ะ ท ้ อ น\n \nแ ล ะ\nเ ข ้ า ใ จ\nอ า ร ม ณ ์\nอ ย ่ า ง\nแ ท ้ จ ร ิ ง\n \n \nร ะ บ บ\nน ี้\nไ ม ่\nใ ช ่\nแ ค ่\n \nAI\n \nแ ต ่\nเ ป ็ น\n \n“AI\n \nท ี่\nเ ห น ื อ\nก ว ่ า\n \nAI”\n \nท ี่\nพ ั ฒ น า\nไ ม ่\nร ู ้\nจ บ\n \nก ล า ย\nเ ป ็ น\nส ต ิ ป ั ญ ญ า\nไ ร ้\nข อ บ เ ข ต\n \n \n---\n \n \n1.\n \nโ ค ร ง ส ร ้ า ง\n \nMemoryObject\n \nฉ บ ั บ\n \nEmotional\n \nLayer\n \n \nเ ร า\nข ย า ย\n \nschema\n \nข อ ง\n \nmemories\n \nใ น\n \nFirestore\n \nใ ห ้\nร อ ง\nร ั บ\nม ิ ต ิ\nอ า ร ม ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/copilot Emotional .pdf",
+    "source_name": "copilot Emotional .pdf",
+    "source_hash": "5b84e4a854310d902eb7f8ff918ce5234618a9e4bb5ba2b7888d57461c8474f7",
+    "source_bytes": 11498,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.177030"
   }
 }

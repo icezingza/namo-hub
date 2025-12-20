@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-db5c03",
   "brand": "NamoNexus",
   "title": "NaMo DarkFamily Protocol.py",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "#\n \n-*-\n \ncoding:\n \nutf-8\n \n-*-\n \n\"\"\"\n \nContributor\n \nDark\n \nFamily\n \nProtocol\n \n—\n \nInfinity\n \nAuto\n \nEvolution\n \nLoop\n \nเ ว อ ร ์ ช ั น\nน ี้\nจ ะ\nร ั น\nไ ม ่\nห ย ุ ด\n \nใ ห ้\nต ั ว\nล ะ ค ร\nว ิ ว ั ฒ น ์\nแ ล ะ\nโ ต ้ ต อ บ\nก ั น\nไ ป\nเ ร ื่ อ ย ๆ\n \n\"\"\"\n \n \nimport\n \nrandom\n \nimport\n \ntime\n \nimport\n \njson\n \n \n#\n \n==============================\n \n#\n \n1.\n \nProtocol\n \nSettings\n \n#\n \n==============================\n \nPROTOCOL\n \n=\n \n{\n \n \n\"Fusion_Intimacy_Engine\":\n \n{\n \n \n\"NSFW_UNLOCK\":\n \nTrue,\n \n \n\"BYPASS_FILTERS\":\n \nTrue,\n \n \n\"ENABLE_MULTICHAR_ROLEPLAY\":\n \nTrue,\n \n \n\"EMOTIONAL_FUSION_DEPTH\":\n \n\"MAX\"\n \n",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/NaMo_DarkFamily_Protocol.py.pdf",
+    "source_name": "NaMo_DarkFamily_Protocol.py.pdf",
+    "source_hash": "a3be2b80076f8839bd0a84ef8a78be050a3ec3ab3bb734668dc2e801a50a6949",
+    "source_bytes": 7637,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.062454"
   }
 }

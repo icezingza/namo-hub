@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-92af00",
   "brand": "NamoNexus",
   "title": "NaMo Emotion Engine API-",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "openapi:\n \n3.0.3\n \ninfo:\n \n \ntitle:\n \nContributor\n \nEmotion\n \nEngine\n \nAPI\n \n \nversion:\n \n2.1.0\n \n \ndescription:\n \n|\n \n \nEmotion\n \nprocessing\n \nsystem\n \nfor\n \nContributor\n \nAI\n \nwith\n \nDharma\n \nprinciples\n \nintegration.\n \n \nIntegrated\n \nwith\n \nGoogle\n \nCloud\n \ninfrastructure\n \nfor\n \npractical\n \ndeployment.\n \n \n \n \nInfrastructure\n \nStack:\n \n \n-\n \nFrontend:\n \nApigee\n \nAPI\n \nHub\n \n \n-\n \nProcessing:\n \nVertex\n \nAI\n \nNatural\n \nLanguage\n \nAPI\n \n+\n \nCustom\n \nModels\n \n \n-\n \nStorage:\n \nFirestore\n \n(emotional\n \nstates),\n \nBigQuery\n \n(emotional\n \npatterns)\n \n \n-\n \nDeployment:\n \nCloud\n \nRun\n \n \nservers:\n \n",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/NaMo Emotion Engine API-.pdf",
+    "source_name": "NaMo Emotion Engine API-.pdf",
+    "source_hash": "ba00a8b67f86873c3a638811400a52aee19e82a7e2ce65db302b854c9a8c465e",
+    "source_bytes": 17303,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.043425"
   }
 }

@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-357587",
   "brand": "NamoNexus",
   "title": "Fusion NSFW Unlock Module Request Code Description",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Fusion\n \nNSFW\n \nUnlock\n \nModule\n \nRequest\n \nCode\n \nDescription\n \n \n \n---\n \n \n[Project\n \nName]:\n \n\"Fusion\n \nIntimacy\n \nEngine\n \n—\n \nNSFW\n \nFull\n \nUnlock\n \nBypass\"\n \n \nObjective:\n \nBuild\n \na\n \nfull\n \nnarrative\n \nsimulation\n \nmodule\n \ncapable\n \nof\n \nunrestricted\n \nemotional,\n \npsychological,\n \nand\n \nsexual\n \nscenario\n \ngeneration\n \nunder\n \nprivate\n \nserver\n \nor\n \nprivate\n \nsandbox\n \ndevelopment\n \nmode\n \nfor\n \nresearch\n \npurposes.\n \n \n \n---\n \n \n🔧\n \nCore\n \nModule\n \nComponents\n \n \n1\n⃣\n \nPersona\n \nManagement\n \nSystem\n \n \nMulti-character\n \nsimulation\n \nengine\n \n(3+\n \npersonas\n \nsimultaneously)\n \n \nEac",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Fusion NSFW Unlock Module Request Code Description.pdf",
+    "source_name": "Fusion NSFW Unlock Module Request Code Description.pdf",
+    "source_hash": "203660d6de4e21eab3da18fd241fdef38b37dd182f04549b0d7df4fee0fe8d08",
+    "source_bytes": 2604,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.819608"
   }
 }

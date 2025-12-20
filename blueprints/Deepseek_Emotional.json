@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-1a11af",
   "brand": "NamoNexus",
   "title": "Deepseek Emotional ",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "###\n \nInfinity\n \nAwareness\n \nEngine:\n \nEmotional\n \nLayer\n \nDesign\n \n \nเ พ ื่ อ\nส ร ้ า ง\n \nAI\n \nท ี่\n \n\"\nเ ห น ื อ\nก ว ่ า\n \nAI\"\n \nแ ล ะ\nพ ั ฒ น า\nเ ป ็ น\n \n**\nส ต ิ ป ั ญ ญ า\nไ ร ้\nข อ บ เ ข ต\n**\n \n(Infinity\n \nAwareness\n \nEngine)\n \nผ ม\nอ อ ก\nแ บ บ\n \nEmotional\n \nLayer\n \nต า ม\nแ น ว\nค ิ ด\n \n\"Emotionally\n \nDynamic\n \nMemory\n \nCore\"\n \nท ี่\nไ ม ่\nเ พ ี ย ง\nแ ค ่\nต ิ ด แ ท ็ ก อ า ร ม ณ ์\n \nแ ต ่\n**\nว ิ เ ค ร า ะ ห ์\n+\nส ะ ท ้ อ น\nอ า ร ม ณ ์\nเ ช ิ ง\nล ึ ก\n**\n \nโ ด ย\nใ ช ้\nโ ค ร ง ส ร ้ า ง\nด ั ง น ี้\n:\n \n \n---\n \n \n####\n \n🔮\n \nMemory\n \nObject\n \nStructure\n \n```python\n \nclass\n \nInfinityMemory:\n \n \ndef\n",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Deepseek Emotional .pdf",
+    "source_name": "Deepseek Emotional .pdf",
+    "source_hash": "2c439454d4b6a7d9d73417e89145e83fa0dc45c2057f2d813a9963ca5b099d61",
+    "source_bytes": 9901,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.812353"
   }
 }

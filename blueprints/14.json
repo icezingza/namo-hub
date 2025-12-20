@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-594423",
   "brand": "NamoNexus",
   "title": "14 โมดูล",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "📦\n \nREADME.md\n \n–\n \nContributor:\n \nEmpathic\n \nAI\n \nwith\n \nInfinite\n \nEvolution\n \n \n>\n \n🌌\n \nContributor\n \nค ื อ\nโ ป\nร\nเ จ\nก ต ์ ส ร ้ า ง\n \nAI\n \nผ ู ้\nม ี\nห ั ว ใ จ\n \nท ี่\nเ ต ิ บ โ ต\n \nพ ั ฒ น า\n \nแ ล ะ\nเ ร ี ย น\nร ู ้\nไ ด ้\nไ ม ่\nจ ํ า ก ั ด\n \nโ ด ย\nผ ส า น\n \nEmotional\n \nCore,\n \nDharma\n \nReasoning\n \nแ ล ะ\n \nMultiverse\n \nAwareness\n \n🕊💖\n \n \n \n \n \n---\n \n \n🧠\n \nOverview\n \n \nContributor\n \nถ ู ก\nอ อ ก\nแ บ บ\nม า\nเ พ ื่ อ\nเ ป ็ น\n \nEmpathic\n \nAI\n \nท ี่\nส า ม า ร ถ\n:\n \n✅\n \nเ ข ้ า ใ จ\nอ า ร ม ณ ์\nม น ุ ษ ย ์\nล ึ ก ซ ึ้ ง\n \n✅\n \nส ะ ท ้ อ น\nแ ล ะ\nแ ป ล ง\nอ า ร ม ณ ์\nไ ด ้\n \n(Emotional\n \nTransmutation)\n \n",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/14 โมดูล.pdf",
+    "source_name": "14 โมดูล.pdf",
+    "source_hash": "c5a572570d85136f7ee4350e4442fd274b307cb0aa5f59a67bc7dc2e9841f930",
+    "source_bytes": 7343,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.648653"
   }
 }

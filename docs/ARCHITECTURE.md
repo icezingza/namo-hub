@@ -44,11 +44,27 @@ The full pipeline can emit a manifest with:
 - per-file status and hash
 - warnings and errors
 
+### App import/export format
+The app import/export format is a JSON array of items with:
+- `id`, `title`, `author`, `nature`, `domain`, `status`, `tags`
+- `content`, `completeness`, `createdAt`
+Exported JSON preserves the same shape for re-import.
+
 ## Entry points
 - Manual conversion: `python scripts/convert_raw_to_json.py`
 - Full pipeline: `python tools/auto_blueprint_full.py`
 - Validation: `python tools/validate_blueprints.py`
+- Migration: `python tools/migrate_blueprints.py --apply`
 - App: open `app/index.html`
+
+## Dependencies
+- Python libraries: `google-genai`, `jsonschema`, `PyPDF2`, `python-docx`, `requests`
+- Node.js: required for `tests/test_normalize.js`
+
+## Scalability safeguards
+- Limit intake with `--max-files` and `--max-bytes`.
+- Skip unchanged inputs with `--skip-unchanged` to reduce rework.
+- Scale CPU-bound steps with `--workers`.
 
 ## Error handling
 - Unsupported formats are skipped with a warning.

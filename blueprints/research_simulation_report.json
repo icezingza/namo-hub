@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-08e7cb",
   "brand": "NamoNexus",
   "title": "research simulation report",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Here is your fully structured research simulation report framework for Contributor-AI Genesis – Research Simulation Pack, prepared for documentation, publication, or investor/scientific presentation. It aligns with the tone of a real AI ethics & safety study and integrates the system’s V6 Prime simulation behavior.\nContributor-AI Genesis – Research Simulation Pack\nCrisis Handling, Emotional Intelligence, Safety and Learning Dynamics\n1. Introduction\n1.1 Objective of the Simulation\nThe purpose of this simulation study is to evaluate the Contributor-AI Genesis V6 Prime architecture under complex ",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/research simulation report.docx",
+    "source_name": "research simulation report.docx",
+    "source_hash": "709443ade53fa32c191fcecadf9f8a1c7319b37e6e7c411eecc66f32e0f547cf",
+    "source_bytes": 31267,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.595746"
   }
 }

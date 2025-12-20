@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-3b777c",
   "brand": "NamoNexus",
   "title": "Namo Genesis Ethical AI Orchestration Platform for Enterprise Deployment",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "Contributor\n \nGenesis\n \nEthical\n \nAI\n \nOrchestration\n \nPlatform\n \nfor\n \nEnterprise\n \nDeployment\n \nCompany:\n \nNamoNexus\n \n \nFounder:\n \nKanin\n \nRaksaraj\n \n \nContact:\n \ncontact@namonexus.com\n \n \nProblem\n \nEnterprises\n \nwant\n \nto\n \ndeploy\n \nautonomous\n \nAI\n \nsystems,\n \nbut\n \nface\n \ncritical\n \nrisks:\n \n●\n \nUncontrolled\n \nagent\n \nbehavior\n \n \n●\n \nCompliance\n \nand\n \ngovernance\n \nconcerns\n \n \n●\n \nLack\n \nof\n \nvisibility\n \ninto\n \nAI\n \ndecision\n \nprocesses\n \n \n●\n \nRegulatory\n \nand\n \nreputational\n \nexposure\n \n \nMost\n \nAI\n \nsolutions\n \nfocus\n \non\n \ncapability\n \n—\n \nnot\n \nresponsibility.\n \n \nSolution\n \nCont",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/Namo Genesis Ethical AI Orchestration Platform for Enterprise Deployment.pdf",
+    "source_name": "Namo Genesis Ethical AI Orchestration Platform for Enterprise Deployment.pdf",
+    "source_hash": "0f3db9f5bea5b1d0b0803f2e852086184cbceb6624241f0922dc6b0ee438f36f",
+    "source_bytes": 2865,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T04:29:26.498560"
   }
 }

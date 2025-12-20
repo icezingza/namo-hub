@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-508de3",
   "brand": "NamoNexus",
   "title": "06",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "My\n \naimless\n \nwandering\n \nhad\n \nled\n \nme\n \nto\n \nthe\n \nsmall\n \nplayground,\n \nwhere\n \nfinally\n \nI\n \nsat\n \ndown\n \nin\n \none\n \nof\n \nthe\n \nswings.\n \nI\n \nhad\n \nnot\n \nrealized\n \nhow\n \nlong\n \nI\n \nhad\n \nbeen\n \nsitting\n \nthere,\n \nlost\n \nin\n \nthought,\n \nuntil\n \nmy\n \ngrowling\n \nstomach\n \nreminded\n \nme\n \nI\n \nhadn't\n \neaten\n \nsince\n \nbreakfast,\n \nten\n \nhours\n \nago.\n \nAs\n \nI\n \nlooked\n \nat\n \nthe\n \ntime,\n \nI\n \nwas\n \nsurprised\n \nto\n \nsee\n \nhow\n \nmuch\n \ntime\n \nhad\n \npassed\n \nsince\n \nmom\n \nand\n \nI\n \nhad\n \nexited\n \nthe\n \nbath\n \nhouse.\n \n \nAll\n \naround\n \nme,\n \nthe\n \nalmost\n \ndeserted\n \ncampsite\n \nsite\n \nwas\n \ncomin",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/06.pdf",
+    "source_name": "06.pdf",
+    "source_hash": "60fe4919df39eb5b6606e193fed45f01a42c5837642cb5cac0d9d58ff124b483",
+    "source_bytes": 51564,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.638840"
   }
 }

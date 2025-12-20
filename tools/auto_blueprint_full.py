@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 try:
-    import google.generativeai as genai
+    from google import genai
     GENAI_OK = True
 except Exception:
     genai = None
@@ -60,13 +60,12 @@ RETRIES = 3
 def configure_gemini():
     api_key = os.getenv("GEMINI_API_KEY")
     if api_key and GENAI_OK:
-        genai.configure(api_key=api_key)
-        return api_key
+        return genai.Client(api_key=api_key)
     if api_key and not GENAI_OK:
         logging.warning(
-            "GEMINI_API_KEY set but google-generativeai is not installed; skipping Gemini enrichment."
+            "GEMINI_API_KEY set but google-genai is not installed; skipping Gemini enrichment."
         )
-        return api_key
+        return None
     logging.info("GEMINI_API_KEY not found; skipping Gemini enrichment.")
     return None
 
@@ -242,12 +241,10 @@ def build_blueprint(
     }
 
 # -------- Gemini Integration --------
-def gemini_enrich(blueprint: dict, api_key: str) -> dict:
-    if not api_key or not GENAI_OK:
-        if api_key and not GENAI_OK:
-            logging.warning("google-generativeai not installed; skipping Gemini enrichment.")
-        else:
-            logging.info("No GEMINI_API_KEY provided; skipping Gemini enrichment.")
+def gemini_enrich(blueprint: dict, client) -> dict:
+    if client is None or not GENAI_OK:
+        if client is None:
+            logging.info("Gemini client not configured; skipping enrichment.")
         return blueprint
 
     raw_content = blueprint["sections"]["executive_summary"]
@@ -278,12 +275,13 @@ Please analyze the content and generate a JSON object that strictly follows this
 If the raw content is empty or meaningless, return reasonable placeholders related to "{title}".
 """
 
-    model = genai.GenerativeModel("gemini-1.5-flash")
-
     for attempt in range(1, RETRIES + 1):
         try:
-            response = model.generate_content(prompt)
-            text = response.text.strip()
+            response = client.models.generate_content(
+                model="gemini-1.5-flash",
+                contents=prompt
+            )
+            text = (response.text or "").strip()
             if text.startswith("```json"):
                 text = text[7:-3]
             if text.startswith("```"):
@@ -305,13 +303,14 @@ If the raw content is empty or meaningless, return reasonable placeholders relat
 def process_one(
     p: Path,
     output_dir: Path,
-    api_key: str,
+    client,
     run_id: str,
     redact: bool,
     anonymize_source: bool,
     dry_run: bool,
     skip_unchanged: bool,
-    max_bytes: int
+    max_bytes: int,
+    output_lock
 ) -> Tuple[Dict[str, object], bool]:
     started = time.time()
     result: Dict[str, object] = {
@@ -350,8 +349,8 @@ def process_one(
     result["source_hash"] = source_info["source_hash"]
 
     safe_stem = sanitize_filename(p.name)
-    out_path = build_output_path(output_dir, safe_stem, source_info["source_hash"])
 
+    out_path = build_output_path(output_dir, safe_stem, source_info["source_hash"])
     if skip_unchanged and out_path.exists():
         existing_hash = extract_source_hash(out_path)
         if existing_hash == source_info["source_hash"]:
@@ -368,7 +367,7 @@ def process_one(
         run_id,
         pii_redacted
     )
-    bp = gemini_enrich(bp, api_key)
+    bp = gemini_enrich(bp, client)
     bp["status"] = "complete"
 
     if dry_run:
@@ -378,6 +377,9 @@ def process_one(
         return result, True
 
     try:
+        if output_lock:
+            output_lock.acquire()
+        out_path = build_output_path(output_dir, safe_stem, source_info["source_hash"])
         out_path.write_text(json.dumps(bp, ensure_ascii=False, indent=2), encoding="utf-8")
         result["status"] = "ok"
         result["output_file"] = out_path.as_posix()
@@ -389,6 +391,9 @@ def process_one(
         result["errors"].append(f"write-error:{e}")
         result["duration_ms"] = int((time.time() - started) * 1000)
         return result, False
+    finally:
+        if output_lock:
+            output_lock.release()
 
 def write_manifest(path: Path, payload: Dict[str, object]) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=True, indent=2), encoding="utf-8")
@@ -411,6 +416,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--skip-unchanged", action="store_true", help="Skip files if output hash matches.")
     parser.add_argument("--redact-pii", action="store_true", help="Redact obvious PII before output.")
     parser.add_argument("--anonymize-source", action="store_true", help="Hash source paths in metadata.")
+    parser.add_argument("--workers", type=int, default=1, help="Number of worker threads.")
     parser.add_argument("--log-level", default="INFO", help="Logging level.")
     return parser.parse_args()
 
@@ -425,8 +431,9 @@ def main() -> int:
     output_dir = Path(args.output_dir)
     output_dir.mkdir(exist_ok=True, parents=True)
 
-    api_key = configure_gemini()
+    client = configure_gemini()
     run_id = str(uuid.uuid4())
+    workers = max(1, int(args.workers))
 
     if not input_dir.exists():
         logging.error(f"Input directory not found: {input_dir}")
@@ -443,25 +450,19 @@ def main() -> int:
     success, fail = 0, 0
     results: List[Dict[str, object]] = []
     audit_entries: List[Dict[str, object]] = []
+    output_lock = None
+    if workers > 1:
+        import threading
+        output_lock = threading.Lock()
 
     run_started = datetime.datetime.utcnow()
 
-    for p in files:
-        result, ok = process_one(
-            p,
-            output_dir,
-            api_key,
-            run_id,
-            args.redact_pii,
-            args.anonymize_source,
-            args.dry_run,
-            args.skip_unchanged,
-            args.max_bytes
-        )
+    def handle_result(result: Dict[str, object], ok: bool, file_name: str) -> None:
+        nonlocal success, fail
         results.append(result)
         status = result.get("status", "")
         if status not in ("ok", "dry_run"):
-            logging.warning(f"Skipped {p.name}: {status}")
+            logging.warning(f"Skipped {file_name}: {status}")
         success += 1 if ok else 0
         fail += 0 if ok else 1
         audit_entries.append({
@@ -471,6 +472,65 @@ def main() -> int:
             "status": status,
             "timestamp": datetime.datetime.utcnow().isoformat() + "Z"
         })
+
+    if workers > 1:
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            future_map = {
+                executor.submit(
+                    process_one,
+                    p,
+                    output_dir,
+                    client,
+                    run_id,
+                    args.redact_pii,
+                    args.anonymize_source,
+                    args.dry_run,
+                    args.skip_unchanged,
+                    args.max_bytes,
+                    output_lock
+                ): p
+                for p in files
+            }
+            for future in as_completed(future_map):
+                p = future_map[future]
+                try:
+                    result, ok = future.result()
+                except Exception as e:
+                    result = {
+                        "source_file": "",
+                        "source_name": p.name,
+                        "source_hash": "",
+                        "status": "error",
+                        "output_file": "",
+                        "warnings": [],
+                        "errors": [f"exception:{e}"],
+                        "duration_ms": 0
+                    }
+                    ok = False
+                handle_result(result, ok, p.name)
+    else:
+        for p in files:
+            result, ok = process_one(
+                p,
+                output_dir,
+                client,
+                run_id,
+                args.redact_pii,
+                args.anonymize_source,
+                args.dry_run,
+                args.skip_unchanged,
+                args.max_bytes,
+                output_lock
+            )
+            handle_result(result, ok, p.name)
+
+    results.sort(key=lambda r: r.get("source_name", ""))
+    skipped = sum(1 for r in results if r.get("status") == "skipped")
+    dry_runs = sum(1 for r in results if r.get("status") == "dry_run")
+    warning_count = sum(len(r.get("warnings", [])) for r in results)
+    error_count = sum(len(r.get("errors", [])) for r in results)
 
     run_finished = datetime.datetime.utcnow()
     summary = {
@@ -486,6 +546,10 @@ def main() -> int:
         "total_files": len(files),
         "success": success,
         "failed": fail,
+        "skipped": skipped,
+        "dry_run": dry_runs,
+        "warnings": warning_count,
+        "errors": error_count,
         "results": results
     }
 

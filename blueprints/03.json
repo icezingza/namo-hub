@@ -1,9 +1,11 @@
 {
+  "schema_version": "1.1",
   "id": "BP-20251220-6ccc84",
   "brand": "NamoNexus",
   "title": "03",
   "slogan": "Elevate your existence with NamoNexus.",
   "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "ห ล ั บ\nไ ป\nด ้ ว ย\nค ว า ม\nอ ่ อ น เ พ ล ี ย\n \nแ ต ่\nอ า ว ุ ธ\nข อ ง\nผ ม\nย ั ง\nค า\nอ ย ู่\nใ น\nร ู\nห อ ย\nข อ ง\nแ ม ่\n \nจ น\nบ ว ม ต ุ๋ ย\n \nแ ม ่\nก ็\nไ ม ่\nไ ด ้\nด ู\nว ่ า\nจ ะ\nเ ป ็ น\nอ ย ่ า ง ไ ร\n \nก ็\nห ล ั บ\nไ ป\nด ้ ว ย\nก ั น\nท ั ้ ง\nค ู่\n \nร ุ่ ง เ ช ้ า\nแ ม ่\nก ็\nร ู ้ ส ึ ก\nว ่ า\nม ี\nใ ค ร\nม า\nท ั บ\nอ ย ู่\n \nเ ล ย\nม อ ง\nด ู\n \nป ร า ก ฏ\nว ่ า\n \nอ า ว ุ ธ\nข อ ง\nผ ม\nย ั ง\nค า\nใ น\nร ู ้\n \nพ อ\nผ ม\nช ั ก\nอ อ ก\nม า\n \nม ี\nน ํ้ า ร ั ก\nข อ ง\nเ ร า\nส อ ง\nค น\nแ ม ่\nล ู ก\nเ ย ิ้ ม\nอ อ ก\nม า\nด ้ ว ย\n \nแ ม ่\nจ ึ ง\nร ี บ\nไ ป\nค ้ น\nใ น\nต ู ้\nห า\nย า\nค ุ ม ก ํ า เ น ิ ด\nม า\n \nเ พ ร า ะ\nน ํ้ า\nผ ม\nเ ย อ ะ\n",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -21,7 +23,12 @@
     "author": "NamoVerse Engine",
     "language": "en",
     "source_file": "D:/namo-hub-1/framework/03.pdf",
+    "source_name": "03.pdf",
+    "source_hash": "ac4b8cd58345145691a6585bb126a6a05c1c99dc7112348faa1af8e3948006c4",
+    "source_bytes": 2100,
     "last_updated": "2025-12-20",
-    "pipeline": "auto-blueprint-full"
+    "pipeline": "auto-blueprint-full",
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:37.631540"
   }
 }

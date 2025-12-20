@@ -1,0 +1,14 @@
+{
+  "id": "bp-auto-12345678-1234-5678-1234-567812345678",
+  "title": "Golden Input",
+  "author": "Automated Script",
+  "nature": "Blueprint",
+  "domain": "Technical",
+  "status": "Draft",
+  "tags": [
+    "automated-import"
+  ],
+  "content": "Golden content.",
+  "completeness": 0,
+  "createdAt": "2025-01-02T03:04:05"
+}
