@@ -1,4 +1,9 @@
 {
     "chatgpt.openOnStartup": true,
-    "chatgpt.commentCodeLensEnabled": true
+    "chatgpt.commentCodeLensEnabled": true,
+    "chat.mcp.serverSampling": {
+        "namo-hub-1/.vscode/mcp.json: io.github.upstash/context7": {
+            "allowedModels": []
+        }
+    }
 }
