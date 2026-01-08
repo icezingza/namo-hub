@@ -1,6 +1,6 @@
 # Architecture
 
-This document describes the end-to-end flow, core components, and IO contracts for the NaMo Hub repository.
+This document describes the end-to-end flow, core components, and IO contracts for the NamoFoundry repository.
 
 ## Overview
 The system converts source files into structured blueprint JSON files, validates them, and visualizes them in a local web app. The primary flow is:

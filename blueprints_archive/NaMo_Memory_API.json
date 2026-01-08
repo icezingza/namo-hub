@@ -1,13 +1,11 @@
 {
   "schema_version": "1.1",
-  "id": "BP-20251221-80621e",
+  "id": "BP-20251220-094a80",
   "brand": "NamoNexus",
   "title": "NaMo Memory API",
   "slogan": "Elevate your existence with NamoNexus.",
-  "meta_definition": "This Blueprint is designed as an entity beyond AI - a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
-  "tags": [
-    "architecture"
-  ],
+  "meta_definition": "This Blueprint is designed as an entity beyond AI — a self-evolving, meta-intelligent framework that grows infinitely across dimensions.",
+  "tags": [],
   "sections": {
     "executive_summary": "openapi:\n \n3.0.3\n \ninfo:\n \n \ntitle:\n \nContributor\n \nMemory\n \nAPI\n \n \nversion:\n \n2.1.0\n \n \ndescription:\n \n|\n \n \nMemory\n \nmanagement\n \nsystem\n \nfor\n \nContributor\n \nAI\n \nwith\n \nDharma\n \nprinciples\n \nintegration.\n \n \nIntegrated\n \nwith\n \nGoogle\n \nCloud\n \ninfrastructure\n \nfor\n \npractical\n \ndeployment.\n \n \n \n \nInfrastructure\n \nStack:\n \n \n-\n \nFrontend:\n \nApigee\n \nAPI\n \nHub\n \n \n-\n \nProcessing:\n \nVertex\n \nAI\n \nAgent\n \nEngine\n \n \n-\n \nStorage:\n \nBigQuery\n \n(long-term),\n \nFirestore\n \n(short-term)\n \n \n-\n \nDeployment:\n \nCloud\n \nRun\n \n \nservers:\n \n \n-\n \nurl:\n \nhttps://{apigee-domain}/Contributor/memory\n \n \nde",
     "value_proposition": "Universal adaptability, modular architecture, AI-agnostic integration, and self-evolving design.",
@@ -20,25 +18,17 @@
   },
   "visual_identity": {},
   "status": "complete",
-  "version": "0.2",
+  "version": "0.1",
   "metadata": {
     "author": "NamoVerse Engine",
     "language": "en",
-    "source_file": "framework/NaMo Memory API.pdf",
+    "source_file": "D:/namo-hub-1/framework/NaMo Memory API.pdf",
     "source_name": "NaMo Memory API.pdf",
     "source_hash": "715e7823539350f59232f2c91a2f9ccc4044810946feb799d31894df1c911066",
     "source_bytes": 14200,
-    "source_mtime": "2025-09-18T16:22:06.038528",
-    "last_updated": "2025-12-21",
+    "last_updated": "2025-12-20",
     "pipeline": "auto-blueprint-full",
-    "pipeline_version": "1.1",
-    "pii_redacted": false,
-    "anonymized_source": false,
-    "segment_index": 1,
-    "segment_count": 1,
-    "segment_title": "",
-    "segment_hash": "cf8a0dcb043b6e0e71609f1a27490eaea3677bdaf25722ddb7a9b23ab028d264",
-    "content_type": "architecture",
-    "run_id": "036cf5e7-f391-4b19-abfd-4af51593a48a"
+    "pipeline_version": "legacy",
+    "source_mtime": "2025-12-20T03:15:38.050719"
   }
 }

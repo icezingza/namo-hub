@@ -1,6 +1,6 @@
 # Release Process
 
-This document defines release steps for NaMo Hub.
+This document defines release steps for NamoFoundry.
 
 ## Pre-release checklist
 - Run tests: `python -m unittest discover -s tests`

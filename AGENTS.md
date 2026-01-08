@@ -1,6 +1,7 @@
 # AGENTS - Core Engineer Prompt
 
 ไฟล์นี้คือคำสั่งหลักสำหรับการเขียนโค้ดในโปรเจกต์นี้ ใช้เป็นแนวทางหลักของทุกงานออกแบบและพัฒนา
+เอกสารกำกับบทบาทการทำงานเพิ่มเติมอยู่ที่ docs/ROLE_PROMPTS.md
 เวอร์ชันภาษาอังกฤษอยู่ที่ docs/MASTER_ROLE_PROMPT_EN.md
 
 # Master Role Prompt for Core Engineer (Thai Template)

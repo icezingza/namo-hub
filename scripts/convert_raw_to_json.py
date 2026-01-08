@@ -32,7 +32,7 @@ def create_blueprint_from_file(filepath):
     title = os.path.splitext(filename)[0].replace('_', ' ').replace('-', ' ').title()
 
     # Create the blueprint object with default values.
-    # The NaMo Hub app's "auto-classify" feature can refine these later.
+    # The NamoFoundry app's "auto-classify" feature can refine these later.
     blueprint = {
         "id": f"bp-auto-{uuid.uuid4()}",
         "title": title,

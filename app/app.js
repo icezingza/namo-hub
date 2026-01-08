@@ -242,7 +242,7 @@ function setupEventListeners() {
         const url = URL.createObjectURL(dataBlob);
         const link = document.createElement("a");
         link.href = url;
-        link.download = "namo-hub-items.json";
+        link.download = "namo-foundry-items.json";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
