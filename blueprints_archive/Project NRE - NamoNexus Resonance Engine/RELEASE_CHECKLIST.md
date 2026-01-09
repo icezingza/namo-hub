@@ -20,6 +20,7 @@
 - README quick start and configuration are accurate.
 - SECURITY.md includes the correct contact procedure.
 - LICENSE is correct for your business model.
+- SUPPORT.md matches your support promise and pricing terms.
 
 ## Release Hygiene
 - Remove local caches: `__pycache__/`, `.pytest_cache/`, `.mypy_cache/`
