@@ -24,6 +24,7 @@ adaptive characters without redesigning prompt logic for every use case.
 - Brand characters with adaptive tone control
 
 ## Commercial Options (Indicative)
+- Pilot 30 Days (fast start, credits toward license)
 - Perpetual License (non-exclusive, no IP transfer)
 - Exclusive Buyout (full transfer or exclusive rights)
 - Installation-only support available with deposit and limited scope
