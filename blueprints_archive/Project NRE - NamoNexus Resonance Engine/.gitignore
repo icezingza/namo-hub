@@ -1,0 +1,15 @@
+﻿.env
+.env.*
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.envrc
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
