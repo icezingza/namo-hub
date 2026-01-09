@@ -5,71 +5,38 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Containers .NET Attach (Preview)",
-            "type": "docker",
-            "request": "attach",
-            "platform": "netCore",
-            "sourceFileMap": {
-                "/src": "${workspaceFolder}"
-            }
+            "name": "Web App: Chrome (app/)",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:8080/",
+            "webRoot": "${workspaceFolder}/app",
+            "preLaunchTask": "Serve app (http.server)"
         },
         {
-            "name": "Python Debugger: Current File with Arguments",
+            "name": "Python: Auto Blueprint Full",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "args": "${command:pickArgs}"
-        },
-        {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "command": "npm start",
-            "name": "Run npm start",
-            "request": "launch",
-            "type": "node-terminal"
-        },
-        {
-            "name": "Launch Chrome",
-            "request": "launch",
-            "type": "chrome",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Attach to Chrome",
-            "port": 9222,
-            "request": "attach",
-            "type": "chrome",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "request": "launch",
-            "name": "Launch Program",
-            "type": "node",
-            "program": "${workspaceFolder}/main.ts",
+            "program": "${workspaceFolder}/tools/auto_blueprint_full.py",
+            "args": ["--input-dir", "framework", "--output-dir", "blueprints"],
             "cwd": "${workspaceFolder}",
-            "env": {},
-            "runtimeExecutable": "deno",
-            "runtimeArgs": [
-                "run",
-                "--unstable",
-                "--inspect-brk",
-                "--allow-all"
-            ],
-            "attachSimplePort": 9229
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Convert Raw to JSON",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/convert_raw_to_json.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Pytest",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["-q"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
         }
     ]
 }
