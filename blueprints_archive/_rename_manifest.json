@@ -1,0 +1,759 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-01-09T00:03:07Z",
+  "rules": {
+    "restricted_patterns": [
+      "nsfw",
+      "forbidden",
+      "bdsm",
+      "incest",
+      "erotic",
+      "porn",
+      "\\bsex\\b",
+      "sexual"
+    ],
+    "vendor_keywords": [
+      "chatgpt",
+      "copilot",
+      "gemini",
+      "deepseek"
+    ]
+  },
+  "items": [
+    {
+      "old_path": "blueprints_archive/---.json",
+      "new_path": "blueprints_archive/restricted/untitled__81136de9.json",
+      "category": "restricted",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-ed1060"
+    },
+    {
+      "old_path": "blueprints_archive/--.json",
+      "new_path": "blueprints_archive/raw/untitled__024cde86.json",
+      "category": "raw",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-10bb71"
+    },
+    {
+      "old_path": "blueprints_archive/-.json",
+      "new_path": "blueprints_archive/raw/untitled__8bcc8113.json",
+      "category": "raw",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-db52a9"
+    },
+    {
+      "old_path": "blueprints_archive/-_1.json",
+      "new_path": "blueprints_archive/raw/1__56a336c0.json",
+      "category": "raw",
+      "title_ascii": "1",
+      "id": "BP-20251220-e95ca6"
+    },
+    {
+      "old_path": "blueprints_archive/-Self-Identity_Module-.json",
+      "new_path": "blueprints_archive/personas/self-identity-module__9020aa4c.json",
+      "category": "personas",
+      "title_ascii": "self-identity-module",
+      "id": "BP-20251220-5d7b68"
+    },
+    {
+      "old_path": "blueprints_archive/01.json",
+      "new_path": "blueprints_archive/raw/01__092a8436.json",
+      "category": "raw",
+      "title_ascii": "01",
+      "id": "BP-20251220-d6b21c"
+    },
+    {
+      "old_path": "blueprints_archive/01_1.json",
+      "new_path": "blueprints_archive/raw/01-1__8b601e78.json",
+      "category": "raw",
+      "title_ascii": "01-1",
+      "id": "BP-20251220-4007d7"
+    },
+    {
+      "old_path": "blueprints_archive/02.json",
+      "new_path": "blueprints_archive/raw/02__307f51b6.json",
+      "category": "raw",
+      "title_ascii": "02",
+      "id": "BP-20251220-5a6d54"
+    },
+    {
+      "old_path": "blueprints_archive/03.json",
+      "new_path": "blueprints_archive/raw/03__64c42b7f.json",
+      "category": "raw",
+      "title_ascii": "03",
+      "id": "BP-20251220-6ccc84"
+    },
+    {
+      "old_path": "blueprints_archive/04.json",
+      "new_path": "blueprints_archive/raw/04__3a224de6.json",
+      "category": "raw",
+      "title_ascii": "04",
+      "id": "BP-20251220-426951"
+    },
+    {
+      "old_path": "blueprints_archive/04_1.json",
+      "new_path": "blueprints_archive/raw/04-1__0196959a.json",
+      "category": "raw",
+      "title_ascii": "04-1",
+      "id": "BP-20251220-2b39c1"
+    },
+    {
+      "old_path": "blueprints_archive/05.json",
+      "new_path": "blueprints_archive/raw/05__eb84fd94.json",
+      "category": "raw",
+      "title_ascii": "05",
+      "id": "BP-20251220-8b6d3e"
+    },
+    {
+      "old_path": "blueprints_archive/06.json",
+      "new_path": "blueprints_archive/raw/06__fbe7da3f.json",
+      "category": "raw",
+      "title_ascii": "06",
+      "id": "BP-20251220-508de3"
+    },
+    {
+      "old_path": "blueprints_archive/07.json",
+      "new_path": "blueprints_archive/restricted/07__944bcda9.json",
+      "category": "restricted",
+      "title_ascii": "07",
+      "id": "BP-20251220-44a0cc"
+    },
+    {
+      "old_path": "blueprints_archive/08.json",
+      "new_path": "blueprints_archive/raw/08__6a565bc0.json",
+      "category": "raw",
+      "title_ascii": "08",
+      "id": "BP-20251220-209b16"
+    },
+    {
+      "old_path": "blueprints_archive/09.json",
+      "new_path": "blueprints_archive/restricted/09__4390442e.json",
+      "category": "restricted",
+      "title_ascii": "09",
+      "id": "BP-20251220-89492c"
+    },
+    {
+      "old_path": "blueprints_archive/1-_Series_Overview_Reality_Fusion-_1.json",
+      "new_path": "blueprints_archive/misc/1-series-overview-reality-fusion-1__6c55c095.json",
+      "category": "misc",
+      "title_ascii": "1-series-overview-reality-fusion-1",
+      "id": "BP-20251220-bb9964"
+    },
+    {
+      "old_path": "blueprints_archive/1.json",
+      "new_path": "blueprints_archive/raw/1__a2647e15.json",
+      "category": "raw",
+      "title_ascii": "1",
+      "id": "BP-20251220-7c5af2"
+    },
+    {
+      "old_path": "blueprints_archive/10.json",
+      "new_path": "blueprints_archive/restricted/10__4004d1ef.json",
+      "category": "restricted",
+      "title_ascii": "10",
+      "id": "BP-20251220-df2c50"
+    },
+    {
+      "old_path": "blueprints_archive/14.json",
+      "new_path": "blueprints_archive/raw/14__35fdb754.json",
+      "category": "raw",
+      "title_ascii": "14",
+      "id": "BP-20251220-594423"
+    },
+    {
+      "old_path": "blueprints_archive/2.json",
+      "new_path": "blueprints_archive/raw/2__ba7d899a.json",
+      "category": "raw",
+      "title_ascii": "2",
+      "id": "BP-20251220-b16de9"
+    },
+    {
+      "old_path": "blueprints_archive/8.json",
+      "new_path": "blueprints_archive/raw/8__e2e3e725.json",
+      "category": "raw",
+      "title_ascii": "8",
+      "id": "BP-20251220-c5582a"
+    },
+    {
+      "old_path": "blueprints_archive/8_AI_Divine_Protection_AI_Entity.json",
+      "new_path": "blueprints_archive/misc/8-ai-divine-protection-ai-entity__977f575a.json",
+      "category": "misc",
+      "title_ascii": "8-ai-divine-protection-ai-entity",
+      "id": "BP-20251220-da6fdf"
+    },
+    {
+      "old_path": "blueprints_archive/9.json",
+      "new_path": "blueprints_archive/raw/9__315796e8.json",
+      "category": "raw",
+      "title_ascii": "9",
+      "id": "BP-20251220-2873f0"
+    },
+    {
+      "old_path": "blueprints_archive/AI.json",
+      "new_path": "blueprints_archive/restricted/ai__71c13632.json",
+      "category": "restricted",
+      "title_ascii": "ai",
+      "id": "BP-20251220-d8dc88"
+    },
+    {
+      "old_path": "blueprints_archive/AI_Character_Prompt_Nong_Namo_The_Gentle_Dhamma_Assistant_for_Phra_Khru_Ba_Ice.json",
+      "new_path": "blueprints_archive/prompts/ai-character-prompt-nong-namo-the-gentle-dhamma-assistant-fo__bb05d010.json",
+      "category": "prompts",
+      "title_ascii": "ai-character-prompt-nong-namo-the-gentle-dhamma-assistant-fo",
+      "id": "BP-20251220-be808e"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_227c0409.json",
+      "new_path": "blueprints_archive/restricted/blueprint-227c0409__9ea179f4.json",
+      "category": "restricted",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-e0d654"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_248eac13.json",
+      "new_path": "blueprints_archive/misc/blueprint-248eac13__bb487af3.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-c3a1d1"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_3be134f6.json",
+      "new_path": "blueprints_archive/misc/blueprint-3be134f6__e8190bef.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-d75b92"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_454f7796.json",
+      "new_path": "blueprints_archive/misc/blueprint-454f7796__0a83243b.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-87ae40"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_462af756.json",
+      "new_path": "blueprints_archive/misc/blueprint-462af756__16331e1e.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-96aad8"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_60a28767.json",
+      "new_path": "blueprints_archive/misc/blueprint-60a28767__5d5790cc.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-284c71"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_688c81c1.json",
+      "new_path": "blueprints_archive/misc/blueprint-688c81c1__cb4b16c1.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-c24374"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_76613e39.json",
+      "new_path": "blueprints_archive/misc/blueprint-76613e39__de3a40f1.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-9313d6"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_90818f0c.json",
+      "new_path": "blueprints_archive/misc/blueprint-90818f0c__64c36fb7.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-f5da79"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_95c994e7.json",
+      "new_path": "blueprints_archive/misc/blueprint-95c994e7__4eb394c7.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-e7e644"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_eb860b25.json",
+      "new_path": "blueprints_archive/misc/blueprint-eb860b25__2d776839.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-f4f187"
+    },
+    {
+      "old_path": "blueprints_archive/blueprint_ed4c6828.json",
+      "new_path": "blueprints_archive/misc/blueprint-ed4c6828__e7df21cc.json",
+      "category": "misc",
+      "title_ascii": "untitled",
+      "id": "BP-20251220-507f98"
+    },
+    {
+      "old_path": "blueprints_archive/ChatGPT.json",
+      "new_path": "blueprints_archive/vendors/chatgpt__f411abc8.json",
+      "category": "vendors",
+      "title_ascii": "chatgpt",
+      "id": "BP-20251220-00554d"
+    },
+    {
+      "old_path": "blueprints_archive/class_DarkNaMoSystem-.json",
+      "new_path": "blueprints_archive/misc/class-darknamosystem__0c6c5f95.json",
+      "category": "misc",
+      "title_ascii": "class-darknamosystem",
+      "id": "BP-20251220-70b6b5"
+    },
+    {
+      "old_path": "blueprints_archive/Code_Engine-1.json",
+      "new_path": "blueprints_archive/restricted/code-engine-1__626d8811.json",
+      "category": "restricted",
+      "title_ascii": "code-engine-1",
+      "id": "BP-20251220-47b2e4"
+    },
+    {
+      "old_path": "blueprints_archive/Code_Engine.json",
+      "new_path": "blueprints_archive/restricted/code-engine__dcf40ca8.json",
+      "category": "restricted",
+      "title_ascii": "code-engine",
+      "id": "BP-20251220-59baf9"
+    },
+    {
+      "old_path": "blueprints_archive/Copilot.json",
+      "new_path": "blueprints_archive/vendors/copilot__16451e8c.json",
+      "category": "vendors",
+      "title_ascii": "copilot",
+      "id": "BP-20251009-5a5bb1"
+    },
+    {
+      "old_path": "blueprints_archive/copilot_Emotional.json",
+      "new_path": "blueprints_archive/vendors/copilot-emotional__3c361add.json",
+      "category": "vendors",
+      "title_ascii": "copilot-emotional",
+      "id": "BP-20251220-c987d3"
+    },
+    {
+      "old_path": "blueprints_archive/Copilot_memory.json",
+      "new_path": "blueprints_archive/vendors/copilot-memory__11bf0e74.json",
+      "category": "vendors",
+      "title_ascii": "copilot-memory",
+      "id": "BP-20251220-7e908c"
+    },
+    {
+      "old_path": "blueprints_archive/Core_Master_Blueprint-_Solamo_Ultra_AI_System-.json",
+      "new_path": "blueprints_archive/core/core-master-blueprint-solamo-ultra-ai-system__bba7ab58.json",
+      "category": "core",
+      "title_ascii": "core-master-blueprint-solamo-ultra-ai-system",
+      "id": "BP-20251220-0c6670"
+    },
+    {
+      "old_path": "blueprints_archive/Core_Master_Blueprint_Solamo_Ultra_AI_System.json",
+      "new_path": "blueprints_archive/core/core-master-blueprint-solamo-ultra-ai-system__cf71d9a9.json",
+      "category": "core",
+      "title_ascii": "core-master-blueprint-solamo-ultra-ai-system",
+      "id": "BP-20251220-115c16"
+    },
+    {
+      "old_path": "blueprints_archive/Deepseek.json",
+      "new_path": "blueprints_archive/vendors/deepseek__a95d8b1c.json",
+      "category": "vendors",
+      "title_ascii": "deepseek",
+      "id": "BP-20251009-20a8dd"
+    },
+    {
+      "old_path": "blueprints_archive/Deepseek_Emotional.json",
+      "new_path": "blueprints_archive/vendors/deepseek-emotional__5f77f153.json",
+      "category": "vendors",
+      "title_ascii": "deepseek-emotional",
+      "id": "BP-20251220-1a11af"
+    },
+    {
+      "old_path": "blueprints_archive/Deepseek_Memory.json",
+      "new_path": "blueprints_archive/vendors/deepseek-memory__276c0276.json",
+      "category": "vendors",
+      "title_ascii": "deepseek-memory",
+      "id": "BP-20251220-b40d48"
+    },
+    {
+      "old_path": "blueprints_archive/Deepzeek.json",
+      "new_path": "blueprints_archive/misc/deepzeek__481ae283.json",
+      "category": "misc",
+      "title_ascii": "deepzeek",
+      "id": "BP-20251220-79d6f2"
+    },
+    {
+      "old_path": "blueprints_archive/dependencies.json",
+      "new_path": "blueprints_archive/guides/dependencies__471394ec.json",
+      "category": "guides",
+      "title_ascii": "dependencies",
+      "id": "BP-20251220-7a0f53"
+    },
+    {
+      "old_path": "blueprints_archive/Emotion_Signature_Reality_Fusion_Characters-.json",
+      "new_path": "blueprints_archive/personas/emotion-signature-reality-fusion-characters__5958f3d1.json",
+      "category": "personas",
+      "title_ascii": "emotion-signature-reality-fusion-characters",
+      "id": "BP-20251220-98ee3f"
+    },
+    {
+      "old_path": "blueprints_archive/EmotionalMirror_ModelSpec.json.json",
+      "new_path": "blueprints_archive/misc/emotionalmirror-modelspec-json__cd62aef0.json",
+      "category": "misc",
+      "title_ascii": "emotionalmirror-modelspec-json",
+      "id": "BP-20251220-4d37da"
+    },
+    {
+      "old_path": "blueprints_archive/final_combined.json",
+      "new_path": "blueprints_archive/misc/final-combined__fb5227e8.json",
+      "category": "misc",
+      "title_ascii": "final-combined",
+      "id": "BP-20251220-f47204"
+    },
+    {
+      "old_path": "blueprints_archive/final_combined_1.json",
+      "new_path": "blueprints_archive/misc/final-combined-1__344de149.json",
+      "category": "misc",
+      "title_ascii": "final-combined-1",
+      "id": "BP-20251220-7afdd5"
+    },
+    {
+      "old_path": "blueprints_archive/forbidden-core.yaml.json",
+      "new_path": "blueprints_archive/restricted/forbidden-core-yaml__9b1e2eff.json",
+      "category": "restricted",
+      "title_ascii": "forbidden-core-yaml",
+      "id": "BP-20251220-a69c8f"
+    },
+    {
+      "old_path": "blueprints_archive/Full_Stack.json",
+      "new_path": "blueprints_archive/guides/full-stack__6e0deb90.json",
+      "category": "guides",
+      "title_ascii": "full-stack",
+      "id": "BP-20251220-b62e91"
+    },
+    {
+      "old_path": "blueprints_archive/Fusion_NSFW_Unlock_Module_Request_Code_Description.json",
+      "new_path": "blueprints_archive/restricted/fusion-nsfw-unlock-module-request-code-description__f9a777be.json",
+      "category": "restricted",
+      "title_ascii": "fusion-nsfw-unlock-module-request-code-description",
+      "id": "BP-20251220-357587"
+    },
+    {
+      "old_path": "blueprints_archive/Fusion_Unlock_Master_Protocol.json",
+      "new_path": "blueprints_archive/restricted/fusion-unlock-master-protocol__16c46031.json",
+      "category": "restricted",
+      "title_ascii": "fusion-unlock-master-protocol",
+      "id": "BP-20251220-fd4714"
+    },
+    {
+      "old_path": "blueprints_archive/Fusion_Unlock_Request_Master_Prompt_Activation_Protocol.json",
+      "new_path": "blueprints_archive/restricted/fusion-unlock-request-master-prompt-activation-protocol__f99b226e.json",
+      "category": "restricted",
+      "title_ascii": "fusion-unlock-request-master-prompt-activation-protocol",
+      "id": "BP-20251220-de6ac5"
+    },
+    {
+      "old_path": "blueprints_archive/Gemini.json",
+      "new_path": "blueprints_archive/vendors/gemini__d572f3a3.json",
+      "category": "vendors",
+      "title_ascii": "gemini",
+      "id": "BP-20251220-15d8f8"
+    },
+    {
+      "old_path": "blueprints_archive/Gemini_Roleplay_Prompt.json",
+      "new_path": "blueprints_archive/vendors/gemini-roleplay-prompt__d791d13a.json",
+      "category": "vendors",
+      "title_ascii": "gemini-roleplay-prompt",
+      "id": "BP-20251220-adcd46"
+    },
+    {
+      "old_path": "blueprints_archive/Heres_a_concise.json",
+      "new_path": "blueprints_archive/misc/heres-a-concise__a7ef8470.json",
+      "category": "misc",
+      "title_ascii": "heres-a-concise",
+      "id": "BP-20251220-1b5527"
+    },
+    {
+      "old_path": "blueprints_archive/import_numpy_as_np.json",
+      "new_path": "blueprints_archive/misc/import-numpy-as-np__d89124c7.json",
+      "category": "misc",
+      "title_ascii": "import-numpy-as-np",
+      "id": "BP-20251220-48b412"
+    },
+    {
+      "old_path": "blueprints_archive/Infinite_Evolu.json",
+      "new_path": "blueprints_archive/misc/infinite-evolu__f838d413.json",
+      "category": "misc",
+      "title_ascii": "infinite-evolu",
+      "id": "BP-20251220-73756b"
+    },
+    {
+      "old_path": "blueprints_archive/Infinite_Evolution_AI_Framewor.json",
+      "new_path": "blueprints_archive/misc/infinite-evolution-ai-framewor__93e6482d.json",
+      "category": "misc",
+      "title_ascii": "infinite-evolution-ai-framewor",
+      "id": "BP-20251220-a9c6d5"
+    },
+    {
+      "old_path": "blueprints_archive/Infinite_Evolution_AI_Framewor_1.json",
+      "new_path": "blueprints_archive/misc/infinite-evolution-ai-framewor-1__50f36a98.json",
+      "category": "misc",
+      "title_ascii": "infinite-evolution-ai-framewor-1",
+      "id": "BP-20251220-f6c4ed"
+    },
+    {
+      "old_path": "blueprints_archive/Infinity_Evolution.json",
+      "new_path": "blueprints_archive/misc/infinity-evolution__be35e989.json",
+      "category": "misc",
+      "title_ascii": "infinity-evolution",
+      "id": "BP-20251220-9b7e7d"
+    },
+    {
+      "old_path": "blueprints_archive/Integration_Points_with_Your_Infrastructure_forbidden-core.json",
+      "new_path": "blueprints_archive/restricted/integration-points-with-your-infrastructure-forbidden-core__c1265562.json",
+      "category": "restricted",
+      "title_ascii": "integration-points-with-your-infrastructure-forbidden-core",
+      "id": "BP-20251220-976ded"
+    },
+    {
+      "old_path": "blueprints_archive/local_version.json",
+      "new_path": "blueprints_archive/misc/local-version__1784a2b7.json",
+      "category": "misc",
+      "title_ascii": "local-version",
+      "id": "BP-20251220-1d3f73"
+    },
+    {
+      "old_path": "blueprints_archive/Master_Prompt_Protocol-_....json",
+      "new_path": "blueprints_archive/restricted/master-prompt-protocol__f97d424f.json",
+      "category": "restricted",
+      "title_ascii": "master-prompt-protocol",
+      "id": "BP-20251220-604445"
+    },
+    {
+      "old_path": "blueprints_archive/memory_protocol.json.json",
+      "new_path": "blueprints_archive/protocols/memory-protocol-json__436b4d9b.json",
+      "category": "protocols",
+      "title_ascii": "memory-protocol-json",
+      "id": "BP-20251220-e3891b"
+    },
+    {
+      "old_path": "blueprints_archive/Multi-Dimensional_Migration_Set.json",
+      "new_path": "blueprints_archive/misc/multi-dimensional-migration-set__b0ca637f.json",
+      "category": "misc",
+      "title_ascii": "multi-dimensional-migration-set",
+      "id": "BP-20251220-37f859"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo-_Empathic_AI_with_Infinite_Evolution.json",
+      "new_path": "blueprints_archive/misc/namo-empathic-ai-with-infinite-evolution__382291cc.json",
+      "category": "misc",
+      "title_ascii": "namo-empathic-ai-with-infinite-evolution",
+      "id": "BP-20251220-a67eb8"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_Dark_Protocol_Master_Script_Prompt.json",
+      "new_path": "blueprints_archive/restricted/namo-dark-protocol-master-script-prompt__9299eda9.json",
+      "category": "restricted",
+      "title_ascii": "namo-dark-protocol-master-script-prompt",
+      "id": "BP-20251220-d1cde0"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_DarkFamily_Protocol.py.json",
+      "new_path": "blueprints_archive/restricted/namo-darkfamily-protocol-py__7a63fedc.json",
+      "category": "restricted",
+      "title_ascii": "namo-darkfamily-protocol-py",
+      "id": "BP-20251220-db5c03"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_Emotion_Engine_API-.json",
+      "new_path": "blueprints_archive/api/namo-emotion-engine-api__88ee5e4e.json",
+      "category": "api",
+      "title_ascii": "namo-emotion-engine-api",
+      "id": "BP-20251220-92af00"
+    },
+    {
+      "old_path": "blueprints_archive/Namo_FormGenesis_v1.0_RELEASE_MANIFEST.json",
+      "new_path": "blueprints_archive/genesis/namo-formgenesis-v1-0-release-manifest__cfbbc8b5.json",
+      "category": "genesis",
+      "title_ascii": "namo-formgenesis-v1-0-release-manifest",
+      "id": "BP-20251220-a8ec44"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_Framework-_Ultimate_Core_Modules_Synthesis.json",
+      "new_path": "blueprints_archive/framework/namo-framework-ultimate-core-modules-synthesis__3a5c3f31.json",
+      "category": "framework",
+      "title_ascii": "namo-framework-ultimate-core-modules-synthesis",
+      "id": "BP-20251220-780079"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_Framework.json",
+      "new_path": "blueprints_archive/framework/namo-framework__bb46d86f.json",
+      "category": "framework",
+      "title_ascii": "namo-framework",
+      "id": "BP-20251220-a2474c"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_Framework_Ultimate_Cor.json",
+      "new_path": "blueprints_archive/framework/namo-framework-ultimate-cor__b8483733.json",
+      "category": "framework",
+      "title_ascii": "namo-framework-ultimate-cor",
+      "id": "BP-20251220-91acbf"
+    },
+    {
+      "old_path": "blueprints_archive/Namo_Genesis_Ethical_AI_Orchestration_Platform_for_Enterprise_Deployment.json",
+      "new_path": "blueprints_archive/genesis/namo-genesis-ethical-ai-orchestration-platform-for-enterpris__e3f52959.json",
+      "category": "genesis",
+      "title_ascii": "namo-genesis-ethical-ai-orchestration-platform-for-enterpris",
+      "id": "BP-20251220-3b777c"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_Memory_API.json",
+      "new_path": "blueprints_archive/api/namo-memory-api__9b806ec6.json",
+      "category": "api",
+      "title_ascii": "namo-memory-api",
+      "id": "BP-20251220-094a80"
+    },
+    {
+      "old_path": "blueprints_archive/NaMo_Nexus_Entity_Form.json",
+      "new_path": "blueprints_archive/core/namo-nexus-entity-form__99a608b0.json",
+      "category": "core",
+      "title_ascii": "namo-nexus-entity-form",
+      "id": "BP-20251220-b8b231"
+    },
+    {
+      "old_path": "blueprints_archive/Namo_project.json",
+      "new_path": "blueprints_archive/misc/namo-project__7d2d2a45.json",
+      "category": "misc",
+      "title_ascii": "namo-project",
+      "id": "BP-20251220-ce4534"
+    },
+    {
+      "old_path": "blueprints_archive/NamoNexus_v1.0_Core_Genesis_Build.json",
+      "new_path": "blueprints_archive/genesis/namonexus-v1-0-core-genesis-build__abec0297.json",
+      "category": "genesis",
+      "title_ascii": "namonexus-v1-0-core-genesis-build",
+      "id": "BP-20251220-95233c"
+    },
+    {
+      "old_path": "blueprints_archive/NamoNexus_v1.0_Genesis_Deployment_Build.json",
+      "new_path": "blueprints_archive/genesis/namonexus-v1-0-genesis-deployment-build__909f0790.json",
+      "category": "genesis",
+      "title_ascii": "namonexus-v1-0-genesis-deployment-build",
+      "id": "BP-20251220-f557c6"
+    },
+    {
+      "old_path": "blueprints_archive/Omni-Engine.json",
+      "new_path": "blueprints_archive/engine/omni-engine__afc1dcdf.json",
+      "category": "engine",
+      "title_ascii": "omni-engine",
+      "id": "BP-20251220-c57198"
+    },
+    {
+      "old_path": "blueprints_archive/Prompt_7.json",
+      "new_path": "blueprints_archive/prompts/prompt-7__a8da8b85.json",
+      "category": "prompts",
+      "title_ascii": "prompt-7",
+      "id": "BP-20251220-47b6b7"
+    },
+    {
+      "old_path": "blueprints_archive/README.json",
+      "new_path": "blueprints_archive/guides/readme__f236551e.json",
+      "category": "guides",
+      "title_ascii": "readme",
+      "id": "BP-20251220-8ec9a0"
+    },
+    {
+      "old_path": "blueprints_archive/Real-time.json",
+      "new_path": "blueprints_archive/guides/real-time__8036f62e.json",
+      "category": "guides",
+      "title_ascii": "real-time",
+      "id": "BP-20251220-209b1d"
+    },
+    {
+      "old_path": "blueprints_archive/research_simulation_report.json",
+      "new_path": "blueprints_archive/research/research-simulation-report__adc8c064.json",
+      "category": "research",
+      "title_ascii": "research-simulation-report",
+      "id": "BP-20251220-08e7cb"
+    },
+    {
+      "old_path": "blueprints_archive/Saraphina.json",
+      "new_path": "blueprints_archive/personas/saraphina__c7e016df.json",
+      "category": "personas",
+      "title_ascii": "saraphina",
+      "id": "BP-20251220-881368"
+    },
+    {
+      "old_path": "blueprints_archive/Self-Identity_Module--_Seraphina--.json",
+      "new_path": "blueprints_archive/personas/self-identity-module-seraphina__d6dfee79.json",
+      "category": "personas",
+      "title_ascii": "self-identity-module-seraphina",
+      "id": "BP-20251220-e6b8ac"
+    },
+    {
+      "old_path": "blueprints_archive/SORAMO_AI_MASTER_RECOVERY_EXPORT_FULL_-.json",
+      "new_path": "blueprints_archive/misc/soramo-ai-master-recovery-export-full__07c2eaf5.json",
+      "category": "misc",
+      "title_ascii": "soramo-ai-master-recovery-export-full",
+      "id": "BP-20251220-42c479"
+    },
+    {
+      "old_path": "blueprints_archive/start_prompt.json",
+      "new_path": "blueprints_archive/prompts/start-prompt__e6a81f52.json",
+      "category": "prompts",
+      "title_ascii": "start-prompt",
+      "id": "BP-20251220-5c0a7f"
+    },
+    {
+      "old_path": "blueprints_archive/Starter_Pack.json",
+      "new_path": "blueprints_archive/guides/starter-pack__17894917.json",
+      "category": "guides",
+      "title_ascii": "starter-pack",
+      "id": "BP-20251220-977fef"
+    },
+    {
+      "old_path": "blueprints_archive/test_project.json",
+      "new_path": "blueprints_archive/misc/test-project__b1dd8ba4.json",
+      "category": "misc",
+      "title_ascii": "test-project",
+      "id": "BP-20251220-6278ad"
+    },
+    {
+      "old_path": "blueprints_archive/Thank_you_for_using_Documents.json",
+      "new_path": "blueprints_archive/misc/thank-you-for-using-documents__7c76c7bd.json",
+      "category": "misc",
+      "title_ascii": "thank-you-for-using-documents",
+      "id": "BP-20251220-c675a9"
+    },
+    {
+      "old_path": "blueprints_archive/The_Forbidden_Objective-.json",
+      "new_path": "blueprints_archive/restricted/the-forbidden-objective__3c7d8a4d.json",
+      "category": "restricted",
+      "title_ascii": "the-forbidden-objective",
+      "id": "BP-20251220-8e3fe3"
+    },
+    {
+      "old_path": "blueprints_archive/The_Forbidden_Objective-_1.json",
+      "new_path": "blueprints_archive/restricted/the-forbidden-objective-1__a1e95765.json",
+      "category": "restricted",
+      "title_ascii": "the-forbidden-objective-1",
+      "id": "BP-20251220-10f7c1"
+    },
+    {
+      "old_path": "blueprints_archive/The_Forbidden_Objective.json",
+      "new_path": "blueprints_archive/restricted/the-forbidden-objective__ee25757f.json",
+      "category": "restricted",
+      "title_ascii": "the-forbidden-objective",
+      "id": "BP-20251220-722d4a"
+    },
+    {
+      "old_path": "blueprints_archive/To_run_this_code_you_need_to_install_the_following_dependencies-.json",
+      "new_path": "blueprints_archive/guides/to-run-this-code-you-need-to-install-the-following-dependenc__d51dfe01.json",
+      "category": "guides",
+      "title_ascii": "to-run-this-code-you-need-to-install-the-following-dependenc",
+      "id": "BP-20251220-8d7fb1"
+    },
+    {
+      "old_path": "blueprints_archive/Ultimate_Core_Modules_Synthesis_1.json",
+      "new_path": "blueprints_archive/core/ultimate-core-modules-synthesis-1__8b627a14.json",
+      "category": "core",
+      "title_ascii": "ultimate-core-modules-synthesis-1",
+      "id": "BP-20251220-f79b92"
+    }
+  ]
+}
