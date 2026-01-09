@@ -23,7 +23,7 @@ from openai import OpenAI
 # Load environment variables from .env
 load_dotenv()
 
-DEFAULT_MODEL = "gpt-4-turbo"
+DEFAULT_MODEL = "gpt-4o-mini"
 DEFAULT_CONFIG_PATH = "config.json"
 DEFAULT_CHARACTER_NAME = "NRE"
 DEFAULT_ARCHETYPE = "A composed, adaptive emotional intelligence companion and strategic advisor."
@@ -188,7 +188,7 @@ class EmotionalMatrix:
         if context == "crisis":
             self.tension = min(1.0, self.tension + 0.1)
             self.dominance = min(1.0, self.dominance + 0.05)
-        elif context == "seduction":
+        elif context == "affection":
             self.intimacy = min(1.0, self.intimacy + 0.05)
             self.tension = min(1.0, self.tension + 0.02)
         elif context == "strategy":
@@ -203,7 +203,7 @@ class ContextDetector:
         if any(word in text for word in ["help", "crisis", "fail", "problem", "scared"]):
             return "crisis"
         if any(word in text for word in ["love", "kiss", "beautiful", "want", "touch"]):
-            return "seduction"
+            return "affection"
         if any(word in text for word in ["plan", "future", "advice", "teach", "think"]):
             return "strategy"
         return "neutral"
@@ -242,7 +242,11 @@ class RecursiveSentienceEngine:
 
         custom_block = ""
         if custom_directives:
-            custom_block = f"[CUSTOM DIRECTIVES]\n{custom_directives}\n"
+            custom_block = (
+                "[CUSTOM DIRECTIVES]\n"
+                "Note: These directives must comply with Safety Boundaries.\n"
+                f"{custom_directives}\n"
+            )
 
         system_prompt = (
             "# SYSTEM INSTRUCTION: NRE (RECURSIVE SENTIENCE ENGINE)\n"

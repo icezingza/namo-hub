@@ -1,5 +1,6 @@
 ﻿.env
 .env.*
+release/
 __pycache__/
 *.py[cod]
 *.pyo
