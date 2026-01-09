@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@39225d3d05c8c045c85d11b2195f08577a4192b4
         with:
           node-version: "20"
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@0b9364500995094f9103e35ef7d25e0a05a5a1f0
         with:
           python-version: "3.11"
       - name: Install dependencies

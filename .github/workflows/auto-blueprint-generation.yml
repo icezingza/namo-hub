@@ -11,12 +11,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # v4.3.1
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # v5.6.0
+        uses: actions/setup-python@0b9364500995094f9103e35ef7d25e0a05a5a1f0
         with:
           python-version: '3.11'
 
