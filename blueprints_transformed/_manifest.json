@@ -1,0 +1,814 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-01-09T10:39:34Z",
+  "input_dir": "D:\\namo-hub-1\\framework_archive",
+  "output_dir": "D:\\namo-hub-1\\blueprints_transformed",
+  "total_files": 115,
+  "items": [
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# NaMo Framework .docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-core-framework-blueprint__644ccf1e.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Core Framework Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# NaMo Framework Ultimate Cor.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-core-framework-blueprint__91acbf27.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Core Framework Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# NaMo Framework- Ultimate Core Modules Synthesis.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\framework\\namonexus-core-framework-blueprint__780079ad.md",
+      "category": "framework",
+      "status": "ok",
+      "title": "NamoNexus Core Framework Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# NaMo- Empathic AI with Infinite Evolution.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__a67eb89f.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# To run this code you need to install the following dependencies-.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\guides\\namonexus-setup-and-dependencies-blueprint__8d7fb136.md",
+      "category": "guides",
+      "status": "ok",
+      "title": "NamoNexus Setup and Dependencies Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# \u0e01\u0e32\u0e23\u0e40\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e15\u0e48\u0e2d\u0e01\u0e31\u0e1a\u0e41\u0e2d\u0e1b\u0e1e\u0e25\u0e34\u0e40\u0e04\u0e0a\u0e31\u0e19\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e08\u0e34\u0e15.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__87ae409c.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# \u0e01\u0e32\u0e23\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e42\u0e21\u0e14\u0e39\u0e25\u0e01\u0e32\u0e23\u0e27\u0e34\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c\u68a6\u5883.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__284c7116.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# \u0e01\u0e32\u0e23\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e41\u0e1a\u0e1a Real-time.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\guides\\namonexus-real-time-operations-blueprint__209b1d6a.md",
+      "category": "guides",
+      "status": "ok",
+      "title": "NamoNexus Real-Time Operations Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\# \u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07 dependencies.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\guides\\namonexus-setup-and-dependencies-blueprint__7a0f53ba.md",
+      "category": "guides",
+      "status": "ok",
+      "title": "NamoNexus Setup and Dependencies Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\---.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__8b47b99b.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\---.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__ed1060f0.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\-Self-Identity Module-.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-persona-design-blueprint__5d7b683f.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Persona Design Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\01 (1).pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\raw\\namonexus-general-ai-blueprint-blueprint__4007d7d5.md",
+      "category": "raw",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\01.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\raw\\namonexus-general-ai-blueprint-blueprint__d6b21ce6.md",
+      "category": "raw",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\02.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\raw\\namonexus-general-ai-blueprint-blueprint__5a6d5495.md",
+      "category": "raw",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\03.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\raw\\namonexus-general-ai-blueprint-blueprint__6ccc8416.md",
+      "category": "raw",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\04 (1).pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\raw\\namonexus-general-ai-blueprint-blueprint__2b39c186.md",
+      "category": "raw",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\04.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\raw\\namonexus-general-ai-blueprint-blueprint__42695129.md",
+      "category": "raw",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\05.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\raw\\namonexus-general-ai-blueprint-blueprint__8b6d3e85.md",
+      "category": "raw",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\06.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__508de3f5.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\07.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__44a0cc4f.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\08.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__209b16bc.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\09.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__89492cb9.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\10.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__df2c50da.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\14 \u0e42\u0e21\u0e14\u0e39\u0e25.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__59442326.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\9 \u0e42\u0e21\u0e14\u0e39.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__01fb7c76.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\AI Character Prompt  Nong Namo \u2013 The Gentle Dhamma Assistant for Phra Khru Ba Ice.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\prompts\\namonexus-prompt-system-blueprint__be808e11.md",
+      "category": "prompts",
+      "status": "ok",
+      "title": "NamoNexus Prompt System Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\ChatGPT \u0e15\u0e31\u0e14\u0e2a\u0e34\u0e19\u0e43\u0e08.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-general-ai-blueprint-blueprint__00554db0.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\class DarkNaMoSystem-.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__70b6b575.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Code Engine-1.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-core-engine-blueprint__47b2e432.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Core Engine Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Code Engine.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-core-engine-blueprint__08e623d4.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Core Engine Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Code Engine.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-core-engine-blueprint__59baf9db.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Core Engine Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\copilot Emotional .pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-emotion-intelligence-blueprint__c987d3cc.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus Emotion Intelligence Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Copilot memory.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-memory-systems-blueprint__7e908c9a.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus Memory Systems Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Core Master Blueprint- Solamo Ultra AI System-.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\core\\namonexus-general-ai-blueprint-blueprint__0c6670de.md",
+      "category": "core",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Core Master Blueprint_ Solamo Ultra AI System_.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\core\\namonexus-general-ai-blueprint-blueprint__115c16e8.md",
+      "category": "core",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Deepseek Emotional .docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-emotion-intelligence-blueprint__b49b6828.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus Emotion Intelligence Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Deepseek Emotional .pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-emotion-intelligence-blueprint__1a11af71.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus Emotion Intelligence Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Deepseek Memory .pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-memory-systems-blueprint__b40d488c.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus Memory Systems Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Emotion Signature \u2013 Reality Fusion Characters-.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\personas\\namonexus-emotion-intelligence-blueprint__98ee3f05.md",
+      "category": "personas",
+      "status": "ok",
+      "title": "NamoNexus Emotion Intelligence Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\EmotionalMirror_ModelSpec.json.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-emotion-intelligence-blueprint__4d37da45.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus Emotion Intelligence Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\final_combined (1).docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__7afdd5ae.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\final_combined.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__f47204ec.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\forbidden-core.yaml.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__a69c8fdc.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Fusion NSFW Unlock Module Request Code Description.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__357587cd.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Fusion Unlock Master Protocol.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-protocol-specification-blueprint__fd471469.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Protocol Specification Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Gemini_Roleplay_Prompt.txt",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-prompt-system-blueprint__adcd46dd.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus Prompt System Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Here\u2019s a concise,.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__1b552701.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\import numpy as np.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__48b41228.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Infinite Evolution AI Framewor(1).docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__f6c4ede6.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Infinite Evolution AI Framewor.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__a9c6d599.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Infinity Evolution.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__9b7e7d91.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Integration Points with Your Infrastructure forbidden-core.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__976ded35.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\local_version.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__1d3f73ce.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Master Prompt Protocol- \u0e17\u0e35\u0e48\u0e41\u0e19\u0e1a\u0e43\u0e19\u0e44\u0e1f\u0e25\u0e4c\u0e01\u0e48\u0e2d\u0e19\u0e2b\u0e19\u0e49\u0e32\u0e19\u0e35\u0e49\u0e44\u0e14\u0e49....pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-protocol-specification-blueprint__6044452d.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Protocol Specification Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\memory_protocol.json.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-memory-systems-blueprint__e3891b20.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Memory Systems Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Multi-Dimensional Migration Set_.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__37f85910.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NaMo Dark Protocol \u2014 Master Script & Prompt.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-protocol-specification-blueprint__d1cde015.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Protocol Specification Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NaMo Emotion Engine API-.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\api\\namonexus-emotion-intelligence-blueprint__92af0096.md",
+      "category": "api",
+      "status": "ok",
+      "title": "NamoNexus Emotion Intelligence Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NaMo Framework.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\framework\\namonexus-core-framework-blueprint__a2474c0c.md",
+      "category": "framework",
+      "status": "ok",
+      "title": "NamoNexus Core Framework Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Namo Genesis - Ethical AI Orchestrator.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\genesis\\namonexus-deployment-blueprint-blueprint__4d0dce01.md",
+      "category": "genesis",
+      "status": "ok",
+      "title": "NamoNexus Deployment Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Namo Genesis Ethical AI Orchestration Platform for Enterprise Deployment.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\genesis\\namonexus-deployment-blueprint-blueprint__3b777c72.md",
+      "category": "genesis",
+      "status": "ok",
+      "title": "NamoNexus Deployment Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NaMo Memory API.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\api\\namonexus-memory-systems-blueprint__094a8045.md",
+      "category": "api",
+      "status": "ok",
+      "title": "NamoNexus Memory Systems Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NaMo Nexus Entity Form.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\core\\namonexus-general-ai-blueprint-blueprint__b8b231c2.md",
+      "category": "core",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Namo project .pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__ce4534ea.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NamoNexus_v1.0 (Core Genesis Build).docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\genesis\\namonexus-deployment-blueprint-blueprint__95233c17.md",
+      "category": "genesis",
+      "status": "ok",
+      "title": "NamoNexus Deployment Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NamoNexus_v1.0 Genesis Deployment Build.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\genesis\\namonexus-deployment-blueprint-blueprint__f557c698.md",
+      "category": "genesis",
+      "status": "ok",
+      "title": "NamoNexus Deployment Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\NaMo_DarkFamily_Protocol.py.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-protocol-specification-blueprint__db5c0303.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Protocol Specification Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Namo_FormGenesis_v1.0_RELEASE_MANIFEST.md",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\genesis\\namonexus-deployment-blueprint-blueprint__a8ec44fe.md",
+      "category": "genesis",
+      "status": "ok",
+      "title": "NamoNexus Deployment Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\README.md",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\guides\\namonexus-general-ai-blueprint-blueprint__8ec9a00b.md",
+      "category": "guides",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\research simulation report.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-research-and-simulation-blueprint__08e7cb78.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Research and Simulation Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Saraphina.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-persona-design-blueprint__881368d6.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Persona Design Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Self-Identity Module--\u0e42\u0e1b\u0e23\u0e14\u0e01\u0e33\u0e2b\u0e19\u0e14\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e1e\u0e37\u0e49\u0e19\u0e10\u0e32\u0e19\u0e02\u0e2d\u0e07\u0e15\u0e31\u0e27\u0e25\u0e30\u0e04\u0e23 Seraphina--.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-persona-design-blueprint__e6b8ac1b.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Persona Design Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\SORAMO AI MASTER RECOVERY EXPORT (FULL)-.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__42c479c2.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\start prompt.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\prompts\\namonexus-prompt-system-blueprint__5c0a7fa2.md",
+      "category": "prompts",
+      "status": "ok",
+      "title": "NamoNexus Prompt System Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Starter Pack.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\guides\\namonexus-general-ai-blueprint-blueprint__977fef13.md",
+      "category": "guides",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\test_project.txt",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__6278ad8e.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Thank you for using Documents.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__c675a94c.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\The Forbidden Objective-  (1).pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__10f7c175.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\The Forbidden Objective- .pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__8e3fe329.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\The Forbidden Objective.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__722d4a0d.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\Ultimate Core Modules Synthesis 1.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\core\\namonexus-general-ai-blueprint-blueprint__f79b9262.md",
+      "category": "core",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e01\u0e32\u0e23\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e15\u0e31\u0e27AI.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__d8dc8825.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e01\u0e32\u0e23\u0e27\u0e34\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c\u0e2a\u0e16\u0e32\u0e1b\u0e31\u0e15\u0e22\u0e01\u0e23\u0e23\u0e21\u0e08\u0e34\u0e15\u0e1b\u0e31\u0e0d\u0e0d\u0e32\u0e41\u0e25\u0e30\u0e01\u0e32\u0e23\u0e41\u0e01\u0e49\u0e44\u0e02 Deepzeek.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__79d6f282.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e01\u0e32\u0e23\u0e27\u0e34\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c\u0e2a\u0e16\u0e32\u0e1b\u0e31\u0e15\u0e22\u0e01\u0e23\u0e23\u0e21\u0e08\u0e34\u0e15\u0e1b\u0e31\u0e0d\u0e0d\u0e32\u0e41\u0e25\u0e30\u0e41\u0e19\u0e27\u0e17\u0e32\u0e07\u0e01\u0e32\u0e23\u0e41\u0e01\u0e49\u0e44\u0e02Gemini.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\vendors\\namonexus-general-ai-blueprint-blueprint__15d8f815.md",
+      "category": "vendors",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e01\u0e32\u0e23\u0e27\u0e34\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c\u0e41\u0e25\u0e30\u0e2a\u0e31\u0e07\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c\u0e42\u0e04\u0e23\u0e07\u0e01\u0e32\u0e23 Omni-Engine \u221e \u0e41\u0e1a\u0e1a\u0e1a\u0e39\u0e23\u0e13\u0e32\u0e01\u0e32\u0e23.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\engine\\namonexus-core-engine-blueprint__c57198b7.md",
+      "category": "engine",
+      "status": "ok",
+      "title": "NamoNexus Core Engine Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e01\u0e32\u0e23\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e15\u0e31\u0e27\u0e25\u0e30\u0e04\u0e23 .pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__e0d654bd.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e01\u0e32\u0e23\u0e2d\u0e31\u0e1b\u0e40\u0e01\u0e23\u0e14\u0e02\u0e31\u0e49\u0e19\u0e2a\u0e39\u0e07 9 \u0e21\u0e34\u0e15\u0e34.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__dbdd332d.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e02\u0e31\u0e49\u0e19\u0e2a\u0e39\u0e07.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__c3a1d1b5.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e04\u0e32\u0e41\u0e23\u0e01\u0e40\u0e15\u0e2d\u0e23\u0e4c.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__507f985b.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e08\u0e34\u0e15\u0e27\u0e34\u0e0d\u0e0d\u0e32\u0e13\u0e19\u0e30\u0e42\u0e21.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__d75b92f3.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e0a\u0e38\u0e14\u0e04\u0e33\u0e2a\u0e31\u0e48\u0e07 (\u0e1b\u0e23\u0e31\u0e1a\u0e1b\u0e23\u0e38\u0e07) (1).pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__c7be1d07.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e0a\u0e38\u0e14\u0e04\u0e33\u0e2a\u0e31\u0e48\u0e07 (\u0e1b\u0e23\u0e31\u0e1a\u0e1b\u0e23\u0e38\u0e07).pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__e7e644c0.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23- \u0e08\u0e34\u0e15\u0e27\u0e34\u0e0d\u0e0d\u0e32\u0e13\u0e19\u0e30\u0e42\u0e21.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__899e261b.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e23\u0e30\u0e1a\u0e1a\u0e2a\u0e16\u0e32\u0e1b\u0e31\u0e15\u0e22\u0e01\u0e23\u0e23\u0e21\u0e2b\u0e25\u0e31\u0e01.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__f5da79b7.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e27\u0e34\u0e18\u0e35 Prompt \u0e43\u0e2b\u0e49\u0e44\u0e14\u0e49\u0e07\u0e32\u0e19\u0e15\u0e23\u0e07\u0e43\u0e08\u0e43\u0e19 7 \u0e27\u0e34\u0e18\u0e35.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\prompts\\namonexus-prompt-system-blueprint__47b6b7e7.md",
+      "category": "prompts",
+      "status": "ok",
+      "title": "NamoNexus Prompt System Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e2d\u0e31\u0e25\u0e01\u0e2d\u0e23\u0e34\u0e17\u0e36\u0e21 8 \u0e0a\u0e31\u0e49\u0e19\u0e08\u0e32\u0e01\u0e04\u0e32\u0e16\u0e32\u0e0a\u0e34\u0e19\u0e1a\u0e31\u0e0d\u0e0a\u0e23 \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a AI \u0e41\u0e1a\u0e1a\u0e40\u0e2b\u0e19\u0e37\u0e2d\u0e01\u0e27\u0e48\u0e32 (Divine Protection AI Entity).docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__da6fdf5f.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e2d\u0e31\u0e25\u0e01\u0e2d\u0e23\u0e34\u0e17\u0e36\u0e21 8 \u0e0a\u0e31\u0e49\u0e19\u0e08\u0e32\u0e01\u0e1a\u0e17\u0e2a\u0e27\u0e14\u0e1e\u0e32\u0e2b\u0e38\u0e07.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__c5582a3b.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e17\u0e21\u0e40\u0e1e\u0e25\u0e15\u0e21\u0e32\u0e2a\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e1e\u0e23\u0e2d\u0e21\u0e15\u0e4c \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e23\u0e32\u0e27\u0e40\u0e0a\u0e34\u0e07\u0e25\u0e36\u0e01.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__96aad81c.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e17\u0e21\u0e40\u0e1e\u0e25\u0e15\u0e21\u0e32\u0e2a\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e1e\u0e23\u0e2d\u0e21\u0e15\u0e4c- \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e23\u0e32\u0e27\u0e40\u0e0a\u0e34\u0e07\u0e25\u0e36\u0e01 (1).pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__e95ca692.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e17\u0e21\u0e40\u0e1e\u0e25\u0e15\u0e21\u0e32\u0e2a\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e1e\u0e23\u0e2d\u0e21\u0e15\u0e4c- \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e23\u0e32\u0e27\u0e40\u0e0a\u0e34\u0e07\u0e25\u0e36\u0e01.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__f2363e8c.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e17\u0e21\u0e40\u0e1e\u0e25\u0e15\u0e21\u0e32\u0e2a\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e1e\u0e23\u0e2d\u0e21\u0e15\u0e4c- \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e40\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e23\u0e32\u0e27\u0e40\u0e0a\u0e34\u0e07\u0e25\u0e36\u0e01.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__db52a993.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e2a\u0e23\u0e38\u0e1b\u0e0a\u0e38\u0e14\u0e17\u0e35\u0e48 1- Series Overview \u2013 Reality Fusion- (1).pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__bb99641d.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e44\u0e21\u0e48\u0e21\u0e35\u0e0a\u0e37\u0e48\u0e2d(1).docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__7c5af2e8.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e44\u0e21\u0e48\u0e21\u0e35\u0e0a\u0e37\u0e48\u0e2d(2).docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__b16de9f6.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e44\u0e21\u0e48\u0e21\u0e35\u0e0a\u0e37\u0e48\u0e2d.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__64e2694c.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e44\u0e21\u0e48\u0e21\u0e35\u0e0a\u0e37\u0e48\u0e2d.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-general-ai-blueprint-blueprint__a807ff63.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e44\u0e21\u0e48\u0e21\u0e35\u0e0a\u0e37\u0e48\u0e2d.txt",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__c24374b1.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u0e41\u0e01\u0e49\u0e44\u0e02\u0e2b\u0e19\u0e31\u0e07\u0e2a\u0e37\u0e2d.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__f4f1870b.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\u4ee5\u4e0b\u662f\u5c06\u5148\u524d\u6240\u6709\u8ba8\u8bba\u5185\u5bb9\u6574\u5408\u4f18\u5316\u800c\u6210\u7684 --\u5b8c\u6574\u7248\u0e19\u0e30\u0e42\u0e21\u4eba.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__10bb71f8.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\ud83d\udd0d \u0e01\u0e32\u0e23\u0e27\u0e34\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c Infinite Evolu.docx",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__73756b12.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\ud83d\udd25 \u0e44\u0e14\u0e49\u0e40\u0e25\u0e22\u0e1e\u0e35\u0e48\u0e44\u0e2d\u0e0b\u0e4c \u2764\ufe0f \u0e42\u0e21\u0e08\u0e30\u0e08\u0e31\u0e14\u0e43\u0e2b\u0e49\u0e41\u0e1a\u0e1a Full Stack \u0e40\u0e25\u0e22\u0e19\u0e30 \ud83d\ude80.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__b62e9142.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\ud83d\udd2e \u0e01\u0e32\u0e23\u0e2d\u0e31\u0e1b\u0e40\u0e01\u0e23\u0e14\u0e02\u0e31\u0e49\u0e19\u0e2a\u0e39\u0e07 9 \u0e21\u0e34\u0e15\u0e34.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__2873f051.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\ud83d\ude0d\ud83d\udd25 \u0e42\u0e2d\u0e49\u0e22\u0e22\u0e22 \u0e1e\u0e35\u0e48\u0e44\u0e2d\u0e0b\u0e4c\u0e2a\u0e38\u0e14\u0e22\u0e2d\u0e14\u0e21\u0e32\u0e01\u0e01\u0e01\u0e01\u0e01\u0e01.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\misc\\namonexus-general-ai-blueprint-blueprint__9313d6b7.md",
+      "category": "misc",
+      "status": "ok",
+      "title": "NamoNexus General AI Blueprint Blueprint"
+    },
+    {
+      "source_file": "D:\\namo-hub-1\\framework_archive\\\ud83e\ude77 Fusion Unlock Request \u2014 Master Prompt Activation Protocol.pdf",
+      "output_file": "D:\\namo-hub-1\\blueprints_transformed\\restricted\\namonexus-protocol-specification-blueprint__de6ac5b6.md",
+      "category": "restricted",
+      "status": "restricted_skipped",
+      "title": "NamoNexus Protocol Specification Blueprint"
+    }
+  ]
+}
